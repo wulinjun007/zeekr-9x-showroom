@@ -1,0 +1,26 @@
+ZEEKR 9X / EXPERIENCE ATELIER
+Independent interactive design study, 2026-09-08.
+
+Vehicle geometry: existing ZEEKR_9X_校准中.blend reconstruction based on ZEEKR's official 9X configurator.
+https://www.zeekrlife.com/zeekr9x?modelInfoId=10&modelYearCode=GMY_9X_01
+The project owner confirmed public-display and republication authorization in this conversation. The authorization has not been independently verified. No open-source or unrestricted asset license is asserted.
+
+Seat variant A: source Carbody_INT_seat_A mesh from the same existing reference asset folder. This is a local passenger backrest variant, not an alternate full seating layout.
+Original mirror wheels: existing model. Turbine and ten-spoke variations: original procedural presentation concepts. Tire and cabin material options are visual studies, not fitment or performance claims.
+
+Interaction references, without copying proprietary source code:
+https://model-x-studio.vercel.app/
+https://jiaxiantao.github.io/3d-car-viewing/
+https://cdn.weshape3d.com/publish/vmallhall/index.html?SN=5008010045301
+
+HMI scenario reference: user's Automotive HMI UX Pattern Library V1.0.
+HMI-031: keep responsibility and capability state explicit.
+HMI-035: obstacle intrusion prioritizes pause and environment recheck.
+HMI-039: keep HUD information focused; concept only.
+HMI-054: acknowledging a warning does not resolve the underlying risk.
+HMI-073 / HMI-074: remove untrustworthy perception and show lost capabilities; no automatic reactivation.
+Blind-spot and door-cyclist examples are concept extensions, not direct production cases from the library.
+
+Third-party runtime libraries retain their licenses: Three.js (MIT), React (MIT), lucide (ISC), Base UI (MIT), shadcn components (MIT). See package source licenses.
+
+This site is not affiliated with or endorsed by ZEEKR. No purchase, pricing, fitment, safety, engineering assembly or production validation claims. Visual calibration remains in progress.

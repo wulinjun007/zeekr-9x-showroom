@@ -1,0 +1,36 @@
+{
+  "render_primitives": 394,
+  "triangles": 161105,
+  "flatten_error": 7.115058591445812e-8,
+  "length_m": 5.239000368199889,
+  "hinges": {
+    "Door_LF": {
+      "mesh_count": 17,
+      "outward_or_upward": true
+    },
+    "Door_RF": {
+      "mesh_count": 17,
+      "outward_or_upward": true
+    },
+    "Door_LB": {
+      "mesh_count": 15,
+      "outward_or_upward": true
+    },
+    "Door_RB": {
+      "mesh_count": 15,
+      "outward_or_upward": true
+    },
+    "Trunk_up": {
+      "mesh_count": 143,
+      "outward_or_upward": true
+    },
+    "Hood": {
+      "mesh_count": 11,
+      "outward_or_upward": true
+    }
+  },
+  "seat_variant": {
+    "scope": "local passenger backrest",
+    "center_difference_m": 0.0073670360631176825
+  }
+}
