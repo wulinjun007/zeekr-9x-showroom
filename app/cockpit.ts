@@ -1,6 +1,7 @@
 import * as T from 'three';
 import type { Settings } from './experience';
 import { scenarioFrame } from './scenarios';
+import { drawDrivingDisplay } from './driving-display';
 
 /** Original 512-square screen atlas: two instrument strips, central and passenger panels. */
 export const screenRegions = {
@@ -53,43 +54,7 @@ export function createCockpitScreens(original: T.Texture) {
     c.roundRect(x, y, w, h, 5);
     c.fill();
   }
-  function map(w: number, h: number, p: number, park = false) {
-    c.fillStyle = '#182126';
-    c.fillRect(0, 0, w, h);
-    c.strokeStyle = '#374b4f';
-    c.lineWidth = 8;
-    for (let i = -1; i < 5; i++) {
-      c.beginPath();
-      c.moveTo(i * 65 - 30, 0);
-      c.lineTo(i * 65 + 40, h);
-      c.stroke();
-    }
-    c.lineWidth = 5;
-    for (let i = 0; i < 4; i++) {
-      c.beginPath();
-      c.moveTo(0, i * 44 + ((p * 20) % 44));
-      c.lineTo(w, i * 44 + ((p * 20) % 44) - 25);
-      c.stroke();
-    }
-    c.strokeStyle = park ? '#e6be79' : '#75b9dc';
-    c.lineWidth = 4;
-    c.beginPath();
-    c.moveTo(w * 0.5, h);
-    c.lineTo(w * 0.5, h * 0.55);
-    c.quadraticCurveTo(w * 0.5, h * 0.38, w * 0.7, h * 0.35);
-    c.lineTo(w * 0.82, h * 0.25);
-    c.stroke();
-    rounded(w * 0.5 - 7, h * 0.62, 14, 25, '#e3e6e1');
-    c.fillStyle = '#668697';
-    c.fillRect(w * 0.5 - 5, h * 0.62 + 4, 10, 8);
-    if (park) {
-      c.strokeStyle = '#82cfb2';
-      c.lineWidth = 1.5;
-      c.strokeRect(w * 0.7, h * 0.42, 22, 40);
-      label('P', w * 0.7 + 6, h * 0.42 + 25, 14);
-    }
-  }
-  function draw(s: Settings, p: number) {
+  function draw(s: Settings, p: number, roadTravel = 0) {
     const f = scenarioFrame(s.hmi, p),
       demo = s.section === 'safety',
       fx = f.scenario.effect,
@@ -114,10 +79,22 @@ export function createCockpitScreens(original: T.Texture) {
                   ? 'comfort'
                   : 'home'
         : s.cabinApp;
+    const moving = s.roadEnabled && s.roadPlaying;
+    const speed = demo ? f.speed : moving ? s.roadSpeed : 0;
+    const alert = demo && f.alert;
+    const fault = demo && f.fault;
+    const phase = demo
+      ? Math.floor(p * 64) / 64
+      : moving
+        ? Math.floor(roadTravel * 2) / 16
+        : 0;
+    const zh = s.locale === 'zh';
     const key = [
       app,
       demo ? s.hmi : 'cabin',
-      Math.floor(p * 32),
+      phase,
+      speed,
+      demo ? f.phase : 0,
       s.temperature,
       s.fan,
       s.volume,
@@ -140,61 +117,127 @@ export function createCockpitScreens(original: T.Texture) {
       panel(region, (w, h) => {
         c.fillStyle = '#111b22';
         c.fillRect(0, 0, w, h);
-        const grad = c.createLinearGradient(0, 0, w, h);
-        grad.addColorStop(0, '#102f3b');
-        grad.addColorStop(1, '#392b25');
-        c.fillStyle = grad;
-        c.fillRect(0, 0, w, h);
-        label('9X / DESIGN STUDY', 18, 22, 9, '#94aaa9');
-        label(demo ? String(f.speed) : '0', 35, h * 0.72, 55);
-        label('km/h', 41, h * 0.88, 10);
+        c.save();
+        c.translate(178, 8);
+        drawDrivingDisplay(c, 215, h - 14, { phase, alert, fault });
+        c.restore();
         label(
-          demo && f.speed ? (s.hmi === 'auto-parking' ? 'R' : 'D') : 'P',
-          130,
-          h * 0.62,
-          24,
+          zh ? '行驶视图 · 模拟' : 'DRIVING · SIMULATION',
+          20,
+          22,
+          10,
+          '#a6bacb',
+        );
+        label(String(speed), 25, h * 0.72, 57, '#f0f6fa');
+        label('km/h', 29, h - 12, 11, '#93a5b5');
+        label(
+          speed ? (s.hmi === 'auto-parking' && demo ? 'R' : 'D') : 'P',
+          126,
+          h * 0.65,
+          25,
         );
         label(
-          f.fault
-            ? 'ASSIST UNAVAILABLE'
-            : demo && f.alert
-              ? 'ATTENTION'
-              : 'DRIVER CONTROL',
-          215,
-          29,
-          12,
-          f.alert ? '#f2b477' : '#a9dbcd',
-        );
-        label(
-          `SOC ${fx === 'charge' ? Math.round(35 + p * 43) : 78}%`,
-          w - 90,
+          `${demo && fx === 'charge' ? Math.round(35 + p * 43) : 78}%`,
+          422,
           h - 18,
-          11,
+          18,
+          '#bae4d7',
         );
-        c.strokeStyle = f.alert ? '#e9ab67' : '#7dc0b2';
-        c.lineWidth = 2;
-        for (const x of [235, 330]) {
-          c.beginPath();
-          c.moveTo(x, h - 10);
-          c.lineTo(280 + (x - 280) * 0.35, 45);
-          c.stroke();
+        label(zh ? '电量' : 'BATTERY', 422, h - 42, 9, '#9bb0bd');
+        if (alert || fault) {
+          rounded(202, 8, 190, 25, '#492c21');
+          label(
+            fault
+              ? zh
+                ? '感知受限 · 请自主驾驶'
+                : 'ASSIST UNAVAILABLE'
+              : f.countdown !== null
+                ? `${zh ? '请接管' : 'TAKE OVER'}  ${f.countdown}s`
+                : zh
+                  ? '注意前方风险'
+                  : 'HAZARD AHEAD',
+            212,
+            25,
+            11,
+            '#ffbe85',
+          );
         }
-        if (!f.fault) rounded(275, 65, 15, 28, '#aecbc9');
-        if (f.countdown !== null)
-          label(`${f.countdown}s  TOI / DEMO`, 355, 65, 15, '#edb676');
       });
     panel(screenRegions.central, (w, h) => {
       c.fillStyle = '#161c23';
       c.fillRect(0, 0, w, h);
-      if (app === 'navigation' || app === 'parking')
-        map(w, h - 23, p, app === 'parking');
-      else {
+      if (app === 'navigation' || app === 'parking') {
+        drawDrivingDisplay(c, w, h - 23, {
+          phase,
+          alert,
+          fault,
+          parking: app === 'parking',
+        });
+        rounded(7, 23, 76, 98, '#111d2be8');
+        label(String(speed), 14, 62, 32, '#f3f8fc');
+        label(
+          `km/h   ${speed ? (app === 'parking' ? 'R' : 'D') : 'P'}`,
+          15,
+          76,
+          8,
+          '#a2b5c5',
+        );
+        label(
+          app === 'parking'
+            ? zh
+              ? '泊车辅助'
+              : 'PARKING'
+            : zh
+              ? '车道引导'
+              : 'LANE VIEW',
+          15,
+          95,
+          9,
+          '#87d8ef',
+        );
+        label(
+          demo
+            ? zh
+              ? '场景演示'
+              : 'SIMULATION'
+            : moving
+              ? zh
+                ? '行驶模拟'
+                : 'DRIVE PREVIEW'
+              : zh
+                ? '驻车预览'
+                : 'PARKED PREVIEW',
+          15,
+          110,
+          7,
+          '#a5b7c8',
+        );
+        rounded(91, 7, 140, 20, alert || fault ? '#533526' : '#172636e8');
+        label(
+          fault
+            ? zh
+              ? '感知受限 · 请自主驾驶'
+              : 'ASSIST UNAVAILABLE'
+            : alert
+              ? f.countdown !== null
+                ? `${zh ? '请接管' : 'TAKE OVER'} · ${f.countdown}s`
+                : zh
+                  ? '注意前方风险'
+                  : 'HAZARD AHEAD'
+              : zh
+                ? '↑  保持车道 · 关注路况'
+                : '↑  LANE GUIDANCE',
+          98,
+          20,
+          8,
+          alert || fault ? '#ffbf8a' : '#d6eaf3',
+        );
+      } else {
         const gradient = c.createLinearGradient(0, 0, w, h);
         gradient.addColorStop(0, '#685246');
         gradient.addColorStop(1, '#182a33');
         c.fillStyle = gradient;
         c.fillRect(0, 0, w, h);
-        label('9X   /   PRIVATE LOUNGE', 10, 17, 8);
         if (app === 'comfort') {
           label(`${s.temperature}°`, 18, 65, 32);
           label(`FAN ${s.fan}   ·   ${s.climate.toUpperCase()}`, 15, 85, 9);
@@ -251,7 +294,14 @@ export function createCockpitScreens(original: T.Texture) {
       label(`${s.temperature}°  ‹    ${s.fan ? 'AUTO' : 'OFF'}`, 12, h - 10, 8);
       label('⌂    ◇    ♪    ⚙', 94, h - 9, 11);
       label(`${s.temperature}°`, w - 32, h - 10, 8);
-      label(app.toUpperCase() + ' / CONCEPT', 10, 11, 7);
+      label(
+        app === 'navigation' || app === 'parking'
+          ? '9X  /  DRIVE'
+          : app.toUpperCase() + ' / CONCEPT',
+        10,
+        13,
+        7,
+      );
     });
     panel(screenRegions.passenger, (w, h) => {
       const g = c.createLinearGradient(0, 0, w, h);

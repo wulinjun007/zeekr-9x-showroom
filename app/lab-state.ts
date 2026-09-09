@@ -82,7 +82,7 @@ export const labDefaults: LabSettings = {
   carpetMaterial: 'original',
   trimMaterial: 'original',
 
-  cabinApp: 'home',
+  cabinApp: 'navigation',
   temperature: 22,
   fan: 2,
   volume: 35,

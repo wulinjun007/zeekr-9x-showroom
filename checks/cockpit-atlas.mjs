@@ -79,6 +79,24 @@ const safe = readSettings();
 assert.equal(safe.temperature, 28);
 assert.equal(safe.fan, 0);
 assert.equal(safe.ambientPower, 100);
+// Parked previews must not show stale hazards from an inactive driving scenario.
+calls = [];
+screens.draw(
+  { ...defaults, section: 'interior', hmi: 'takeover', cabinApp: 'navigation' },
+  0.4,
+);
+assert.ok(calls.some((c) => c[0] === 'fillText' && c[1] === '驻车预览'));
+assert.ok(
+  !calls.some((c) => c[0] === 'fillText' && /请接管|注意前方风险/.test(c[1])),
+);
+calls = [];
+screens.draw(
+  { ...defaults, section: 'interior', hmi: 'takeover', cabinApp: 'navigation' },
+  0.6,
+);
+assert.equal(calls.length, 0, 'stationary screens do not re-upload the atlas');
+screens.draw({ ...defaults, section: 'safety', hmi: 'navigation' }, 0.4);
+assert.ok(calls.some((c) => c[0] === 'fillText' && c[1] === '48'));
 screens.dispose();
 console.log(
   'PASS: original atlas orientation/regions; 100 scenario screen states; controls reflected in screen text; parked-pose endpoints; configuration round-trip.',

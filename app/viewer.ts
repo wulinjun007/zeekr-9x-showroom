@@ -1694,7 +1694,7 @@ export async function createViewer(
       sensors.visible = false;
       ringRisk.visible = false;
     }
-    cockpit?.draw(settings, progress);
+    if (interior || demo) cockpit?.draw(settings, progress, roadTravel);
     atelier.update(
       settings,
       dt,
