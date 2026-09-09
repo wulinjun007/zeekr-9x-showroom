@@ -1,0 +1,68 @@
+{
+  "pairs": [
+    {
+      "a": "CabinV2_Seat_19",
+      "b": "Door_LF_WG",
+      "surface_triangle_pair_intersections": 0,
+      "meaning": "candidate surface intersections; no whole-scene clearance certification"
+    },
+    {
+      "a": "CabinV2_Seat_24",
+      "b": "Door_RF_WG",
+      "surface_triangle_pair_intersections": 0,
+      "meaning": "candidate surface intersections; no whole-scene clearance certification"
+    },
+    {
+      "a": "CabinV2_Seat_00",
+      "b": "Door_LB_INT_6S",
+      "surface_triangle_pair_intersections": 0,
+      "meaning": "candidate surface intersections; no whole-scene clearance certification"
+    },
+    {
+      "a": "CabinV2_Seat_01",
+      "b": "Door_RB_INT_6S",
+      "surface_triangle_pair_intersections": 0,
+      "meaning": "candidate surface intersections; no whole-scene clearance certification"
+    },
+    {
+      "a": "Vent_center_L_blade_1",
+      "b": "Car_INT",
+      "surface_triangle_pair_intersections": 0,
+      "meaning": "candidate surface intersections; no whole-scene clearance certification"
+    },
+    {
+      "a": "Vent_center_L_blade_2",
+      "b": "Car_INT",
+      "surface_triangle_pair_intersections": 0,
+      "meaning": "candidate surface intersections; no whole-scene clearance certification"
+    },
+    {
+      "a": "Vent_center_L_blade_3",
+      "b": "Car_INT",
+      "surface_triangle_pair_intersections": 0,
+      "meaning": "candidate surface intersections; no whole-scene clearance certification"
+    },
+    {
+      "a": "Vent_center_R_blade_1",
+      "b": "Car_INT",
+      "surface_triangle_pair_intersections": 0,
+      "meaning": "candidate surface intersections; no whole-scene clearance certification"
+    },
+    {
+      "a": "Vent_center_R_blade_2",
+      "b": "Car_INT",
+      "surface_triangle_pair_intersections": 0,
+      "meaning": "candidate surface intersections; no whole-scene clearance certification"
+    },
+    {
+      "a": "Vent_center_R_blade_3",
+      "b": "Car_INT",
+      "surface_triangle_pair_intersections": 0,
+      "meaning": "candidate surface intersections; no whole-scene clearance certification"
+    }
+  ],
+  "limitations": [
+    "Only listed pairs checked. Shared intended assembly contacts are not automatically abnormal.",
+    "Whole-scene self intersections and gaps are not fully verified."
+  ]
+}

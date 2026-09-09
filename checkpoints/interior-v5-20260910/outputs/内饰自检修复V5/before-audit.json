@@ -1,0 +1,5159 @@
+{
+  "objects": [
+    {
+      "name": "Seat_Layout_A",
+      "type": "MESH",
+      "vertices": 326,
+      "faces": 506,
+      "tris": 506,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "V4_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 45.04940339559336,
+      "uv_bad_triangles": 22,
+      "uv_degenerate": 0,
+      "materials": [
+        "V4_leather_PassengerBackrestShell"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Door_LB_INT_6S",
+      "type": "MESH",
+      "vertices": 745,
+      "faces": 1017,
+      "tris": 1017,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV",
+        "V4_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 515.8729834793775,
+      "uv_bad_triangles": 551,
+      "uv_degenerate": 0,
+      "materials": [
+        "V4_leather_Door_LB_INT_6S",
+        "V4_fabric_Door_LB_INT_6S",
+        "CabinV2_Trim_INT_2.001",
+        "TX_057_CabinV2_Door_INT_2.001"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Door_LB_INT_NO_sunshade",
+      "type": "MESH",
+      "vertices": 207,
+      "faces": 281,
+      "tris": 281,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV",
+        "V4_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 80.13206856396052,
+      "uv_bad_triangles": 102,
+      "uv_degenerate": 0,
+      "materials": [
+        "TX_058_CabinV2_Door_INT_2.001",
+        "V4_fabric_Door_LB_INT_NO_sunshade"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Door_LB_WG",
+      "type": "MESH",
+      "vertices": 2797,
+      "faces": 4062,
+      "tris": 4062,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 820.506169357672,
+      "uv_bad_triangles": 906,
+      "uv_degenerate": 23,
+      "materials": [
+        "car_paint_hei",
+        "Plastic",
+        "Piano_Black",
+        "Rubber",
+        "Black_1",
+        "Glass_Black",
+        "Glass_Black_B",
+        "TX_059_CabinV2_Door_INT_2.001"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Door_LF_WG",
+      "type": "MESH",
+      "vertices": 3538,
+      "faces": 4839,
+      "tris": 4839,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV",
+        "V4_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 1711.9627831072132,
+      "uv_bad_triangles": 1340,
+      "uv_degenerate": 11,
+      "materials": [
+        "car_paint_hei",
+        "Plastic",
+        "Piano_Black",
+        "Rubber",
+        "Black_1",
+        "Glass_Clear",
+        "Glass_Clear_B",
+        "TX_060_CabinV2_Door_INT_2.001",
+        "CabinV2_Trim_INT_2.001",
+        "V4_leather_Door_LF_WG",
+        "V4_fabric_Door_LF_WG"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Door_RB_INT_6S",
+      "type": "MESH",
+      "vertices": 744,
+      "faces": 1017,
+      "tris": 1017,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV",
+        "V4_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 515.84740303754,
+      "uv_bad_triangles": 551,
+      "uv_degenerate": 0,
+      "materials": [
+        "V4_leather_Door_RB_INT_6S",
+        "V4_fabric_Door_RB_INT_6S",
+        "CabinV2_Trim_INT_2.001",
+        "TX_061_CabinV2_Door_INT_2.001"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Door_RB_INT_NO_sunshade",
+      "type": "MESH",
+      "vertices": 209,
+      "faces": 281,
+      "tris": 281,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV",
+        "V4_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 80.13286085885261,
+      "uv_bad_triangles": 101,
+      "uv_degenerate": 0,
+      "materials": [
+        "TX_062_CabinV2_Door_INT_2.001",
+        "V4_fabric_Door_RB_INT_NO_sunshade"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Door_RB_WG",
+      "type": "MESH",
+      "vertices": 2804,
+      "faces": 4062,
+      "tris": 4062,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 820.496927603046,
+      "uv_bad_triangles": 905,
+      "uv_degenerate": 23,
+      "materials": [
+        "car_paint_hei",
+        "Plastic",
+        "Piano_Black",
+        "Rubber",
+        "Black_1",
+        "Glass_Black",
+        "Glass_Black_B",
+        "TX_063_CabinV2_Door_INT_2.001"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Door_RF_WG",
+      "type": "MESH",
+      "vertices": 3485,
+      "faces": 4791,
+      "tris": 4791,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV",
+        "V4_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 1711.9736650315308,
+      "uv_bad_triangles": 1318,
+      "uv_degenerate": 10,
+      "materials": [
+        "car_paint_hei",
+        "Plastic",
+        "Piano_Black",
+        "Rubber",
+        "Black_1",
+        "Glass_Clear",
+        "Glass_Clear_B",
+        "TX_064_CabinV2_Door_INT_2.001",
+        "CabinV2_Trim_INT_2.001",
+        "V4_leather_Door_RF_WG",
+        "V4_fabric_Door_RF_WG"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TrunkDoor_Lower",
+      "type": "MESH",
+      "vertices": 2357,
+      "faces": 3204,
+      "tris": 3204,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 537.82931484358,
+      "uv_bad_triangles": 558,
+      "uv_degenerate": 0,
+      "materials": [
+        "car_paint_hei",
+        "Plastic",
+        "Piano_Black",
+        "chepai",
+        "TX_065_CabinV2_Door_INT_2.001"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Car_INT",
+      "type": "MESH",
+      "vertices": 8986,
+      "faces": 10363,
+      "tris": 10363,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV",
+        "V4_MicroUV",
+        "V4_ScreenUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 1380.50445189452,
+      "uv_bad_triangles": 4016,
+      "uv_degenerate": 1,
+      "materials": [
+        "Black_1",
+        "INT_1",
+        "CabinV2_Dashboard_INT_1.001",
+        "TX_050_CabinV2_Seat_INT_1.001",
+        "TX_051_CabinV2_Seat_INT_2.001",
+        "CabinV2_Dashboard_INT_2.001",
+        "TX_052_CabinV2_Headliner_INT_2.001",
+        "V4_soft_Car_INT",
+        "V4_leather_Car_INT",
+        "V4_screen_instrument",
+        "V4_screen_rear"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Car_INT_fangxiangpan_L2",
+      "type": "MESH",
+      "vertices": 88,
+      "faces": 160,
+      "tris": 160,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV",
+        "V4_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 33.01396525032374,
+      "uv_bad_triangles": 60,
+      "uv_degenerate": 0,
+      "materials": [
+        "TX_053_CabinV2_Seat_INT_1.001",
+        "V4_leather_Car_INT_fangxiangpan_L2"
+      ],
+      "modifiers": [
+        [
+          "Upper wheel curve",
+          "SUBSURF"
+        ]
+      ]
+    },
+    {
+      "name": "Carbody_INT_IP_long_screen",
+      "type": "MESH",
+      "vertices": 292,
+      "faces": 280,
+      "tris": 280,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV",
+        "V4_MicroUV",
+        "V4_ScreenUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 1129.530931690263,
+      "uv_bad_triangles": 174,
+      "uv_degenerate": 0,
+      "materials": [
+        "V4_soft_Carbody_INT_IP_long_screen",
+        "V4_screen_center",
+        "CabinV2_Dashboard_INT_1.001"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Carbody_INT_frame_ROOF_TV.002",
+      "type": "MESH",
+      "vertices": 1212,
+      "faces": 1762,
+      "tris": 1762,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV",
+        "V4_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 149.2337515590117,
+      "uv_bad_triangles": 520,
+      "uv_degenerate": 0,
+      "materials": [
+        "TX_055_CabinV2_Headliner_INT_2.001",
+        "V4_fabric_Carbody_INT_frame_ROOF_TV.002"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Carbody_INT_frame_sunshade",
+      "type": "MESH",
+      "vertices": 32,
+      "faces": 34,
+      "tris": 34,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV",
+        "V4_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 1.0250924652992488,
+      "uv_bad_triangles": 0,
+      "uv_degenerate": 0,
+      "materials": [
+        "V4_fabric_Carbody_INT_frame_sunshade"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "CMF_Floor_covering_study",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "CMF_MicroUV"
+      ],
+      "active_uv": "CMF_MicroUV",
+      "uv_distortion_max_pct": 5.101578404165252e-06,
+      "uv_bad_triangles": 0,
+      "uv_degenerate": 8,
+      "materials": [
+        "TX_000_CMF_Carpet"
+      ],
+      "modifiers": [
+        [
+          "Bound edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CMF_Floor_covering_study.001",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "CMF_MicroUV"
+      ],
+      "active_uv": "CMF_MicroUV",
+      "uv_distortion_max_pct": 2.4175065727050082e-05,
+      "uv_bad_triangles": 0,
+      "uv_degenerate": 8,
+      "materials": [
+        "TX_001_CMF_Carpet"
+      ],
+      "modifiers": [
+        [
+          "Bound edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CMF_Floor_covering_study.002",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "CMF_MicroUV"
+      ],
+      "active_uv": "CMF_MicroUV",
+      "uv_distortion_max_pct": 5.101578404165252e-06,
+      "uv_bad_triangles": 0,
+      "uv_degenerate": 8,
+      "materials": [
+        "TX_002_CMF_Carpet"
+      ],
+      "modifiers": [
+        [
+          "Bound edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CMF_Floor_covering_study.003",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "CMF_MicroUV"
+      ],
+      "active_uv": "CMF_MicroUV",
+      "uv_distortion_max_pct": 2.4175065727050082e-05,
+      "uv_bad_triangles": 0,
+      "uv_degenerate": 8,
+      "materials": [
+        "TX_003_CMF_Carpet"
+      ],
+      "modifiers": [
+        [
+          "Bound edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_00",
+      "type": "MESH",
+      "vertices": 487,
+      "faces": 920,
+      "tris": 920,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 272.0998961011476,
+      "uv_bad_triangles": 100,
+      "uv_degenerate": 0,
+      "materials": [
+        "TX_006_CabinV2_Leather_Perforated_Backrest",
+        "TX_004_CabinV2_Leather_WarmIvory",
+        "TX_005_CabinV2_Leather_DeepNavy"
+      ],
+      "modifiers": [
+        [
+          "Soft upholstery curvature • editable",
+          "SUBSURF"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_01",
+      "type": "MESH",
+      "vertices": 487,
+      "faces": 920,
+      "tris": 920,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 272.1091464935331,
+      "uv_bad_triangles": 100,
+      "uv_degenerate": 0,
+      "materials": [
+        "TX_009_CabinV2_Leather_Perforated_Backrest",
+        "TX_007_CabinV2_Leather_WarmIvory",
+        "TX_008_CabinV2_Leather_DeepNavy"
+      ],
+      "modifiers": [
+        [
+          "Soft upholstery curvature • editable",
+          "SUBSURF"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_02",
+      "type": "MESH",
+      "vertices": 98,
+      "faces": 192,
+      "tris": 192,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 62.29009211088186,
+      "uv_bad_triangles": 56,
+      "uv_degenerate": 0,
+      "materials": [
+        "TX_010_CabinV2_Leather_WarmIvory"
+      ],
+      "modifiers": [
+        [
+          "Soft upholstery curvature • editable",
+          "SUBSURF"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_03",
+      "type": "MESH",
+      "vertices": 318,
+      "faces": 632,
+      "tris": 632,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 39.962169561387675,
+      "uv_bad_triangles": 134,
+      "uv_degenerate": 0,
+      "materials": [
+        "TX_011_CabinV2_Leather_WarmIvory",
+        "TX_012_CabinV2_Leather_DeepNavy"
+      ],
+      "modifiers": [
+        [
+          "Soft upholstery curvature • editable",
+          "SUBSURF"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_04",
+      "type": "MESH",
+      "vertices": 409,
+      "faces": 756,
+      "tris": 756,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 108.63372248684873,
+      "uv_bad_triangles": 88,
+      "uv_degenerate": 0,
+      "materials": [
+        "TX_013_CabinV2_Leather_WarmIvory",
+        "TX_014_CabinV2_Leather_DeepNavy"
+      ],
+      "modifiers": [
+        [
+          "Soft upholstery curvature • editable",
+          "SUBSURF"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_05",
+      "type": "MESH",
+      "vertices": 562,
+      "faces": 1092,
+      "tris": 1092,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 341635.87687258027,
+      "uv_bad_triangles": 399,
+      "uv_degenerate": 0,
+      "materials": [
+        "TX_015_CabinV2_Leather_WarmIvory",
+        "TX_016_CabinV2_Leather_DeepNavy"
+      ],
+      "modifiers": [
+        [
+          "Soft upholstery curvature • editable",
+          "SUBSURF"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_06",
+      "type": "MESH",
+      "vertices": 424,
+      "faces": 844,
+      "tris": 844,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 109.76140382100334,
+      "uv_bad_triangles": 194,
+      "uv_degenerate": 0,
+      "materials": [
+        "TX_017_CabinV2_Leather_WarmIvory",
+        "TX_018_CabinV2_Leather_DeepNavy"
+      ],
+      "modifiers": [
+        [
+          "Soft upholstery curvature • editable",
+          "SUBSURF"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_07",
+      "type": "MESH",
+      "vertices": 401,
+      "faces": 798,
+      "tris": 798,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 109.89912571259812,
+      "uv_bad_triangles": 208,
+      "uv_degenerate": 0,
+      "materials": [
+        "TX_019_CabinV2_Leather_WarmIvory",
+        "TX_020_CabinV2_Leather_DeepNavy"
+      ],
+      "modifiers": [
+        [
+          "Soft upholstery curvature • editable",
+          "SUBSURF"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_08",
+      "type": "MESH",
+      "vertices": 303,
+      "faces": 559,
+      "tris": 559,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 248.24398639376008,
+      "uv_bad_triangles": 153,
+      "uv_degenerate": 0,
+      "materials": [
+        "TX_023_CabinV2_Leather_Perforated_Cushion",
+        "TX_021_CabinV2_Leather_WarmIvory",
+        "TX_022_CabinV2_Leather_DeepNavy"
+      ],
+      "modifiers": [
+        [
+          "Soft upholstery curvature • editable",
+          "SUBSURF"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_09",
+      "type": "MESH",
+      "vertices": 303,
+      "faces": 559,
+      "tris": 559,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 248.24522593059538,
+      "uv_bad_triangles": 153,
+      "uv_degenerate": 0,
+      "materials": [
+        "TX_026_CabinV2_Leather_Perforated_Cushion",
+        "TX_024_CabinV2_Leather_WarmIvory",
+        "TX_025_CabinV2_Leather_DeepNavy"
+      ],
+      "modifiers": [
+        [
+          "Soft upholstery curvature • editable",
+          "SUBSURF"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_12",
+      "type": "MESH",
+      "vertices": 98,
+      "faces": 192,
+      "tris": 192,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 38.41380794780398,
+      "uv_bad_triangles": 78,
+      "uv_degenerate": 0,
+      "materials": [
+        "TX_027_CabinV2_Leather_WarmIvory"
+      ],
+      "modifiers": [
+        [
+          "Soft upholstery curvature • editable",
+          "SUBSURF"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_13",
+      "type": "MESH",
+      "vertices": 318,
+      "faces": 632,
+      "tris": 632,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 39.77371517592425,
+      "uv_bad_triangles": 130,
+      "uv_degenerate": 0,
+      "materials": [
+        "TX_028_CabinV2_Leather_WarmIvory",
+        "TX_029_CabinV2_Leather_DeepNavy"
+      ],
+      "modifiers": [
+        [
+          "Soft upholstery curvature • editable",
+          "SUBSURF"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_16",
+      "type": "MESH",
+      "vertices": 281,
+      "faces": 510,
+      "tris": 510,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 241.12688453179706,
+      "uv_bad_triangles": 157,
+      "uv_degenerate": 0,
+      "materials": [
+        "TX_032_CabinV2_Leather_Perforated_Cushion",
+        "TX_030_CabinV2_Leather_WarmIvory",
+        "TX_031_CabinV2_Leather_DeepNavy"
+      ],
+      "modifiers": [
+        [
+          "Soft upholstery curvature • editable",
+          "SUBSURF"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_17",
+      "type": "MESH",
+      "vertices": 344,
+      "faces": 684,
+      "tris": 684,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 131.09898723927617,
+      "uv_bad_triangles": 310,
+      "uv_degenerate": 0,
+      "materials": [
+        "TX_033_CabinV2_Leather_WarmIvory",
+        "TX_034_CabinV2_Leather_DeepNavy"
+      ],
+      "modifiers": [
+        [
+          "Soft upholstery curvature • editable",
+          "SUBSURF"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_18",
+      "type": "MESH",
+      "vertices": 98,
+      "faces": 192,
+      "tris": 192,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 55.75783794000604,
+      "uv_bad_triangles": 100,
+      "uv_degenerate": 0,
+      "materials": [
+        "TX_035_CabinV2_Leather_WarmIvory"
+      ],
+      "modifiers": [
+        [
+          "Soft upholstery curvature • editable",
+          "SUBSURF"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_19",
+      "type": "MESH",
+      "vertices": 584,
+      "faces": 1130,
+      "tris": 1130,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 45.847699633493846,
+      "uv_bad_triangles": 120,
+      "uv_degenerate": 0,
+      "materials": [
+        "TX_038_CabinV2_Leather_Perforated_Backrest",
+        "TX_036_CabinV2_Leather_WarmIvory",
+        "TX_037_CabinV2_Leather_DeepNavy"
+      ],
+      "modifiers": [
+        [
+          "Soft upholstery curvature • editable",
+          "SUBSURF"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_24",
+      "type": "MESH",
+      "vertices": 362,
+      "faces": 666,
+      "tris": 666,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 68.06412086650423,
+      "uv_bad_triangles": 281,
+      "uv_degenerate": 0,
+      "materials": [
+        "TX_041_CabinV2_Leather_Perforated_Backrest",
+        "TX_039_CabinV2_Leather_WarmIvory",
+        "TX_040_CabinV2_Leather_DeepNavy"
+      ],
+      "modifiers": [
+        [
+          "Soft upholstery curvature • editable",
+          "SUBSURF"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_25",
+      "type": "MESH",
+      "vertices": 328,
+      "faces": 598,
+      "tris": 598,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 172.83070587686962,
+      "uv_bad_triangles": 184,
+      "uv_degenerate": 0,
+      "materials": [
+        "TX_044_CabinV2_Leather_Perforated_Cushion",
+        "TX_042_CabinV2_Leather_WarmIvory",
+        "TX_043_CabinV2_Leather_DeepNavy"
+      ],
+      "modifiers": [
+        [
+          "Soft upholstery curvature • editable",
+          "SUBSURF"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_26",
+      "type": "MESH",
+      "vertices": 344,
+      "faces": 684,
+      "tris": 684,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 131.10436539437433,
+      "uv_bad_triangles": 310,
+      "uv_degenerate": 0,
+      "materials": [
+        "TX_045_CabinV2_Leather_WarmIvory",
+        "TX_046_CabinV2_Leather_DeepNavy"
+      ],
+      "modifiers": [
+        [
+          "Soft upholstery curvature • editable",
+          "SUBSURF"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_27",
+      "type": "MESH",
+      "vertices": 98,
+      "faces": 192,
+      "tris": 192,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 56.24086571045375,
+      "uv_bad_triangles": 102,
+      "uv_degenerate": 0,
+      "materials": [
+        "TX_047_CabinV2_Leather_WarmIvory"
+      ],
+      "modifiers": [
+        [
+          "Soft upholstery curvature • editable",
+          "SUBSURF"
+        ]
+      ]
+    },
+    {
+      "name": "Seat_08_DoubleStitch_Concept",
+      "type": "CURVE",
+      "splines": 256
+    },
+    {
+      "name": "Seat_09_DoubleStitch_Concept",
+      "type": "CURVE",
+      "splines": 256
+    },
+    {
+      "name": "Seat_16_DoubleStitch_Concept",
+      "type": "CURVE",
+      "splines": 256
+    },
+    {
+      "name": "Seat_25_DoubleStitch_Concept",
+      "type": "CURVE",
+      "splines": 256
+    },
+    {
+      "name": "Backrest_00_Stitches_Concept",
+      "type": "CURVE",
+      "splines": 248
+    },
+    {
+      "name": "Backrest_01_Stitches_Concept",
+      "type": "CURVE",
+      "splines": 248
+    },
+    {
+      "name": "Backrest_19_Stitches_Concept",
+      "type": "CURVE",
+      "splines": 244
+    },
+    {
+      "name": "Backrest_24_Stitches_Concept",
+      "type": "CURVE",
+      "splines": 244
+    },
+    {
+      "name": "CabinV3_steering_Car_INT_7",
+      "type": "MESH",
+      "vertices": 867,
+      "faces": 1718,
+      "tris": 1718,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV",
+        "V4_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 600.4583539362042,
+      "uv_bad_triangles": 660,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV2_Dashboard_INT_1.001",
+        "V4_soft_CabinV3_steering_Car_INT_7"
+      ],
+      "modifiers": [
+        [
+          "Curved soft trim",
+          "SUBSURF"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_button_Car_INT_9",
+      "type": "MESH",
+      "vertices": 253,
+      "faces": 487,
+      "tris": 487,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV",
+        "V4_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 43.43755272909535,
+      "uv_bad_triangles": 236,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV2_Dashboard_INT_1.001",
+        "V4_soft_CabinV3_button_Car_INT_9"
+      ],
+      "modifiers": [
+        [
+          "Physical button edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_button_Car_INT_10",
+      "type": "MESH",
+      "vertices": 265,
+      "faces": 511,
+      "tris": 511,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV",
+        "V4_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 35.665883086804115,
+      "uv_bad_triangles": 211,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV2_Dashboard_INT_1.001",
+        "V4_soft_CabinV3_button_Car_INT_10"
+      ],
+      "modifiers": [
+        [
+          "Physical button edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_dial_Car_INT_16",
+      "type": "MESH",
+      "vertices": 113,
+      "faces": 208,
+      "tris": 208,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 50.52639212636685,
+      "uv_bad_triangles": 107,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Physical button edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_control_Door_LF_WG_4",
+      "type": "MESH",
+      "vertices": 60,
+      "faces": 103,
+      "tris": 103,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 37.468759371309666,
+      "uv_bad_triangles": 22,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Physical button edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_control_Door_LF_WG_5",
+      "type": "MESH",
+      "vertices": 40,
+      "faces": 68,
+      "tris": 68,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 63.029678427419825,
+      "uv_bad_triangles": 33,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Physical button edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_control_Door_LF_WG_6",
+      "type": "MESH",
+      "vertices": 70,
+      "faces": 124,
+      "tris": 124,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 40.25725658266015,
+      "uv_bad_triangles": 21,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Physical button edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_armrest_Door_LF_WG_7",
+      "type": "MESH",
+      "vertices": 209,
+      "faces": 372,
+      "tris": 372,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 113.37008412642243,
+      "uv_bad_triangles": 66,
+      "uv_degenerate": 0,
+      "materials": [
+        "TX_048_CabinV2_Door_INT_2.001"
+      ],
+      "modifiers": [
+        [
+          "Curved soft trim",
+          "SUBSURF"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_armrest_Door_RF_WG_0",
+      "type": "MESH",
+      "vertices": 209,
+      "faces": 372,
+      "tris": 372,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 113.35791868959566,
+      "uv_bad_triangles": 63,
+      "uv_degenerate": 0,
+      "materials": [
+        "TX_049_CabinV2_Door_INT_2.001"
+      ],
+      "modifiers": [
+        [
+          "Curved soft trim",
+          "SUBSURF"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_control_Door_RF_WG_6",
+      "type": "MESH",
+      "vertices": 60,
+      "faces": 103,
+      "tris": 103,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 37.47832375866924,
+      "uv_bad_triangles": 22,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Physical button edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_control_Door_RF_WG_7",
+      "type": "MESH",
+      "vertices": 40,
+      "faces": 68,
+      "tris": 68,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 63.03017392011934,
+      "uv_bad_triangles": 33,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Physical button edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_control_Door_RF_WG_8",
+      "type": "MESH",
+      "vertices": 70,
+      "faces": 124,
+      "tris": 124,
+      "quads": 0,
+      "ngons": 0,
+      "uv_names": [
+        "UVMap",
+        "CMF_MicroUV"
+      ],
+      "active_uv": "UVMap",
+      "uv_distortion_max_pct": 40.261950136836134,
+      "uv_bad_triangles": 21,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Physical button edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_00",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0148668144611,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_01",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0571079803535,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_02",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.1270088296151,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_03",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0532030751962,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_04",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0470465229077,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_05",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.1179717263003,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_06",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0947149963258,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_07",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0881481605161,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_08",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0727795181476,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_09",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0919516298991,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_10",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0672842505232,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_11",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0820782312561,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_12",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.06053172555,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_13",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.1160154850425,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_14",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0795788834231,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_15",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.1022755695088,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_16",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0797962172113,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_17",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0744987498548,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_18",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0783214552332,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_19",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0797768124028,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_20",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0797962172113,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_21",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0920603011438,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_22",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0746112958324,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_23",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.1064207675337,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_24",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0650954848168,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_25",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0777315524211,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_26",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0672842505232,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_27",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0919516298991,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_28",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0761791820038,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_29",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0851054188607,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_30",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0973619520449,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_31",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.1179717263003,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_32",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0452381924737,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_33",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.050465305407,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_34",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.1260908426588,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_35",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0575690534822,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_36",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0148667993042,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_37",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0575690534822,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_38",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.1260908426588,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_39",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.050465305407,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_40",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0452381924737,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_41",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.1179717263003,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_42",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0973619520449,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_43",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0851054188607,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_44",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0761791820038,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_45",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0919516298991,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_46",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0672842505232,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_47",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0777315524211,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_48",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0650954848168,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_49",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.1064207675337,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_50",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0746112958324,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_51",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0920603011438,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_52",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0797962172113,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_53",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0797768124028,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_54",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0783214552332,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_55",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0744987498548,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_56",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0797962172113,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_57",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.1022755695088,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_58",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0795788834231,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_59",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.1160154850425,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_60",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.06053172555,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_61",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0820782312561,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_62",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0672842505232,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_63",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0919516298991,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_64",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0727795181476,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_65",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0881481605161,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_66",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0947149963258,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_67",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.1179717263003,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_68",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0470465229077,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_69",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0532030751962,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_70",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.1270088296151,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_71",
+      "type": "MESH",
+      "vertices": 8,
+      "faces": 6,
+      "tris": 0,
+      "quads": 6,
+      "ngons": 0,
+      "uv_names": [
+        "UV贴图"
+      ],
+      "active_uv": "UV贴图",
+      "uv_distortion_max_pct": 823.0571079803535,
+      "uv_bad_triangles": 12,
+      "uv_degenerate": 0,
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ],
+      "modifiers": [
+        [
+          "Rounded machining edge",
+          "BEVEL"
+        ]
+      ]
+    }
+  ],
+  "materials": {
+    "V4_leather_PassengerBackrestShell": {
+      "channels": {
+        "Base Color": [
+          [
+            "02_nappa_seat_BaseColor.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "02_nappa_seat_Normal.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Roughness": [
+          [
+            "02_nappa_seat_Roughness.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ]
+      },
+      "roughness": 0.5,
+      "procedural_roughness": true
+    },
+    "V4_leather_Door_LB_INT_6S": {
+      "channels": {
+        "Base Color": [
+          [
+            "02_nappa_seat_BaseColor.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "02_nappa_seat_Normal.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Roughness": [
+          [
+            "02_nappa_seat_Roughness.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ]
+      },
+      "roughness": 0.5,
+      "procedural_roughness": true
+    },
+    "V4_fabric_Door_LB_INT_6S": {
+      "channels": {
+        "Base Color": [
+          [
+            "03_alcantara_headliner_BaseColor.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "03_alcantara_headliner_Normal.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Roughness": [
+          [
+            "03_alcantara_headliner_Roughness.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ]
+      },
+      "roughness": 0.5,
+      "procedural_roughness": true
+    },
+    "CabinV2_Trim_INT_2.001": {
+      "channels": {
+        "Base Color": [
+          [
+            "9X_lanbai_INT_2.jpg.001",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "INT_normal2.jpg.001",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": false
+    },
+    "TX_057_CabinV2_Door_INT_2.001": {
+      "channels": {
+        "Base Color": [
+          [
+            "9X_lanbai_INT_2.jpg.001",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "INT_normal2.jpg.001",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Roughness": [
+          [
+            "roughness.jpg",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ]
+      },
+      "roughness": 0.550000011920929,
+      "procedural_roughness": true
+    },
+    "TX_058_CabinV2_Door_INT_2.001": {
+      "channels": {
+        "Base Color": [
+          [
+            "9X_lanbai_INT_2.jpg.001",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "INT_normal2.jpg.001",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Roughness": [
+          [
+            "roughness.jpg",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ]
+      },
+      "roughness": 0.550000011920929,
+      "procedural_roughness": true
+    },
+    "V4_fabric_Door_LB_INT_NO_sunshade": {
+      "channels": {
+        "Base Color": [
+          [
+            "03_alcantara_headliner_BaseColor.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "03_alcantara_headliner_Normal.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Roughness": [
+          [
+            "03_alcantara_headliner_Roughness.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ]
+      },
+      "roughness": 0.5,
+      "procedural_roughness": true
+    },
+    "car_paint_hei": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": false
+    },
+    "Plastic": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [
+          [
+            "Ext_AO_normal.png",
+            [
+              512,
+              512
+            ]
+          ]
+        ],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": false
+    },
+    "Piano_Black": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": false
+    },
+    "Rubber": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": false
+    },
+    "Black_1": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": false
+    },
+    "Glass_Black": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.07999999821186066,
+      "procedural_roughness": false
+    },
+    "Glass_Black_B": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.07999999821186066,
+      "procedural_roughness": false
+    },
+    "TX_059_CabinV2_Door_INT_2.001": {
+      "channels": {
+        "Base Color": [
+          [
+            "9X_lanbai_INT_2.jpg.001",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "INT_normal2.jpg.001",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Roughness": [
+          [
+            "roughness.jpg",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ]
+      },
+      "roughness": 0.550000011920929,
+      "procedural_roughness": true
+    },
+    "Glass_Clear": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": false
+    },
+    "Glass_Clear_B": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": false
+    },
+    "TX_060_CabinV2_Door_INT_2.001": {
+      "channels": {
+        "Base Color": [
+          [
+            "9X_lanbai_INT_2.jpg.001",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "INT_normal2.jpg.001",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Roughness": [
+          [
+            "roughness.jpg",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ]
+      },
+      "roughness": 0.550000011920929,
+      "procedural_roughness": true
+    },
+    "V4_leather_Door_LF_WG": {
+      "channels": {
+        "Base Color": [
+          [
+            "02_nappa_seat_BaseColor.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "02_nappa_seat_Normal.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Roughness": [
+          [
+            "02_nappa_seat_Roughness.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ]
+      },
+      "roughness": 0.5,
+      "procedural_roughness": true
+    },
+    "V4_fabric_Door_LF_WG": {
+      "channels": {
+        "Base Color": [
+          [
+            "03_alcantara_headliner_BaseColor.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "03_alcantara_headliner_Normal.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Roughness": [
+          [
+            "03_alcantara_headliner_Roughness.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ]
+      },
+      "roughness": 0.5,
+      "procedural_roughness": true
+    },
+    "V4_leather_Door_RB_INT_6S": {
+      "channels": {
+        "Base Color": [
+          [
+            "02_nappa_seat_BaseColor.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "02_nappa_seat_Normal.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Roughness": [
+          [
+            "02_nappa_seat_Roughness.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ]
+      },
+      "roughness": 0.5,
+      "procedural_roughness": true
+    },
+    "V4_fabric_Door_RB_INT_6S": {
+      "channels": {
+        "Base Color": [
+          [
+            "03_alcantara_headliner_BaseColor.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "03_alcantara_headliner_Normal.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Roughness": [
+          [
+            "03_alcantara_headliner_Roughness.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ]
+      },
+      "roughness": 0.5,
+      "procedural_roughness": true
+    },
+    "TX_061_CabinV2_Door_INT_2.001": {
+      "channels": {
+        "Base Color": [
+          [
+            "9X_lanbai_INT_2.jpg.001",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "INT_normal2.jpg.001",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Roughness": [
+          [
+            "roughness.jpg",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ]
+      },
+      "roughness": 0.550000011920929,
+      "procedural_roughness": true
+    },
+    "TX_062_CabinV2_Door_INT_2.001": {
+      "channels": {
+        "Base Color": [
+          [
+            "9X_lanbai_INT_2.jpg.001",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "INT_normal2.jpg.001",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Roughness": [
+          [
+            "roughness.jpg",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ]
+      },
+      "roughness": 0.550000011920929,
+      "procedural_roughness": true
+    },
+    "V4_fabric_Door_RB_INT_NO_sunshade": {
+      "channels": {
+        "Base Color": [
+          [
+            "03_alcantara_headliner_BaseColor.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "03_alcantara_headliner_Normal.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Roughness": [
+          [
+            "03_alcantara_headliner_Roughness.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ]
+      },
+      "roughness": 0.5,
+      "procedural_roughness": true
+    },
+    "TX_063_CabinV2_Door_INT_2.001": {
+      "channels": {
+        "Base Color": [
+          [
+            "9X_lanbai_INT_2.jpg.001",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "INT_normal2.jpg.001",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Roughness": [
+          [
+            "roughness.jpg",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ]
+      },
+      "roughness": 0.550000011920929,
+      "procedural_roughness": true
+    },
+    "TX_064_CabinV2_Door_INT_2.001": {
+      "channels": {
+        "Base Color": [
+          [
+            "9X_lanbai_INT_2.jpg.001",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "INT_normal2.jpg.001",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Roughness": [
+          [
+            "roughness.jpg",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ]
+      },
+      "roughness": 0.550000011920929,
+      "procedural_roughness": true
+    },
+    "V4_leather_Door_RF_WG": {
+      "channels": {
+        "Base Color": [
+          [
+            "02_nappa_seat_BaseColor.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "02_nappa_seat_Normal.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Roughness": [
+          [
+            "02_nappa_seat_Roughness.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ]
+      },
+      "roughness": 0.5,
+      "procedural_roughness": true
+    },
+    "V4_fabric_Door_RF_WG": {
+      "channels": {
+        "Base Color": [
+          [
+            "03_alcantara_headliner_BaseColor.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "03_alcantara_headliner_Normal.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Roughness": [
+          [
+            "03_alcantara_headliner_Roughness.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ]
+      },
+      "roughness": 0.5,
+      "procedural_roughness": true
+    },
+    "chepai": {
+      "channels": {
+        "Base Color": [
+          [
+            "chepai.jpg",
+            [
+              512,
+              512
+            ]
+          ]
+        ],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.4699999988079071,
+      "procedural_roughness": false
+    },
+    "TX_065_CabinV2_Door_INT_2.001": {
+      "channels": {
+        "Base Color": [
+          [
+            "9X_lanbai_INT_2.jpg.001",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "INT_normal2.jpg.001",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Roughness": [
+          [
+            "roughness.jpg",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ]
+      },
+      "roughness": 0.550000011920929,
+      "procedural_roughness": true
+    },
+    "INT_1": {
+      "channels": {
+        "Base Color": [
+          [
+            "9X_lanbai_INT_1.jpg",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "INT_normal.jpg",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Roughness": [
+          [
+            "int1.png",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ]
+      },
+      "roughness": 0.550000011920929,
+      "procedural_roughness": true
+    },
+    "CabinV2_Dashboard_INT_1.001": {
+      "channels": {
+        "Base Color": [
+          [
+            "9X_lanbai_INT_1.jpg.001",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "INT_normal.jpg.001",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Roughness": []
+      },
+      "roughness": 0.550000011920929,
+      "procedural_roughness": true
+    },
+    "TX_050_CabinV2_Seat_INT_1.001": {
+      "channels": {
+        "Base Color": [
+          [
+            "9X_lanbai_INT_1.jpg.001",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "INT_normal.jpg.001",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Roughness": [
+          [
+            "roughness.jpg",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ]
+      },
+      "roughness": 0.550000011920929,
+      "procedural_roughness": true
+    },
+    "TX_051_CabinV2_Seat_INT_2.001": {
+      "channels": {
+        "Base Color": [
+          [
+            "9X_lanbai_INT_2.jpg.001",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "INT_normal2.jpg.001",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Roughness": [
+          [
+            "roughness.jpg",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ]
+      },
+      "roughness": 0.550000011920929,
+      "procedural_roughness": true
+    },
+    "CabinV2_Dashboard_INT_2.001": {
+      "channels": {
+        "Base Color": [
+          [
+            "9X_lanbai_INT_2.jpg.001",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "INT_normal2.jpg.001",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Roughness": []
+      },
+      "roughness": 0.550000011920929,
+      "procedural_roughness": true
+    },
+    "TX_052_CabinV2_Headliner_INT_2.001": {
+      "channels": {
+        "Base Color": [
+          [
+            "9X_lanbai_INT_2.jpg.001",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "INT_normal2.jpg.001",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Roughness": []
+      },
+      "roughness": 0.550000011920929,
+      "procedural_roughness": true
+    },
+    "V4_soft_Car_INT": {
+      "channels": {
+        "Base Color": [
+          [
+            "01_soft_dashboard_BaseColor.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "01_soft_dashboard_Normal.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Roughness": [
+          [
+            "01_soft_dashboard_Roughness.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ]
+      },
+      "roughness": 0.5,
+      "procedural_roughness": true
+    },
+    "V4_leather_Car_INT": {
+      "channels": {
+        "Base Color": [
+          [
+            "02_nappa_seat_BaseColor.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "02_nappa_seat_Normal.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Roughness": [
+          [
+            "02_nappa_seat_Roughness.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ]
+      },
+      "roughness": 0.5,
+      "procedural_roughness": true
+    },
+    "V4_screen_instrument": {
+      "channels": {
+        "Base Color": [
+          [
+            "instrument_2K.png",
+            [
+              2048,
+              768
+            ]
+          ]
+        ],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.2199999988079071,
+      "procedural_roughness": false
+    },
+    "V4_screen_rear": {
+      "channels": {
+        "Base Color": [
+          [
+            "instrument_2K.png",
+            [
+              2048,
+              768
+            ]
+          ]
+        ],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.2199999988079071,
+      "procedural_roughness": false
+    },
+    "TX_053_CabinV2_Seat_INT_1.001": {
+      "channels": {
+        "Base Color": [
+          [
+            "9X_lanbai_INT_1.jpg.001",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "INT_normal.jpg.001",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Roughness": [
+          [
+            "roughness.jpg",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ]
+      },
+      "roughness": 0.550000011920929,
+      "procedural_roughness": true
+    },
+    "V4_leather_Car_INT_fangxiangpan_L2": {
+      "channels": {
+        "Base Color": [
+          [
+            "02_nappa_seat_BaseColor.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "02_nappa_seat_Normal.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Roughness": [
+          [
+            "02_nappa_seat_Roughness.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ]
+      },
+      "roughness": 0.5,
+      "procedural_roughness": true
+    },
+    "V4_soft_Carbody_INT_IP_long_screen": {
+      "channels": {
+        "Base Color": [
+          [
+            "01_soft_dashboard_BaseColor.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "01_soft_dashboard_Normal.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Roughness": [
+          [
+            "01_soft_dashboard_Roughness.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ]
+      },
+      "roughness": 0.5,
+      "procedural_roughness": true
+    },
+    "V4_screen_center": {
+      "channels": {
+        "Base Color": [
+          [
+            "center_display_3K.png",
+            [
+              3072,
+              972
+            ]
+          ]
+        ],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.2199999988079071,
+      "procedural_roughness": false
+    },
+    "TX_055_CabinV2_Headliner_INT_2.001": {
+      "channels": {
+        "Base Color": [
+          [
+            "9X_lanbai_INT_2.jpg.001",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "INT_normal2.jpg.001",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Roughness": []
+      },
+      "roughness": 0.550000011920929,
+      "procedural_roughness": true
+    },
+    "V4_fabric_Carbody_INT_frame_ROOF_TV.002": {
+      "channels": {
+        "Base Color": [
+          [
+            "03_alcantara_headliner_BaseColor.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "03_alcantara_headliner_Normal.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Roughness": [
+          [
+            "03_alcantara_headliner_Roughness.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ]
+      },
+      "roughness": 0.5,
+      "procedural_roughness": true
+    },
+    "V4_fabric_Carbody_INT_frame_sunshade": {
+      "channels": {
+        "Base Color": [
+          [
+            "03_alcantara_headliner_BaseColor.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "03_alcantara_headliner_Normal.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Roughness": [
+          [
+            "03_alcantara_headliner_Roughness.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ]
+      },
+      "roughness": 0.5,
+      "procedural_roughness": true
+    },
+    "TX_000_CMF_Carpet": {
+      "channels": {
+        "Base Color": [
+          [
+            "color.jpg.002",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "normal.jpg.002",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Roughness": [
+          [
+            "roughness.jpg.002",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ]
+      },
+      "roughness": 0.949999988079071,
+      "procedural_roughness": true
+    },
+    "TX_001_CMF_Carpet": {
+      "channels": {
+        "Base Color": [
+          [
+            "color.jpg.002",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "normal.jpg.002",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Roughness": [
+          [
+            "roughness.jpg.002",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ]
+      },
+      "roughness": 0.949999988079071,
+      "procedural_roughness": true
+    },
+    "TX_002_CMF_Carpet": {
+      "channels": {
+        "Base Color": [
+          [
+            "color.jpg.002",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "normal.jpg.002",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Roughness": [
+          [
+            "roughness.jpg.002",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ]
+      },
+      "roughness": 0.949999988079071,
+      "procedural_roughness": true
+    },
+    "TX_003_CMF_Carpet": {
+      "channels": {
+        "Base Color": [
+          [
+            "color.jpg.002",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "normal.jpg.002",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Roughness": [
+          [
+            "roughness.jpg.002",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ]
+      },
+      "roughness": 0.949999988079071,
+      "procedural_roughness": true
+    },
+    "TX_006_CabinV2_Leather_Perforated_Backrest": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_004_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_005_CabinV2_Leather_DeepNavy": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_009_CabinV2_Leather_Perforated_Backrest": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_007_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_008_CabinV2_Leather_DeepNavy": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_010_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_011_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_012_CabinV2_Leather_DeepNavy": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_013_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_014_CabinV2_Leather_DeepNavy": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_015_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_016_CabinV2_Leather_DeepNavy": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_017_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_018_CabinV2_Leather_DeepNavy": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_019_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_020_CabinV2_Leather_DeepNavy": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_023_CabinV2_Leather_Perforated_Cushion": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_021_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_022_CabinV2_Leather_DeepNavy": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_026_CabinV2_Leather_Perforated_Cushion": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_024_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_025_CabinV2_Leather_DeepNavy": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_027_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_028_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_029_CabinV2_Leather_DeepNavy": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_032_CabinV2_Leather_Perforated_Cushion": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_030_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_031_CabinV2_Leather_DeepNavy": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_033_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_034_CabinV2_Leather_DeepNavy": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_035_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_038_CabinV2_Leather_Perforated_Backrest": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_036_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_037_CabinV2_Leather_DeepNavy": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_041_CabinV2_Leather_Perforated_Backrest": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_039_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_040_CabinV2_Leather_DeepNavy": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_044_CabinV2_Leather_Perforated_Cushion": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_042_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_043_CabinV2_Leather_DeepNavy": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_045_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_046_CabinV2_Leather_DeepNavy": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "TX_047_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": true
+    },
+    "V4_soft_CabinV3_steering_Car_INT_7": {
+      "channels": {
+        "Base Color": [
+          [
+            "01_soft_dashboard_BaseColor.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "01_soft_dashboard_Normal.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Roughness": [
+          [
+            "01_soft_dashboard_Roughness.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ]
+      },
+      "roughness": 0.5,
+      "procedural_roughness": true
+    },
+    "V4_soft_CabinV3_button_Car_INT_9": {
+      "channels": {
+        "Base Color": [
+          [
+            "01_soft_dashboard_BaseColor.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "01_soft_dashboard_Normal.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Roughness": [
+          [
+            "01_soft_dashboard_Roughness.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ]
+      },
+      "roughness": 0.5,
+      "procedural_roughness": true
+    },
+    "V4_soft_CabinV3_button_Car_INT_10": {
+      "channels": {
+        "Base Color": [
+          [
+            "01_soft_dashboard_BaseColor.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "01_soft_dashboard_Normal.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ],
+        "Roughness": [
+          [
+            "01_soft_dashboard_Roughness.png",
+            [
+              2048,
+              2048
+            ]
+          ]
+        ]
+      },
+      "roughness": 0.5,
+      "procedural_roughness": true
+    },
+    "CabinV3_SatinAluminium": {
+      "channels": {
+        "Base Color": [],
+        "Normal": [],
+        "Roughness": []
+      },
+      "roughness": 0.3400000035762787,
+      "procedural_roughness": false
+    },
+    "TX_048_CabinV2_Door_INT_2.001": {
+      "channels": {
+        "Base Color": [
+          [
+            "9X_lanbai_INT_2.jpg.001",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "INT_normal2.jpg.001",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": false
+    },
+    "TX_049_CabinV2_Door_INT_2.001": {
+      "channels": {
+        "Base Color": [
+          [
+            "9X_lanbai_INT_2.jpg.001",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Normal": [
+          [
+            "INT_normal2.jpg.001",
+            [
+              1024,
+              1024
+            ]
+          ]
+        ],
+        "Roughness": []
+      },
+      "roughness": 0.7200000286102295,
+      "procedural_roughness": false
+    }
+  }
+}

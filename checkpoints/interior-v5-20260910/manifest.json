@@ -1,0 +1,437 @@
+[
+  {
+    "path": "outputs/内饰展示精修V4/full_audit.py",
+    "bytes": 2894,
+    "sha256": "3fba6dc88145f61a2c56fcc67ad70b61b9c5fe83bc9bfdd9ca91fb71d2d9bc15"
+  },
+  {
+    "path": "outputs/内饰最终图_4K/ZEEKR_9X_内饰4K_最终合成.blend",
+    "bytes": 59960901,
+    "sha256": "7e0aa32efd17ac464b51cd341a1ec69053731ea140f2c39de268f367a17d763c"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/8项自检报告.md",
+    "bytes": 4483,
+    "sha256": "c5afabe0175dd330c4c4ee27dc5d3dae4bc8624bc37276f076e855c0d463f8f8"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/ZEEKR_9X_V5_可编辑修改器.blend",
+    "bytes": 95827278,
+    "sha256": "3c3b95675897516cc5f11249489c26029082d81e744b261b1e9d27d691c6f6be"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/ZEEKR_9X_before_check.blend",
+    "bytes": 95123701,
+    "sha256": "93401d9dd6cfd3b4bacea78309fadae65e40202aa1b594ccf9257bfd538fe74f"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/ZEEKR_9X_内饰自检修复V5.blend",
+    "bytes": 164799224,
+    "sha256": "919b6fb01834b3b519718dac8811c2d57f82a965b7783d25ae85d8f2c088a466"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/audit-final.log",
+    "bytes": 1014,
+    "sha256": "0c550dbea43e88157d8d31bab4bf7950adb21c9caa74d937d7bc3ac0e6ffca5a"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/audit_final.py",
+    "bytes": 3992,
+    "sha256": "0e4c27cc48d9215f2eaab97eb8eb0ea63aa7841c9d7b07ab1061701dbaf94a47"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/before-audit.json",
+    "bytes": 108493,
+    "sha256": "6318a5601f17db07a3e7f8e9f212d941ec64b627219240072685f69ba4ff79b8"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/cavity-uv.log",
+    "bytes": 327,
+    "sha256": "e8a60a0462016f89da94fca974dd10829704751da2f2860ee4431ac4549937de"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/cavity.log",
+    "bytes": 344,
+    "sha256": "207168fb76c0498ba54111d4336f8e1e0f248040095b1acd33af2923090a15e7"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/contact-check.json",
+    "bytes": 2309,
+    "sha256": "d94965e9e3b904dfd77def8f5ec6f05749fbe76b34c7d84cbf97c4f14e878082"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/contact.log",
+    "bytes": 664,
+    "sha256": "d38a9c6ceb4e9be7986c64fbca625fc54d3b649305a22a6adc57308f58e4f746"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/contact_check.py",
+    "bytes": 1189,
+    "sha256": "e0597035209ca9f40f401f9398bfafc79e482e8ffe894dd5cd080951c7a69e2f"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/final-audit.json",
+    "bytes": 148967,
+    "sha256": "29639a68df33ac89ecf28c4dd7b74cf3c7df666a2009f09f4f9749b2c542cbeb"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/final-material-repairs.json",
+    "bytes": 7492,
+    "sha256": "aec6a96b76d8df311e6d640f0c2dc730de6076b50f96885d3714db5319a16c04"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/final-repairs.log",
+    "bytes": 1499,
+    "sha256": "4139043ab4192724f20999a56602a221c22483db15b47d95e4b8abf675047b70"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/final_01_驾驶舱.png",
+    "bytes": 1731837,
+    "sha256": "1cb96e008f56f2446c686df8e235cac07c99976efad4053da9b2901fb3a9735d"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/final_02_后排顶棚.png",
+    "bytes": 1456056,
+    "sha256": "aec6e8afbd6abacfb61f1d71ef8650ecb49e71f29c63d5037a0ae0f39ecc3bd3"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/final_03_出风口近景.png",
+    "bytes": 1378433,
+    "sha256": "693674473d2df62273e139f26f76addff00069b38353d440eba651d01bf22558"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/final_repairs.py",
+    "bytes": 2821,
+    "sha256": "4b1a778ff4b2dd2874a8301873f259c93aa54f1607a538e6d3559a2ac45a58ed"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/finish-restoration.json",
+    "bytes": 506,
+    "sha256": "31e6b91bd5be5e3eb680eeba67e11b7067d2094f0146a4e9bdde5adc9a75ca6e"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/finish-restoration.log",
+    "bytes": 702,
+    "sha256": "8741cf1ce95426c74e52d796e9ccc53571f86c5ba713b765a9e245793ebe22ee"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/finish_cavity_uv.py",
+    "bytes": 485,
+    "sha256": "54666c56cfb880f3108b5c2b1a42d09cab1f4ec8adc369084283a24072690859"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/fix_vent_cavity.py",
+    "bytes": 2081,
+    "sha256": "981411022b1b959c34630a93cd7944ed5ce14d0c30481e7ecbcfffc74376d945"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/inspect_contacts.py",
+    "bytes": 754,
+    "sha256": "a5b42003ad4c597c64a2b2689cf359f689d7860e32d6b69cda1a33f2a4bdee54"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/post-evaluation-uv.json",
+    "bytes": 10128,
+    "sha256": "f6072f3cab908950c4e493c8f736b1b5757cb2c8f8a8834c58e70bc47a62cdf2"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/quad-report.json",
+    "bytes": 25152,
+    "sha256": "b80b89179d9af6657820e97bef0dc32e616cafd559355bf13b347e62e8e674f5"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/quad.log",
+    "bytes": 452,
+    "sha256": "64024ba3b02aff14cc2d18b0f345f317061bca020ddaf7ff85cbb1933e0a06d8"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/quad_finish.py",
+    "bytes": 1967,
+    "sha256": "1f45fb98c87404fef3f792963fc000f051d102fe765dad7b92b62e24d38c0943"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/repair-report.json",
+    "bytes": 20971,
+    "sha256": "71dc6b294f3e06dfcff1e1cab47772ceb746918ff6a0224429111b8ff8939cfc"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/repair.log",
+    "bytes": 678,
+    "sha256": "8e3c34191513f9ca63710988ac892d8262efa59170e883f4a0e639f0a7e75b1b"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/repair.py",
+    "bytes": 7812,
+    "sha256": "40da4cc7cef889790c77918986a82fd2e7fce132c909e55e737d83ed4709f7df"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/restore_finishes.py",
+    "bytes": 2032,
+    "sha256": "f5148086c6fc22decb5a0260e5bbb0b587fe1717aaa39debd31cafcdd3890d6d"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/review-final.log",
+    "bytes": 901,
+    "sha256": "2e8b68d6ece61b6ce501f9ae56c0a4c6bb616971a935f51e90ab521d36a81848"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/review.log",
+    "bytes": 919,
+    "sha256": "ba43d9beb2b585b364d78097faf363bbcc66aa9bf1b7ff12ece9a8e259e7457a"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/review.py",
+    "bytes": 1503,
+    "sha256": "ab86e07c0a1a86670e1548bf90becb29103e7aaf933c8f30041e84cf1e5cb921"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/roughness-check.json",
+    "bytes": 1122,
+    "sha256": "3b6f7362d26ddd8829add8a26b6a2632d5e144d6be8a3ac41cbc645721e13605"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/roughness.log",
+    "bytes": 1233,
+    "sha256": "6443979261e1c91e402f4cd87674db46dc38b9f660e9b4e1b114cd476d769953"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/roughness_check.py",
+    "bytes": 862,
+    "sha256": "ba21688db3718c22b97fa4cce33c4c2c59b848ce68a03b39a44bc80370fe757a"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_Base Color_190c54b096cc.png",
+    "bytes": 59582,
+    "sha256": "c20f8f313dcd7d885e1ebe022b5e40d413a454bf984332539a812e9f9bf504bb"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_Base Color_2142a1bf6983.png",
+    "bytes": 59579,
+    "sha256": "a48a7231669416c7aa3cfb71656a72164ba6b6e7dd747f6366b9e8d0481ad986"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_Base Color_23fdb31dd4df.png",
+    "bytes": 59581,
+    "sha256": "cef8078090e352443fc736755523fc9638b822e48f41d04fddd4025e04266873"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_Base Color_25aa5357884d.png",
+    "bytes": 59581,
+    "sha256": "6eb2e5da6572749ec2dc4f61cac8f75636bd7f24dc9a8899dd96c4947460a9f1"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_Base Color_2e476161d339.png",
+    "bytes": 59582,
+    "sha256": "f7443643038def7e473ddf725e0602d6a467fb16f4302637fd5211e73617aba0"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_Base Color_2ff4255cd47d.png",
+    "bytes": 59578,
+    "sha256": "aeaa7437bf8bd1bbf2a9c25dfc45a280ee4839f58d0ae1a7cb4a0506e9098fa3"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_Base Color_39a11e71f3a7.png",
+    "bytes": 59579,
+    "sha256": "77bd39a9f317a95ac0f1590d75354418f0ae88ca781ce8fb3f6fb244049c45b4"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_Base Color_59cfad3670c1.png",
+    "bytes": 59579,
+    "sha256": "ad8a2397942abd829cea86ba11e4706faef7e3691ebe19eca98fbbdc3fe3b766"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_Base Color_5e9e6dece00b.png",
+    "bytes": 59582,
+    "sha256": "2c67ec0f5446bc811e79b965396ed53a94d06cdf0d86d661221cab08a402d109"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_Base Color_68f994877572.png",
+    "bytes": 59582,
+    "sha256": "6e13f86853dcb295e669c97186d595b989639f77bb805c11cff453447a94dbff"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_Base Color_753dcf58e8b8.png",
+    "bytes": 59581,
+    "sha256": "e763789b6cfd6c9d3153d1f9b1898ec95df1ebf899a735c96bcce348b6663d70"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_Base Color_8b17d11a3e13.png",
+    "bytes": 59581,
+    "sha256": "92b9a555d6a0f484ec396813eb9b2888c3c0a2b0fe791777f7b6a913036bc8e7"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_Base Color_8f75fec5e35f.png",
+    "bytes": 59579,
+    "sha256": "cd619d56bc781d6454e8f66223d05480c35c9af6ee6b96a27d5892793d59ad02"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_Base Color_9a7a687458cc.png",
+    "bytes": 59576,
+    "sha256": "cab2eaf40651e95a4bca5e9175d69afd676f859cf6c35109b6328688fede6f18"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_Base Color_b125525d0f37.png",
+    "bytes": 59579,
+    "sha256": "7f5b80f1430bdaf7366ba9b045535fce48508243a2fcec773c3a9bcf4e1d5e30"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_Base Color_bd0ca1a508c7.png",
+    "bytes": 59581,
+    "sha256": "998884aba43cddb49bddd8f299dcc2fb2d6ad5cdf3970a2c462ec8f1e6aaa231"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_Base Color_be69870c52c0.png",
+    "bytes": 59582,
+    "sha256": "83b13a71968fe5962bffb466868fc9c70715400e8eceec6bb352b7a13fd17de0"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_Base Color_cff776df35c4.png",
+    "bytes": 59581,
+    "sha256": "1cb3d9830636cda77469d3a2be53ff3342d4f8746df43125ebb074e282f93fed"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_Base Color_d47837eb6bfd.png",
+    "bytes": 59576,
+    "sha256": "f3dfde9a893b05905d03483f5373e39144b56395e8a2f72007945ee888887bfc"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_Base Color_df747db1231b.png",
+    "bytes": 59578,
+    "sha256": "a88e09f11a55db0de446bf580585955dc2f67078bc3a5b8ff10db12f71b4a2c6"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_Base Color_e9cbccc594a4.png",
+    "bytes": 59580,
+    "sha256": "0e39259913d75cb5db381f544e475e4223eae2f1d505d85634befa3bcfe835f7"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_Base Color_f0512d331990.png",
+    "bytes": 59579,
+    "sha256": "6947f317cd8cc05f46c5553fa802dcd4c93f9884bd10bd304327e2bde91ab843"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_Roughness_00713061787d.png",
+    "bytes": 59579,
+    "sha256": "cb582b47e59035e06efa0ad3bc5cb7e608726d5ac5508e84a18bbc856c4f972e"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_Roughness_04de408d8827.png",
+    "bytes": 59579,
+    "sha256": "390e884a5004283ae5f7fcaf7ad4f07d966bffbbafdb0434d217c222c8815ad1"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_Roughness_0d5802c9e5a9.png",
+    "bytes": 59579,
+    "sha256": "a7d6299152d6bb23599a0e6f3bafdb13ed2d0ec5692d342dc19e1f9a804115e1"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_Roughness_13e8e98c0bfe.png",
+    "bytes": 59579,
+    "sha256": "5be28e3e3491a68104004a248edb35db45ede03dfb7e9c3cc252d1b45a614290"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_Roughness_2ff4255cd47d.png",
+    "bytes": 59578,
+    "sha256": "aeaa7437bf8bd1bbf2a9c25dfc45a280ee4839f58d0ae1a7cb4a0506e9098fa3"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_Roughness_3ffd5ab29131.png",
+    "bytes": 59579,
+    "sha256": "7c46f32ee4e8891f46148256871ecb86f2fa1b7925d4ac4d6a719cd9073f9127"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_Roughness_453bc4e4fcc5.png",
+    "bytes": 59579,
+    "sha256": "59a983ebf7a29a5cf9129e8114ddc87ce070d7bcfe58112242cdb38d8cc0d3cb"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_Roughness_4670f42816ef.png",
+    "bytes": 59578,
+    "sha256": "b0efad13c9b1afeda60609c86a08194aac8fcf7408b1e939f5d95bb3280c63ef"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_Roughness_46ef56caf897.png",
+    "bytes": 59579,
+    "sha256": "f0d329a5e33b1d41dec767ed5016e49a629c7ff9311069e17be1449fbb7d884c"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_Roughness_520813b88d05.png",
+    "bytes": 59579,
+    "sha256": "e19775cdc95ccdf14a4a50b4772daf790eb28080466c7fdf7533744acb38ead1"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_Roughness_64bb8b69ae28.png",
+    "bytes": 59579,
+    "sha256": "37534f37e12f176c1ecb072ed0a5b7cd2db98d9733df12805e7a66ade7cea7b3"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_Roughness_8c680d483ad1.png",
+    "bytes": 59578,
+    "sha256": "762586d74e2de4c830d49562b8d9341dd3b42dd72bd7fa744ff43558772f46f6"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_Roughness_9f73b00ee047.png",
+    "bytes": 59579,
+    "sha256": "81e33b0d2d864866f6714bf2b1ec9fd68e06399d0e171fe6695dde596275a071"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_Roughness_a5af8b7dfa04.png",
+    "bytes": 59579,
+    "sha256": "893192bcbe7a94d4bcffb7f34e0b923fdccdbcb3af5eb555cf369b517e86ca3d"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_Roughness_bd3d0d9cc5d9.png",
+    "bytes": 59579,
+    "sha256": "158990828898be1c88e18e4474d0ded48f72bec08a5d77c306dc1ff1cccc1094"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_Roughness_dc058dfbf01b.png",
+    "bytes": 59579,
+    "sha256": "bb6f3cc4fb0ef18f480bd1e083192ab7ce3da0a8dc53273712b473c54b88c6c2"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_Roughness_eb70a904942b.png",
+    "bytes": 59579,
+    "sha256": "2fa962f0421b6d8357b32731cedf7216cf493fad1311fa44bcac6723e35f926b"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_flat_normal.png",
+    "bytes": 59579,
+    "sha256": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/textures/V5_unit_factor.png",
+    "bytes": 59578,
+    "sha256": "aeaa7437bf8bd1bbf2a9c25dfc45a280ee4839f58d0ae1a7cb4a0506e9098fa3"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/uv-edges.log",
+    "bytes": 788,
+    "sha256": "3b7469698cdc151e533fbead0b7e8e1b4d6063b44e2884056f134e04f3b89a12"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/uv-repairs.json",
+    "bytes": 14852,
+    "sha256": "96a3dfc6e8e73144d1dc270b132980b5b491339be37ef837fe20114b75910b90"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/uv_edges.py",
+    "bytes": 3349,
+    "sha256": "5a79d80d7c05c7120a8ad40f1e76ba5432c317dc7899f25ea28d0a09ebbc860e"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/vent-contact-faces.json",
+    "bytes": 64608,
+    "sha256": "88ed0979379d81f7fb6800398b7dd9d142bae1c71cecd7d7728f5a0993d9a8bd"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/逐对象自检.csv",
+    "bytes": 10012,
+    "sha256": "814e6a3ecd18c4dc4742c09a9bf5cacf43e491b29e0fa2ae8d7b28b196ca58be"
+  },
+  {
+    "path": "outputs/内饰自检修复V5/逐材质贴图.csv",
+    "bytes": 26918,
+    "sha256": "26bb580a376ec5444dd3cf2e24665e73de432f6f9ff9b0874314b0305c8cff54"
+  }
+]

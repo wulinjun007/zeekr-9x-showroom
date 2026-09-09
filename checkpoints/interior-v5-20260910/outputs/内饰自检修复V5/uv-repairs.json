@@ -1,0 +1,702 @@
+[
+  {
+    "object": "Seat_Layout_A",
+    "faces_reprojected": 506,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "Door_LB_INT_6S",
+    "faces_reprojected": 527,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "Door_LB_INT_NO_sunshade",
+    "faces_reprojected": 11,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "Door_LB_WG",
+    "faces_reprojected": 3904,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "Door_LB_WG.002",
+    "faces_reprojected": 142,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "Door_LB_WG.003",
+    "faces_reprojected": 148,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "Door_LB_WG.004",
+    "faces_reprojected": 122,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "Door_LF_WG",
+    "faces_reprojected": 4251,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "Door_LF_WG.002",
+    "faces_reprojected": 111,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "Door_LF_WG.003",
+    "faces_reprojected": 111,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "Door_LF_WG.004",
+    "faces_reprojected": 122,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "Door_RB_INT_6S",
+    "faces_reprojected": 527,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "Door_RB_INT_NO_sunshade",
+    "faces_reprojected": 11,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "Door_RB_WG",
+    "faces_reprojected": 3904,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "Door_RB_WG.002",
+    "faces_reprojected": 142,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "Door_RB_WG.003",
+    "faces_reprojected": 148,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "Door_RB_WG.004",
+    "faces_reprojected": 122,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "Door_RF_WG",
+    "faces_reprojected": 4251,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "Door_RF_WG.002",
+    "faces_reprojected": 111,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "Door_RF_WG.003",
+    "faces_reprojected": 111,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "Door_RF_WG.004",
+    "faces_reprojected": 122,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "Car_INT",
+    "faces_reprojected": 2782,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "Car_INT_fangxiangpan_L2",
+    "faces_reprojected": 40,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "Carbody_INT_IP_long_screen",
+    "faces_reprojected": 27,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "Carbody_INT_frame_ROOF_TV.002",
+    "faces_reprojected": 1526,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "Carbody_INT_frame_sunshade",
+    "faces_reprojected": 34,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CMF_Floor_covering_study",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CMF_Floor_covering_study.001",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CMF_Floor_covering_study.002",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CMF_Floor_covering_study.003",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV2_Seat_00",
+    "faces_reprojected": 920,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV2_Seat_01",
+    "faces_reprojected": 920,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV2_Seat_02",
+    "faces_reprojected": 192,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV2_Seat_03",
+    "faces_reprojected": 632,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV2_Seat_04",
+    "faces_reprojected": 756,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV2_Seat_05",
+    "faces_reprojected": 1092,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV2_Seat_06",
+    "faces_reprojected": 844,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV2_Seat_07",
+    "faces_reprojected": 798,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV2_Seat_08",
+    "faces_reprojected": 559,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV2_Seat_09",
+    "faces_reprojected": 559,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV2_Seat_12",
+    "faces_reprojected": 192,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV2_Seat_13",
+    "faces_reprojected": 632,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV2_Seat_16",
+    "faces_reprojected": 510,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV2_Seat_17",
+    "faces_reprojected": 684,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV2_Seat_18",
+    "faces_reprojected": 192,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV2_Seat_19",
+    "faces_reprojected": 1130,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV2_Seat_24",
+    "faces_reprojected": 666,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV2_Seat_25",
+    "faces_reprojected": 598,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV2_Seat_26",
+    "faces_reprojected": 684,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV2_Seat_27",
+    "faces_reprojected": 192,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_steering_Car_INT_7",
+    "faces_reprojected": 1189,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_button_Car_INT_9",
+    "faces_reprojected": 411,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_button_Car_INT_10",
+    "faces_reprojected": 413,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_dial_Car_INT_16",
+    "faces_reprojected": 208,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_control_Door_LF_WG_4",
+    "faces_reprojected": 103,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_control_Door_LF_WG_5",
+    "faces_reprojected": 68,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_control_Door_LF_WG_6",
+    "faces_reprojected": 124,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_control_Door_RF_WG_6",
+    "faces_reprojected": 103,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_control_Door_RF_WG_7",
+    "faces_reprojected": 68,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_control_Door_RF_WG_8",
+    "faces_reprojected": 124,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_00",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_01",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_02",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_03",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_04",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_05",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_06",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_07",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_08",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_09",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_10",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_11",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_12",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_13",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_14",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_15",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_16",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_17",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_18",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_19",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_20",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_21",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_22",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_23",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_24",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_25",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_26",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_27",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_28",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_29",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_30",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_31",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_32",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_33",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_34",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_35",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_36",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_37",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_38",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_39",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_40",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_41",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_42",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_43",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_44",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_45",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_46",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_47",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_48",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_49",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_50",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_51",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_52",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_53",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_54",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_55",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_56",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_57",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_58",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_59",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_60",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_61",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_62",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_63",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_64",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_65",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_66",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_67",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_68",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_69",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_70",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "CabinV3_DialKnurl_71",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "Vent_center_L_blade_1",
+    "faces_reprojected": 34,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "Vent_center_L_blade_2",
+    "faces_reprojected": 34,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "Vent_center_L_blade_3",
+    "faces_reprojected": 34,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "Vent_center_L_adjuster",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "Vent_center_R_blade_1",
+    "faces_reprojected": 34,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "Vent_center_R_blade_2",
+    "faces_reprojected": 34,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "Vent_center_R_blade_3",
+    "faces_reprojected": 34,
+    "atlas_uv_preserved": true
+  },
+  {
+    "object": "Vent_center_R_adjuster",
+    "faces_reprojected": 6,
+    "atlas_uv_preserved": true
+  }
+]

@@ -1,0 +1,6371 @@
+{
+  "objects": [
+    {
+      "name": "Backrest_00_Stitches_Concept",
+      "type": "CURVE",
+      "splines": 248,
+      "bevel_depth": 0.00039999998989515007
+    },
+    {
+      "name": "Backrest_01_Stitches_Concept",
+      "type": "CURVE",
+      "splines": 248,
+      "bevel_depth": 0.00039999998989515007
+    },
+    {
+      "name": "Backrest_19_Stitches_Concept",
+      "type": "CURVE",
+      "splines": 244,
+      "bevel_depth": 0.00039999998989515007
+    },
+    {
+      "name": "Backrest_24_Stitches_Concept",
+      "type": "CURVE",
+      "splines": 244,
+      "bevel_depth": 0.00039999998989515007
+    },
+    {
+      "name": "CMF_Floor_covering_study",
+      "type": "MESH",
+      "faces": 384,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 384,
+      "uv_layer": "CMF_MicroUV",
+      "uv_max_percent": 1457984896.0,
+      "uv_over_10": 40,
+      "uv_degenerate": 24,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "TX_000_CMF_Carpet"
+      ]
+    },
+    {
+      "name": "CMF_Floor_covering_study.001",
+      "type": "MESH",
+      "faces": 384,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 384,
+      "uv_layer": "CMF_MicroUV",
+      "uv_max_percent": 36689166336.0,
+      "uv_over_10": 49,
+      "uv_degenerate": 25,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "TX_001_CMF_Carpet"
+      ]
+    },
+    {
+      "name": "CMF_Floor_covering_study.002",
+      "type": "MESH",
+      "faces": 384,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 384,
+      "uv_layer": "CMF_MicroUV",
+      "uv_max_percent": 22703724.0,
+      "uv_over_10": 38,
+      "uv_degenerate": 26,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "TX_002_CMF_Carpet"
+      ]
+    },
+    {
+      "name": "CMF_Floor_covering_study.003",
+      "type": "MESH",
+      "faces": 384,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 384,
+      "uv_layer": "CMF_MicroUV",
+      "uv_max_percent": 4738004480.0,
+      "uv_over_10": 52,
+      "uv_degenerate": 30,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "TX_003_CMF_Carpet"
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_00",
+      "type": "MESH",
+      "faces": 44160,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 44160,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 26.948368072509766,
+      "uv_over_10": 7,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "TX_006_CabinV2_Leather_Perforated_Backrest",
+        "TX_004_CabinV2_Leather_WarmIvory",
+        "TX_005_CabinV2_Leather_DeepNavy"
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_01",
+      "type": "MESH",
+      "faces": 44160,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 44160,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 26.943635940551758,
+      "uv_over_10": 6,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "TX_009_CabinV2_Leather_Perforated_Backrest",
+        "TX_007_CabinV2_Leather_WarmIvory",
+        "TX_008_CabinV2_Leather_DeepNavy"
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_02",
+      "type": "MESH",
+      "faces": 9216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 9216,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 52.00092697143555,
+      "uv_over_10": 34,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "TX_010_CabinV2_Leather_WarmIvory"
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_03",
+      "type": "MESH",
+      "faces": 30336,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 30336,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 9.87509536743164,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "TX_011_CabinV2_Leather_WarmIvory",
+        "TX_012_CabinV2_Leather_DeepNavy"
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_04",
+      "type": "MESH",
+      "faces": 36288,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 36288,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 5.555260181427002,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "TX_013_CabinV2_Leather_WarmIvory",
+        "TX_014_CabinV2_Leather_DeepNavy"
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_05",
+      "type": "MESH",
+      "faces": 52416,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 52416,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 1490.4090576171875,
+      "uv_over_10": 114,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "TX_015_CabinV2_Leather_WarmIvory",
+        "TX_016_CabinV2_Leather_DeepNavy"
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_06",
+      "type": "MESH",
+      "faces": 40512,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 40512,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 675.3807983398438,
+      "uv_over_10": 62,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "TX_017_CabinV2_Leather_WarmIvory",
+        "TX_018_CabinV2_Leather_DeepNavy"
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_07",
+      "type": "MESH",
+      "faces": 38304,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 38304,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 674.5787353515625,
+      "uv_over_10": 62,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "TX_019_CabinV2_Leather_WarmIvory",
+        "TX_020_CabinV2_Leather_DeepNavy"
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_08",
+      "type": "MESH",
+      "faces": 26832,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 26832,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 139.3175048828125,
+      "uv_over_10": 31,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "TX_023_CabinV2_Leather_Perforated_Cushion",
+        "TX_021_CabinV2_Leather_WarmIvory",
+        "TX_022_CabinV2_Leather_DeepNavy"
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_09",
+      "type": "MESH",
+      "faces": 26832,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 26832,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 521.7332153320312,
+      "uv_over_10": 31,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "TX_026_CabinV2_Leather_Perforated_Cushion",
+        "TX_024_CabinV2_Leather_WarmIvory",
+        "TX_025_CabinV2_Leather_DeepNavy"
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_12",
+      "type": "MESH",
+      "faces": 9216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 9216,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 35.750091552734375,
+      "uv_over_10": 34,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "TX_027_CabinV2_Leather_WarmIvory"
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_13",
+      "type": "MESH",
+      "faces": 30336,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 30336,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 9.765958786010742,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "TX_028_CabinV2_Leather_WarmIvory",
+        "TX_029_CabinV2_Leather_DeepNavy"
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_16",
+      "type": "MESH",
+      "faces": 24480,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 24480,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 577.2866821289062,
+      "uv_over_10": 7,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "TX_032_CabinV2_Leather_Perforated_Cushion",
+        "TX_030_CabinV2_Leather_WarmIvory",
+        "TX_031_CabinV2_Leather_DeepNavy"
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_17",
+      "type": "MESH",
+      "faces": 32832,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 32832,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 8.32209587097168,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "TX_033_CabinV2_Leather_WarmIvory",
+        "TX_034_CabinV2_Leather_DeepNavy"
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_18",
+      "type": "MESH",
+      "faces": 9216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 9216,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 33.92486572265625,
+      "uv_over_10": 28,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "TX_035_CabinV2_Leather_WarmIvory"
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_19",
+      "type": "MESH",
+      "faces": 54240,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 54240,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 33.193336486816406,
+      "uv_over_10": 18,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "TX_038_CabinV2_Leather_Perforated_Backrest",
+        "TX_036_CabinV2_Leather_WarmIvory",
+        "TX_037_CabinV2_Leather_DeepNavy"
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_24",
+      "type": "MESH",
+      "faces": 31968,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 31968,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 93.02734375,
+      "uv_over_10": 3,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "TX_041_CabinV2_Leather_Perforated_Backrest",
+        "TX_039_CabinV2_Leather_WarmIvory",
+        "TX_040_CabinV2_Leather_DeepNavy"
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_25",
+      "type": "MESH",
+      "faces": 28704,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 28704,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 341.36395263671875,
+      "uv_over_10": 12,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "TX_044_CabinV2_Leather_Perforated_Cushion",
+        "TX_042_CabinV2_Leather_WarmIvory",
+        "TX_043_CabinV2_Leather_DeepNavy"
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_26",
+      "type": "MESH",
+      "faces": 32832,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 32832,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 8.310544967651367,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "TX_045_CabinV2_Leather_WarmIvory",
+        "TX_046_CabinV2_Leather_DeepNavy"
+      ]
+    },
+    {
+      "name": "CabinV2_Seat_27",
+      "type": "MESH",
+      "faces": 9216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 9216,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 32.334529876708984,
+      "uv_over_10": 30,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "TX_047_CabinV2_Leather_WarmIvory"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_00",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.0208845138549805,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_01",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.0661602020263672,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_02",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.1602282524108887,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_03",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.0439872741699219,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_04",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.0956525802612305,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_05",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.1084914207458496,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_06",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.0460972785949707,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_07",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.0515809059143066,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_08",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.239168643951416,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_09",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.0386347770690918,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_10",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.099395751953125,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_11",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.017308235168457,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_12",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.235806941986084,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_13",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.1188387870788574,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_14",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.1677265167236328,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_15",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.156461238861084,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_16",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.1294960975646973,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_17",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.15126371383667,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_18",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.0241508483886719,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_19",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.075899600982666,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_20",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.1116623878479004,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_21",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.1965155601501465,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_22",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.2315750122070312,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_23",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.1915922164916992,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_24",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.2366533279418945,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_25",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.060807704925537,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_26",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.1417746543884277,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_27",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.1024951934814453,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_28",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.029348373413086,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_29",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.101219654083252,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_30",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.1781811714172363,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_31",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.0934233665466309,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_32",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.1379480361938477,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_33",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.023101806640625,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_34",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.1110782623291016,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_35",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.0233759880065918,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_36",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.0087132453918457,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_37",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.0233759880065918,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_38",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.0997891426086426,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_39",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.0318875312805176,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_40",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.123511791229248,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_41",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.0604500770568848,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_42",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.0895252227783203,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_43",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.0579347610473633,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_44",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 0.994563102722168,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_45",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.0961532592773438,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_46",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.0618209838867188,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_47",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.045215129852295,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_48",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.0836243629455566,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_49",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.1185407638549805,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_50",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.1028170585632324,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_51",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.1197328567504883,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_52",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.0898590087890625,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_53",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.0521292686462402,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_54",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.0842323303222656,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_55",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.046442985534668,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_56",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.1291265487670898,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_57",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.08109712600708,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_58",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.0264992713928223,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_59",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.0386347770690918,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_60",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.1155486106872559,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_61",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.1541008949279785,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_62",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.140761375427246,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_63",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.0818123817443848,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_64",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.0061383247375488,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_65",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.0223984718322754,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_66",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.1054158210754395,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_67",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.138293743133545,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_68",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.0871410369873047,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_69",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.057446002960205,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_70",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.154768466949463,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_DialKnurl_71",
+      "type": "MESH",
+      "faces": 216,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 216,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 1.0251045227050781,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_armrest_Door_LF_WG_7",
+      "type": "MESH",
+      "faces": 17856,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 17856,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 91510.9296875,
+      "uv_over_10": 20222,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "TX_048_CabinV2_Door_INT_2.001"
+      ]
+    },
+    {
+      "name": "CabinV3_armrest_Door_RF_WG_0",
+      "type": "MESH",
+      "faces": 17856,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 17856,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 190147.515625,
+      "uv_over_10": 20156,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "TX_049_CabinV2_Door_INT_2.001"
+      ]
+    },
+    {
+      "name": "CabinV3_button_Car_INT_10",
+      "type": "MESH",
+      "faces": 2350,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 2350,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 1128.0897216796875,
+      "uv_over_10": 537,
+      "uv_degenerate": 2,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV2_Dashboard_INT_1.001",
+        "V4_soft_CabinV3_button_Car_INT_10"
+      ]
+    },
+    {
+      "name": "CabinV3_button_Car_INT_9",
+      "type": "MESH",
+      "faces": 2454,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 2454,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 692.8814086914062,
+      "uv_over_10": 440,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV2_Dashboard_INT_1.001",
+        "V4_soft_CabinV3_button_Car_INT_9"
+      ]
+    },
+    {
+      "name": "CabinV3_control_Door_LF_WG_4",
+      "type": "MESH",
+      "faces": 542,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 542,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 224.74620056152344,
+      "uv_over_10": 19,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_control_Door_LF_WG_5",
+      "type": "MESH",
+      "faces": 507,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 507,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 279.625732421875,
+      "uv_over_10": 11,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_control_Door_LF_WG_6",
+      "type": "MESH",
+      "faces": 736,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 736,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 25096.060546875,
+      "uv_over_10": 10,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_control_Door_RF_WG_6",
+      "type": "MESH",
+      "faces": 542,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 542,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 227.7159423828125,
+      "uv_over_10": 19,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_control_Door_RF_WG_7",
+      "type": "MESH",
+      "faces": 507,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 507,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 279.6515808105469,
+      "uv_over_10": 11,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_control_Door_RF_WG_8",
+      "type": "MESH",
+      "faces": 736,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 736,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 1555.8450927734375,
+      "uv_over_10": 10,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_dial_Car_INT_16",
+      "type": "MESH",
+      "faces": 1200,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 1200,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 1.7319560050964355,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "CabinV3_steering_Car_INT_7",
+      "type": "MESH",
+      "faces": 82464,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 82464,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 7135.4951171875,
+      "uv_over_10": 39541,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV2_Dashboard_INT_1.001",
+        "V4_soft_CabinV3_steering_Car_INT_7"
+      ]
+    },
+    {
+      "name": "Car_INT",
+      "type": "MESH",
+      "faces": 35068,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 35068,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 14333611008.0,
+      "uv_over_10": 27911,
+      "uv_degenerate": 23,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "Black_1",
+        "INT_1",
+        "CabinV2_Dashboard_INT_1.001",
+        "TX_050_CabinV2_Seat_INT_1.001",
+        "TX_051_CabinV2_Seat_INT_2.001",
+        "CabinV2_Dashboard_INT_2.001",
+        "TX_052_CabinV2_Headliner_INT_2.001",
+        "V4_soft_Car_INT",
+        "V4_leather_Car_INT",
+        "V4_screen_instrument",
+        "V4_screen_rear"
+      ]
+    },
+    {
+      "name": "Car_INT_fangxiangpan_L2",
+      "type": "MESH",
+      "faces": 7680,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 7680,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 545.04150390625,
+      "uv_over_10": 8301,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "TX_053_CabinV2_Seat_INT_1.001",
+        "V4_leather_Car_INT_fangxiangpan_L2"
+      ]
+    },
+    {
+      "name": "Carbody",
+      "type": "MESH",
+      "faces": 109194,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 109194,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 3566.175537109375,
+      "uv_over_10": 18,
+      "uv_degenerate": 8,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "car_paint_hei",
+        "Plastic",
+        "Piano_Black",
+        "Rubber",
+        "Black_1",
+        "Glass_ROOF",
+        "Glass_ROOF_B",
+        "Red",
+        "Grille_Matrix_yage",
+        "Glass_Light",
+        "Chrome_black",
+        "Glass_triangle",
+        "Glass_triangle_B",
+        "Glass_Clear",
+        "Glass_Clear_B",
+        "Chrome Matte",
+        "Chrome Glossy",
+        "chepai",
+        "V4_fabric_Carbody"
+      ]
+    },
+    {
+      "name": "Carbody_INT_IP_long_screen",
+      "type": "MESH",
+      "faces": 1117,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 1117,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 5362923520.0,
+      "uv_over_10": 1413,
+      "uv_degenerate": 2,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "V4_soft_Carbody_INT_IP_long_screen",
+        "V4_screen_center",
+        "CabinV2_Dashboard_INT_1.001"
+      ]
+    },
+    {
+      "name": "Carbody_INT_frame_ROOF_TV.002",
+      "type": "MESH",
+      "faces": 5286,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 5286,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 50.16100311279297,
+      "uv_over_10": 228,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "TX_055_CabinV2_Headliner_INT_2.001",
+        "V4_fabric_Carbody_INT_frame_ROOF_TV.002"
+      ]
+    },
+    {
+      "name": "Carbody_INT_frame_sunshade",
+      "type": "MESH",
+      "faces": 102,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 102,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 0.002276897430419922,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "V4_fabric_Carbody_INT_frame_sunshade"
+      ]
+    },
+    {
+      "name": "Door_LB_INT_6S",
+      "type": "MESH",
+      "faces": 3183,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 3183,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 127395.96875,
+      "uv_over_10": 1867,
+      "uv_degenerate": 2,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "V4_leather_Door_LB_INT_6S",
+        "V4_fabric_Door_LB_INT_6S",
+        "CabinV2_Trim_INT_2.001",
+        "TX_057_CabinV2_Door_INT_2.001"
+      ]
+    },
+    {
+      "name": "Door_LB_INT_NO_sunshade",
+      "type": "MESH",
+      "faces": 843,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 843,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 80.14466857910156,
+      "uv_over_10": 607,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "TX_058_CabinV2_Door_INT_2.001",
+        "V4_fabric_Door_LB_INT_NO_sunshade"
+      ]
+    },
+    {
+      "name": "Door_LB_WG",
+      "type": "MESH",
+      "faces": 12186,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 12186,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 6173.853515625,
+      "uv_over_10": 29,
+      "uv_degenerate": 13,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "car_paint_hei",
+        "Plastic",
+        "Piano_Black",
+        "Rubber",
+        "Black_1",
+        "Glass_Black",
+        "Glass_Black_B",
+        "TX_059_CabinV2_Door_INT_2.001"
+      ]
+    },
+    {
+      "name": "Door_LF_WG",
+      "type": "MESH",
+      "faces": 17055,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 17055,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 3401146.5,
+      "uv_over_10": 2165,
+      "uv_degenerate": 1,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "car_paint_hei",
+        "Plastic",
+        "Piano_Black",
+        "Rubber",
+        "Black_1",
+        "Glass_Clear",
+        "Glass_Clear_B",
+        "TX_060_CabinV2_Door_INT_2.001",
+        "CabinV2_Trim_INT_2.001",
+        "V4_leather_Door_LF_WG",
+        "V4_fabric_Door_LF_WG"
+      ]
+    },
+    {
+      "name": "Door_RB_INT_6S",
+      "type": "MESH",
+      "faces": 3183,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 3183,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 3525.4990234375,
+      "uv_over_10": 1874,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "V4_leather_Door_RB_INT_6S",
+        "V4_fabric_Door_RB_INT_6S",
+        "CabinV2_Trim_INT_2.001",
+        "TX_061_CabinV2_Door_INT_2.001"
+      ]
+    },
+    {
+      "name": "Door_RB_INT_NO_sunshade",
+      "type": "MESH",
+      "faces": 843,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 843,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 80.13301849365234,
+      "uv_over_10": 608,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "TX_062_CabinV2_Door_INT_2.001",
+        "V4_fabric_Door_RB_INT_NO_sunshade"
+      ]
+    },
+    {
+      "name": "Door_RB_WG",
+      "type": "MESH",
+      "faces": 12186,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 12186,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 2352.008544921875,
+      "uv_over_10": 30,
+      "uv_degenerate": 12,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "car_paint_hei",
+        "Plastic",
+        "Piano_Black",
+        "Rubber",
+        "Black_1",
+        "Glass_Black",
+        "Glass_Black_B",
+        "TX_063_CabinV2_Door_INT_2.001"
+      ]
+    },
+    {
+      "name": "Door_RF_WG",
+      "type": "MESH",
+      "faces": 16651,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 16651,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 1651987.5,
+      "uv_over_10": 1496,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "car_paint_hei",
+        "Plastic",
+        "Piano_Black",
+        "Rubber",
+        "Black_1",
+        "Glass_Clear",
+        "Glass_Clear_B",
+        "TX_064_CabinV2_Door_INT_2.001",
+        "CabinV2_Trim_INT_2.001",
+        "V4_leather_Door_RF_WG",
+        "V4_fabric_Door_RF_WG"
+      ]
+    },
+    {
+      "name": "Seat_08_DoubleStitch_Concept",
+      "type": "CURVE",
+      "splines": 256,
+      "bevel_depth": 0.00044999999227002263
+    },
+    {
+      "name": "Seat_09_DoubleStitch_Concept",
+      "type": "CURVE",
+      "splines": 256,
+      "bevel_depth": 0.00044999999227002263
+    },
+    {
+      "name": "Seat_16_DoubleStitch_Concept",
+      "type": "CURVE",
+      "splines": 256,
+      "bevel_depth": 0.00044999999227002263
+    },
+    {
+      "name": "Seat_25_DoubleStitch_Concept",
+      "type": "CURVE",
+      "splines": 256,
+      "bevel_depth": 0.00044999999227002263
+    },
+    {
+      "name": "Seat_Layout_A",
+      "type": "MESH",
+      "faces": 1518,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 1518,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 0.011539459228515625,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "V4_leather_PassengerBackrestShell"
+      ]
+    },
+    {
+      "name": "TrunkDoor_Lower",
+      "type": "MESH",
+      "faces": 9612,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 9612,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 238.7311248779297,
+      "uv_over_10": 636,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "car_paint_hei",
+        "Plastic",
+        "Piano_Black",
+        "chepai",
+        "TX_065_CabinV2_Door_INT_2.001"
+      ]
+    },
+    {
+      "name": "Trunk_Upper_INT_NO_sunshade",
+      "type": "MESH",
+      "faces": 96,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 96,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 5.033206939697266,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "TX_066_CabinV2_Headliner_INT_2.001"
+      ]
+    },
+    {
+      "name": "Vent_center_L_adjuster",
+      "type": "MESH",
+      "faces": 384,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 384,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 0.5842924118041992,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "Vent_center_L_blade_1",
+      "type": "MESH",
+      "faces": 832,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 832,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 0.5726337432861328,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "V5_Vent_SoftBlack"
+      ]
+    },
+    {
+      "name": "Vent_center_L_blade_2",
+      "type": "MESH",
+      "faces": 832,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 832,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 0.5529403686523438,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "V5_Vent_SoftBlack"
+      ]
+    },
+    {
+      "name": "Vent_center_L_blade_3",
+      "type": "MESH",
+      "faces": 832,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 832,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 0.6572484970092773,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "V5_Vent_SoftBlack"
+      ]
+    },
+    {
+      "name": "Vent_center_R_adjuster",
+      "type": "MESH",
+      "faces": 384,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 384,
+      "uv_layer": "UV贴图",
+      "uv_max_percent": 0.40689706802368164,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "CabinV3_SatinAluminium"
+      ]
+    },
+    {
+      "name": "Vent_center_R_blade_1",
+      "type": "MESH",
+      "faces": 832,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 832,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 0.42411088943481445,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "V5_Vent_SoftBlack"
+      ]
+    },
+    {
+      "name": "Vent_center_R_blade_2",
+      "type": "MESH",
+      "faces": 832,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 832,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 0.5746841430664062,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "V5_Vent_SoftBlack"
+      ]
+    },
+    {
+      "name": "Vent_center_R_blade_3",
+      "type": "MESH",
+      "faces": 832,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 832,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 0.6061434745788574,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "V5_Vent_SoftBlack"
+      ]
+    },
+    {
+      "name": "Vent_center_cavity",
+      "type": "MESH",
+      "faces": 5,
+      "triangles": 0,
+      "ngons": 0,
+      "quads": 5,
+      "uv_layer": "UVMap",
+      "uv_max_percent": 7.152557373046875e-05,
+      "uv_over_10": 0,
+      "uv_degenerate": 0,
+      "uv_metric": "(sigma_max/sigma_min - 1)*100, rotation and scale independent, triangle Jacobian",
+      "materials": [
+        "V5_Vent_SoftBlack"
+      ]
+    }
+  ],
+  "materials": {
+    "TX_000_CMF_Carpet": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "color.jpg.002",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "normal.jpg.002",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "roughness.jpg.002",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.949999988079071
+    },
+    "TX_001_CMF_Carpet": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "color.jpg.002",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "normal.jpg.002",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "roughness.jpg.002",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.949999988079071
+    },
+    "TX_002_CMF_Carpet": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "color.jpg.002",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "normal.jpg.002",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "roughness.jpg.002",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.949999988079071
+    },
+    "TX_003_CMF_Carpet": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "color.jpg.002",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "normal.jpg.002",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "roughness.jpg.002",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.949999988079071
+    },
+    "TX_006_CabinV2_Leather_Perforated_Backrest": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_004_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_5e9e6dece00b",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_005_CabinV2_Leather_DeepNavy": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_25aa5357884d",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_009_CabinV2_Leather_Perforated_Backrest": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_007_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_5e9e6dece00b",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_008_CabinV2_Leather_DeepNavy": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_25aa5357884d",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_010_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_5e9e6dece00b",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_011_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_5e9e6dece00b",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_012_CabinV2_Leather_DeepNavy": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_25aa5357884d",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_013_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_5e9e6dece00b",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_014_CabinV2_Leather_DeepNavy": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_25aa5357884d",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_015_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_5e9e6dece00b",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_016_CabinV2_Leather_DeepNavy": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_25aa5357884d",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_017_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_5e9e6dece00b",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_018_CabinV2_Leather_DeepNavy": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_25aa5357884d",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_019_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_5e9e6dece00b",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_020_CabinV2_Leather_DeepNavy": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_25aa5357884d",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_023_CabinV2_Leather_Perforated_Cushion": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_021_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_5e9e6dece00b",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_022_CabinV2_Leather_DeepNavy": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_25aa5357884d",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_026_CabinV2_Leather_Perforated_Cushion": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_024_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_5e9e6dece00b",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_025_CabinV2_Leather_DeepNavy": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_25aa5357884d",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_027_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_5e9e6dece00b",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_028_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_5e9e6dece00b",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_029_CabinV2_Leather_DeepNavy": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_25aa5357884d",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_032_CabinV2_Leather_Perforated_Cushion": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_030_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_5e9e6dece00b",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_031_CabinV2_Leather_DeepNavy": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_25aa5357884d",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_033_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_5e9e6dece00b",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_034_CabinV2_Leather_DeepNavy": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_25aa5357884d",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_035_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_5e9e6dece00b",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_038_CabinV2_Leather_Perforated_Backrest": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_036_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_5e9e6dece00b",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_037_CabinV2_Leather_DeepNavy": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_25aa5357884d",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_041_CabinV2_Leather_Perforated_Backrest": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_039_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_5e9e6dece00b",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_040_CabinV2_Leather_DeepNavy": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_25aa5357884d",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_044_CabinV2_Leather_Perforated_Cushion": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_042_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_5e9e6dece00b",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_043_CabinV2_Leather_DeepNavy": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_25aa5357884d",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_045_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_5e9e6dece00b",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_046_CabinV2_Leather_DeepNavy": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_25aa5357884d",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_047_CabinV2_Leather_WarmIvory": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_5e9e6dece00b",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "CabinV3_SatinAluminium": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_bd0ca1a508c7",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_Roughness_a5af8b7dfa04",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.3400000035762787
+    },
+    "TX_048_CabinV2_Door_INT_2.001": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "9X_lanbai_INT_2.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "INT_normal2.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_Roughness_453bc4e4fcc5",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_049_CabinV2_Door_INT_2.001": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "9X_lanbai_INT_2.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "INT_normal2.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_Roughness_453bc4e4fcc5",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "CabinV2_Dashboard_INT_1.001": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "9X_lanbai_INT_1.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "INT_normal.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.550000011920929
+    },
+    "V4_soft_CabinV3_button_Car_INT_10": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "01_soft_dashboard_BaseColor.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "01_soft_dashboard_Normal.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "01_soft_dashboard_Roughness.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.5
+    },
+    "V4_soft_CabinV3_button_Car_INT_9": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "01_soft_dashboard_BaseColor.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "01_soft_dashboard_Normal.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "01_soft_dashboard_Roughness.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.5
+    },
+    "V4_soft_CabinV3_steering_Car_INT_7": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "01_soft_dashboard_BaseColor.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "01_soft_dashboard_Normal.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "01_soft_dashboard_Roughness.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.5
+    },
+    "Black_1": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_df747db1231b",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_Roughness_4670f42816ef",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.4699999988079071
+    },
+    "INT_1": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "9X_lanbai_INT_1.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "INT_normal.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "int1.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.550000011920929
+    },
+    "TX_050_CabinV2_Seat_INT_1.001": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "9X_lanbai_INT_1.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "INT_normal.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "roughness.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.550000011920929
+    },
+    "TX_051_CabinV2_Seat_INT_2.001": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "9X_lanbai_INT_2.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "INT_normal2.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "roughness.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.550000011920929
+    },
+    "CabinV2_Dashboard_INT_2.001": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "9X_lanbai_INT_2.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "INT_normal2.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.550000011920929
+    },
+    "TX_052_CabinV2_Headliner_INT_2.001": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "9X_lanbai_INT_2.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "INT_normal2.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.550000011920929
+    },
+    "V4_soft_Car_INT": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "01_soft_dashboard_BaseColor.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "01_soft_dashboard_Normal.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "01_soft_dashboard_Roughness.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.5
+    },
+    "V4_leather_Car_INT": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "02_nappa_seat_BaseColor.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "02_nappa_seat_Normal.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "02_nappa_seat_Roughness.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.5
+    },
+    "V4_screen_instrument": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "instrument_2K.png",
+            "size": [
+              2048,
+              768
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_Roughness_520813b88d05",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.2199999988079071
+    },
+    "V4_screen_rear": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "instrument_2K.png",
+            "size": [
+              2048,
+              768
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_Roughness_520813b88d05",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.2199999988079071
+    },
+    "TX_053_CabinV2_Seat_INT_1.001": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "9X_lanbai_INT_1.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "INT_normal.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "roughness.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.550000011920929
+    },
+    "V4_leather_Car_INT_fangxiangpan_L2": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "02_nappa_seat_BaseColor.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "02_nappa_seat_Normal.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "02_nappa_seat_Roughness.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.5
+    },
+    "car_paint_hei": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_b125525d0f37",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_Roughness_46ef56caf897",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.12999999523162842
+    },
+    "Plastic": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_df747db1231b",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "Ext_AO_normal.png.001",
+            "size": [
+              512,
+              512
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_Roughness_4670f42816ef",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.4699999988079071
+    },
+    "Piano_Black": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_df747db1231b",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_Roughness_00713061787d",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.07999999821186066
+    },
+    "Rubber": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_df747db1231b",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_Roughness_4670f42816ef",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.4699999988079071
+    },
+    "Glass_ROOF": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_be69870c52c0",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_Roughness_00713061787d",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.07999999821186066
+    },
+    "Glass_ROOF_B": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_be69870c52c0",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_Roughness_00713061787d",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.07999999821186066
+    },
+    "Red": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_9a7a687458cc",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_Roughness_8c680d483ad1",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.5
+    },
+    "Grille_Matrix_yage": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_8b17d11a3e13",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_Roughness_eb70a904942b",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.30000001192092896
+    },
+    "Glass_Light": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_be69870c52c0",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_Roughness_00713061787d",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.07999999821186066
+    },
+    "Chrome_black": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_f0512d331990",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_Roughness_64bb8b69ae28",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.10000000149011612
+    },
+    "Glass_triangle": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_be69870c52c0",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_Roughness_00713061787d",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.07999999821186066
+    },
+    "Glass_triangle_B": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_be69870c52c0",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_Roughness_00713061787d",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.07999999821186066
+    },
+    "Glass_Clear": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_be69870c52c0",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_Roughness_00713061787d",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.07999999821186066
+    },
+    "Glass_Clear_B": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_be69870c52c0",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_Roughness_00713061787d",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.07999999821186066
+    },
+    "Chrome Matte": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_2e476161d339",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_Roughness_3ffd5ab29131",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.1899999976158142
+    },
+    "Chrome Glossy": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_2e476161d339",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_Roughness_64bb8b69ae28",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.10000000149011612
+    },
+    "chepai": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "chepai.jpg",
+            "size": [
+              512,
+              512
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_Roughness_4670f42816ef",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.4699999988079071
+    },
+    "V4_fabric_Carbody": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "03_alcantara_headliner_BaseColor.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "03_alcantara_headliner_Normal.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "03_alcantara_headliner_Roughness.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.5
+    },
+    "V4_soft_Carbody_INT_IP_long_screen": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "01_soft_dashboard_BaseColor.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "01_soft_dashboard_Normal.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "01_soft_dashboard_Roughness.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.5
+    },
+    "V4_screen_center": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "center_display_3K.png",
+            "size": [
+              3072,
+              972
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_Roughness_520813b88d05",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.2199999988079071
+    },
+    "TX_055_CabinV2_Headliner_INT_2.001": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "9X_lanbai_INT_2.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "INT_normal2.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.550000011920929
+    },
+    "V4_fabric_Carbody_INT_frame_ROOF_TV.002": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "03_alcantara_headliner_BaseColor.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "03_alcantara_headliner_Normal.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "03_alcantara_headliner_Roughness.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.5
+    },
+    "V4_fabric_Carbody_INT_frame_sunshade": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "03_alcantara_headliner_BaseColor.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "03_alcantara_headliner_Normal.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "03_alcantara_headliner_Roughness.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.5
+    },
+    "V4_leather_Door_LB_INT_6S": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "02_nappa_seat_BaseColor.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "02_nappa_seat_Normal.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "02_nappa_seat_Roughness.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.5
+    },
+    "V4_fabric_Door_LB_INT_6S": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "03_alcantara_headliner_BaseColor.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "03_alcantara_headliner_Normal.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "03_alcantara_headliner_Roughness.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.5
+    },
+    "CabinV2_Trim_INT_2.001": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "9X_lanbai_INT_2.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "INT_normal2.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_Roughness_453bc4e4fcc5",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.7200000286102295
+    },
+    "TX_057_CabinV2_Door_INT_2.001": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "9X_lanbai_INT_2.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "INT_normal2.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "roughness.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.550000011920929
+    },
+    "TX_058_CabinV2_Door_INT_2.001": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "9X_lanbai_INT_2.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "INT_normal2.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "roughness.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.550000011920929
+    },
+    "V4_fabric_Door_LB_INT_NO_sunshade": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "03_alcantara_headliner_BaseColor.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "03_alcantara_headliner_Normal.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "03_alcantara_headliner_Roughness.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.5
+    },
+    "Glass_Black": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_be69870c52c0",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_Roughness_00713061787d",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.07999999821186066
+    },
+    "Glass_Black_B": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_be69870c52c0",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_Roughness_00713061787d",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.07999999821186066
+    },
+    "TX_059_CabinV2_Door_INT_2.001": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "9X_lanbai_INT_2.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "INT_normal2.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "roughness.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.550000011920929
+    },
+    "TX_060_CabinV2_Door_INT_2.001": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "9X_lanbai_INT_2.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "INT_normal2.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "roughness.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.550000011920929
+    },
+    "V4_leather_Door_LF_WG": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "02_nappa_seat_BaseColor.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "02_nappa_seat_Normal.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "02_nappa_seat_Roughness.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.5
+    },
+    "V4_fabric_Door_LF_WG": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "03_alcantara_headliner_BaseColor.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "03_alcantara_headliner_Normal.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "03_alcantara_headliner_Roughness.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.5
+    },
+    "V4_leather_Door_RB_INT_6S": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "02_nappa_seat_BaseColor.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "02_nappa_seat_Normal.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "02_nappa_seat_Roughness.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.5
+    },
+    "V4_fabric_Door_RB_INT_6S": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "03_alcantara_headliner_BaseColor.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "03_alcantara_headliner_Normal.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "03_alcantara_headliner_Roughness.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.5
+    },
+    "TX_061_CabinV2_Door_INT_2.001": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "9X_lanbai_INT_2.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "INT_normal2.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "roughness.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.550000011920929
+    },
+    "TX_062_CabinV2_Door_INT_2.001": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "9X_lanbai_INT_2.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "INT_normal2.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "roughness.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.550000011920929
+    },
+    "V4_fabric_Door_RB_INT_NO_sunshade": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "03_alcantara_headliner_BaseColor.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "03_alcantara_headliner_Normal.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "03_alcantara_headliner_Roughness.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.5
+    },
+    "TX_063_CabinV2_Door_INT_2.001": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "9X_lanbai_INT_2.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "INT_normal2.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "roughness.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.550000011920929
+    },
+    "TX_064_CabinV2_Door_INT_2.001": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "9X_lanbai_INT_2.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "INT_normal2.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "roughness.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.550000011920929
+    },
+    "V4_leather_Door_RF_WG": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "02_nappa_seat_BaseColor.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "02_nappa_seat_Normal.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "02_nappa_seat_Roughness.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.5
+    },
+    "V4_fabric_Door_RF_WG": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "03_alcantara_headliner_BaseColor.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "03_alcantara_headliner_Normal.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "03_alcantara_headliner_Roughness.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.5
+    },
+    "V4_leather_PassengerBackrestShell": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "02_nappa_seat_BaseColor.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "02_nappa_seat_Normal.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "02_nappa_seat_Roughness.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.5
+    },
+    "TX_065_CabinV2_Door_INT_2.001": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "9X_lanbai_INT_2.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "INT_normal2.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "roughness.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.550000011920929
+    },
+    "TX_066_CabinV2_Headliner_INT_2.001": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "9X_lanbai_INT_2.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "INT_normal2.jpg.001",
+            "size": [
+              1024,
+              1024
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_unit_factor",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.550000011920929
+    },
+    "V5_Vent_SoftBlack": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_e9cbccc594a4",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_Roughness_04de408d8827",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.6200000047683716
+    },
+    "CabinV2_WarmGrey_Thread.001": {
+      "channels": {
+        "Base Color": [
+          {
+            "image": "V5_Base Color_68f994877572",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Normal": [
+          {
+            "image": "V5_flat_normal",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ],
+        "Roughness": [
+          {
+            "image": "V5_Roughness_0d5802c9e5a9",
+            "size": [
+              2048,
+              2048
+            ],
+            "packed": true
+          }
+        ]
+      },
+      "roughness_default": 0.8999999761581421
+    }
+  },
+  "summary": {
+    "mesh_objects": 134,
+    "triangles": 0,
+    "quads": 998502,
+    "ngons": 0,
+    "bad_uv_objects": 44,
+    "bad_materials": []
+  }
+}

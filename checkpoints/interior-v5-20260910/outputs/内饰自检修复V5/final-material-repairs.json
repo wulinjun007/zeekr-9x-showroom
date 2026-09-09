@@ -1,0 +1,320 @@
+{
+  "materials": [
+    {
+      "name": "INT_2",
+      "added": [
+        "Roughness"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "Door handle_yage",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "Molding_Matrix_C_liangyin",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "lamp_B_A",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "lamp_B_B",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "lamp_F_A",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "Red",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "lamp_F_B",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "Light_LOGO",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "Glass_Light",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "Brake Caliper",
+      "added": [
+        "Base Color",
+        "Roughness"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "lunguhei",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "V5_Vent_SoftBlack",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "Brake Caliper_2",
+      "added": [
+        "Base Color",
+        "Roughness"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "starlit_sky",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "Glass_ROOF",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "lungujinshu",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "Studio pearl",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "Chrome Glossy",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "Glass_ROOF_B",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "Brake disc",
+      "added": [
+        "Base Color",
+        "Roughness"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "luntai",
+      "added": [
+        "Base Color",
+        "Roughness"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_066_CabinV2_Headliner_INT_2.001",
+      "added": [
+        "Roughness"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "Glass_triangle",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "Chrome Matte",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "sunfat",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "Mirro_Turn_Lamp_L",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "Chrome_black",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TopLight_Stop_Up",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "Glass_triangle_B",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "Mirro_Turn_Lamp_R",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "Grille_Matrix_yage",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "transparency_net",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "Mirror",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "Trunk_starlit_sky",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "Molding_Matrix_B",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    }
+  ]
+}

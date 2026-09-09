@@ -1,0 +1,534 @@
+[
+  {
+    "object": "Seat_Layout_A",
+    "faces_uv_repaired": 1518
+  },
+  {
+    "object": "Door_LB_INT_6S",
+    "faces_uv_repaired": 1581
+  },
+  {
+    "object": "Door_LB_INT_NO_sunshade",
+    "faces_uv_repaired": 33
+  },
+  {
+    "object": "Door_LB_WG",
+    "faces_uv_repaired": 11718
+  },
+  {
+    "object": "Door_LF_WG",
+    "faces_uv_repaired": 14771
+  },
+  {
+    "object": "Door_RB_INT_6S",
+    "faces_uv_repaired": 1581
+  },
+  {
+    "object": "Door_RB_INT_NO_sunshade",
+    "faces_uv_repaired": 33
+  },
+  {
+    "object": "Door_RB_WG",
+    "faces_uv_repaired": 11718
+  },
+  {
+    "object": "Door_RF_WG",
+    "faces_uv_repaired": 14773
+  },
+  {
+    "object": "TrunkDoor_Lower",
+    "faces_uv_repaired": 8946
+  },
+  {
+    "object": "Trunk_Upper_INT_NO_sunshade",
+    "faces_uv_repaired": 0
+  },
+  {
+    "object": "Carbody",
+    "faces_uv_repaired": 109192
+  },
+  {
+    "object": "Car_INT",
+    "faces_uv_repaired": 8357
+  },
+  {
+    "object": "Car_INT_fangxiangpan_L2",
+    "faces_uv_repaired": 1920
+  },
+  {
+    "object": "Carbody_INT_IP_long_screen",
+    "faces_uv_repaired": 100
+  },
+  {
+    "object": "Carbody_INT_frame_ROOF_TV.002",
+    "faces_uv_repaired": 4578
+  },
+  {
+    "object": "Carbody_INT_frame_sunshade",
+    "faces_uv_repaired": 102
+  },
+  {
+    "object": "CMF_Floor_covering_study",
+    "faces_uv_repaired": 372
+  },
+  {
+    "object": "CMF_Floor_covering_study.001",
+    "faces_uv_repaired": 374
+  },
+  {
+    "object": "CMF_Floor_covering_study.002",
+    "faces_uv_repaired": 372
+  },
+  {
+    "object": "CMF_Floor_covering_study.003",
+    "faces_uv_repaired": 374
+  },
+  {
+    "object": "CabinV2_Seat_00",
+    "faces_uv_repaired": 44160
+  },
+  {
+    "object": "CabinV2_Seat_01",
+    "faces_uv_repaired": 44160
+  },
+  {
+    "object": "CabinV2_Seat_02",
+    "faces_uv_repaired": 9216
+  },
+  {
+    "object": "CabinV2_Seat_03",
+    "faces_uv_repaired": 30336
+  },
+  {
+    "object": "CabinV2_Seat_04",
+    "faces_uv_repaired": 36288
+  },
+  {
+    "object": "CabinV2_Seat_05",
+    "faces_uv_repaired": 52416
+  },
+  {
+    "object": "CabinV2_Seat_06",
+    "faces_uv_repaired": 40512
+  },
+  {
+    "object": "CabinV2_Seat_07",
+    "faces_uv_repaired": 38304
+  },
+  {
+    "object": "CabinV2_Seat_08",
+    "faces_uv_repaired": 26832
+  },
+  {
+    "object": "CabinV2_Seat_09",
+    "faces_uv_repaired": 26832
+  },
+  {
+    "object": "CabinV2_Seat_12",
+    "faces_uv_repaired": 9216
+  },
+  {
+    "object": "CabinV2_Seat_13",
+    "faces_uv_repaired": 30336
+  },
+  {
+    "object": "CabinV2_Seat_16",
+    "faces_uv_repaired": 24480
+  },
+  {
+    "object": "CabinV2_Seat_17",
+    "faces_uv_repaired": 32832
+  },
+  {
+    "object": "CabinV2_Seat_18",
+    "faces_uv_repaired": 9216
+  },
+  {
+    "object": "CabinV2_Seat_19",
+    "faces_uv_repaired": 54240
+  },
+  {
+    "object": "CabinV2_Seat_24",
+    "faces_uv_repaired": 31968
+  },
+  {
+    "object": "CabinV2_Seat_25",
+    "faces_uv_repaired": 28704
+  },
+  {
+    "object": "CabinV2_Seat_26",
+    "faces_uv_repaired": 32832
+  },
+  {
+    "object": "CabinV2_Seat_27",
+    "faces_uv_repaired": 9216
+  },
+  {
+    "object": "CabinV3_steering_Car_INT_7",
+    "faces_uv_repaired": 57072
+  },
+  {
+    "object": "CabinV3_button_Car_INT_9",
+    "faces_uv_repaired": 2208
+  },
+  {
+    "object": "CabinV3_button_Car_INT_10",
+    "faces_uv_repaired": 1978
+  },
+  {
+    "object": "CabinV3_dial_Car_INT_16",
+    "faces_uv_repaired": 1200
+  },
+  {
+    "object": "CabinV3_control_Door_LF_WG_4",
+    "faces_uv_repaired": 542
+  },
+  {
+    "object": "CabinV3_control_Door_LF_WG_5",
+    "faces_uv_repaired": 507
+  },
+  {
+    "object": "CabinV3_control_Door_LF_WG_6",
+    "faces_uv_repaired": 736
+  },
+  {
+    "object": "CabinV3_armrest_Door_LF_WG_7",
+    "faces_uv_repaired": 0
+  },
+  {
+    "object": "CabinV3_armrest_Door_RF_WG_0",
+    "faces_uv_repaired": 0
+  },
+  {
+    "object": "CabinV3_control_Door_RF_WG_6",
+    "faces_uv_repaired": 542
+  },
+  {
+    "object": "CabinV3_control_Door_RF_WG_7",
+    "faces_uv_repaired": 507
+  },
+  {
+    "object": "CabinV3_control_Door_RF_WG_8",
+    "faces_uv_repaired": 736
+  },
+  {
+    "object": "CabinV3_DialKnurl_00",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_01",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_02",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_03",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_04",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_05",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_06",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_07",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_08",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_09",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_10",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_11",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_12",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_13",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_14",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_15",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_16",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_17",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_18",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_19",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_20",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_21",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_22",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_23",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_24",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_25",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_26",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_27",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_28",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_29",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_30",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_31",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_32",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_33",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_34",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_35",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_36",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_37",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_38",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_39",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_40",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_41",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_42",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_43",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_44",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_45",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_46",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_47",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_48",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_49",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_50",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_51",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_52",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_53",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_54",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_55",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_56",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_57",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_58",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_59",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_60",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_61",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_62",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_63",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_64",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_65",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_66",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_67",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_68",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_69",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_70",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "CabinV3_DialKnurl_71",
+    "faces_uv_repaired": 216
+  },
+  {
+    "object": "Vent_center_L_blade_1",
+    "faces_uv_repaired": 832
+  },
+  {
+    "object": "Vent_center_L_blade_2",
+    "faces_uv_repaired": 832
+  },
+  {
+    "object": "Vent_center_L_blade_3",
+    "faces_uv_repaired": 832
+  },
+  {
+    "object": "Vent_center_L_adjuster",
+    "faces_uv_repaired": 384
+  },
+  {
+    "object": "Vent_center_R_blade_1",
+    "faces_uv_repaired": 832
+  },
+  {
+    "object": "Vent_center_R_blade_2",
+    "faces_uv_repaired": 832
+  },
+  {
+    "object": "Vent_center_R_blade_3",
+    "faces_uv_repaired": 832
+  },
+  {
+    "object": "Vent_center_R_adjuster",
+    "faces_uv_repaired": 384
+  }
+]

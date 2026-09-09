@@ -1,0 +1,14 @@
+00:00.274  blend            | Read blend: "/Users/mac/Documents/Codex/2026-09-08/referenced-chatgpt-conversation-this-is-an/outputs/内饰自检修复V5/ZEEKR_9X_内饰自检修复V5.blend"
+CONTACT CabinV2_Seat_19 Door_LF_WG 0
+CONTACT CabinV2_Seat_24 Door_RF_WG 0
+CONTACT CabinV2_Seat_00 Door_LB_INT_6S 0
+CONTACT CabinV2_Seat_01 Door_RB_INT_6S 0
+CONTACT Vent_center_L_blade_1 Car_INT 0
+CONTACT Vent_center_L_blade_2 Car_INT 0
+CONTACT Vent_center_L_blade_3 Car_INT 0
+CONTACT Vent_center_R_blade_1 Car_INT 0
+CONTACT Vent_center_R_blade_2 Car_INT 0
+CONTACT Vent_center_R_blade_3 Car_INT 0
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

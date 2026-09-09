@@ -1,0 +1,8 @@
+00:00.273  blend            | Read blend: "/Users/mac/Documents/Codex/2026-09-08/referenced-chatgpt-conversation-this-is-an/outputs/内饰自检修复V5/ZEEKR_9X_内饰自检修复V5.blend"
+/Users/mac/Documents/Codex/2026-09-08/referenced-chatgpt-conversation-this-is-an/outputs/内饰自检修复V5/uv_edges.py:6: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  return bool(m and m.use_nodes and any(n.type=='TEX_IMAGE' and n.image and (n.image.name.startswith(('9X','INT_','int1','int2','screen.jpg')) or n.image.name in ['center_display_3K.png','instrument_2K.png']) for n in m.node_tree.nodes))
+信息: 已另存为 "ZEEKR_9X_内饰自检修复V5.blend"
+UV_REPAIRED 140
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

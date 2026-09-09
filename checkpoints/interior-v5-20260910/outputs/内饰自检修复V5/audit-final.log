@@ -1,0 +1,9 @@
+00:00.276  blend            | Read blend: "/Users/mac/Documents/Codex/2026-09-08/referenced-chatgpt-conversation-this-is-an/outputs/内饰自检修复V5/ZEEKR_9X_内饰自检修复V5.blend"
+/Users/mac/Documents/Codex/2026-09-08/referenced-chatgpt-conversation-this-is-an/outputs/内饰自检修复V5/audit_final.py:34: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  bs=next((n for n in m.node_tree.nodes if n.type=='BSDF_PRINCIPLED'),None) if m.use_nodes else None
+/Users/mac/Documents/Codex/2026-09-08/referenced-chatgpt-conversation-this-is-an/outputs/内饰自检修复V5/audit_final.py:43: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  bs=next((n for n in m.node_tree.nodes if n.type=='BSDF_PRINCIPLED'),None) if m.use_nodes else None
+FINAL_AUDIT {'mesh_objects': 134, 'triangles': 0, 'quads': 998502, 'ngons': 0, 'bad_uv_objects': 44, 'bad_materials': []}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

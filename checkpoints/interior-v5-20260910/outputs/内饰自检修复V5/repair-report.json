@@ -1,0 +1,803 @@
+{
+  "source": "/Users/mac/Documents/Codex/2026-09-08/referenced-chatgpt-conversation-this-is-an/outputs/内饰展示精修V4/ZEEKR_9X_内饰展示精修V4.blend",
+  "materials": [
+    {
+      "name": "TX_021_CabinV2_Leather_WarmIvory",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "Plastic",
+      "added": [
+        "Base Color",
+        "Roughness"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "Glass_Black_B",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "V4_screen_instrument",
+      "added": [
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_032_CabinV2_Leather_Perforated_Cushion",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_022_CabinV2_Leather_DeepNavy",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_042_CabinV2_Leather_WarmIvory",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "Glass_Clear",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "V4_screen_rear",
+      "added": [
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_010_CabinV2_Leather_WarmIvory",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "CabinV2_WarmGrey_Thread.001",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_023_CabinV2_Leather_Perforated_Cushion",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_043_CabinV2_Leather_DeepNavy",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "Rubber",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "Black_1",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "Glass_Clear_B",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_011_CabinV2_Leather_WarmIvory",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_033_CabinV2_Leather_WarmIvory",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "CabinV3_SatinAluminium",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_044_CabinV2_Leather_Perforated_Cushion",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "car_paint_hei",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_052_CabinV2_Headliner_INT_2.001",
+      "added": [
+        "Roughness"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_012_CabinV2_Leather_DeepNavy",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_034_CabinV2_Leather_DeepNavy",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_024_CabinV2_Leather_WarmIvory",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "chepai",
+      "added": [
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_013_CabinV2_Leather_WarmIvory",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_035_CabinV2_Leather_WarmIvory",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_025_CabinV2_Leather_DeepNavy",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_045_CabinV2_Leather_WarmIvory",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_014_CabinV2_Leather_DeepNavy",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_036_CabinV2_Leather_WarmIvory",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_004_CabinV2_Leather_WarmIvory",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_026_CabinV2_Leather_Perforated_Cushion",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_046_CabinV2_Leather_DeepNavy",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_015_CabinV2_Leather_WarmIvory",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "CabinV2_Dashboard_INT_1.001",
+      "added": [
+        "Roughness"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_037_CabinV2_Leather_DeepNavy",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_005_CabinV2_Leather_DeepNavy",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_047_CabinV2_Leather_WarmIvory",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_016_CabinV2_Leather_DeepNavy",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_038_CabinV2_Leather_Perforated_Backrest",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_006_CabinV2_Leather_Perforated_Backrest",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_027_CabinV2_Leather_WarmIvory",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_048_CabinV2_Door_INT_2.001",
+      "added": [
+        "Roughness"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "CabinV2_Dashboard_INT_2.001",
+      "added": [
+        "Roughness"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_017_CabinV2_Leather_WarmIvory",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_028_CabinV2_Leather_WarmIvory",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_055_CabinV2_Headliner_INT_2.001",
+      "added": [
+        "Roughness"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_018_CabinV2_Leather_DeepNavy",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_039_CabinV2_Leather_WarmIvory",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_007_CabinV2_Leather_WarmIvory",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_029_CabinV2_Leather_DeepNavy",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_049_CabinV2_Door_INT_2.001",
+      "added": [
+        "Roughness"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_019_CabinV2_Leather_WarmIvory",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_040_CabinV2_Leather_DeepNavy",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_008_CabinV2_Leather_DeepNavy",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_030_CabinV2_Leather_WarmIvory",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_020_CabinV2_Leather_DeepNavy",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_041_CabinV2_Leather_Perforated_Backrest",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "CabinV2_Trim_INT_2.001",
+      "added": [
+        "Roughness"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "Piano_Black",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "Glass_Black",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "V4_screen_center",
+      "added": [
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_009_CabinV2_Leather_Perforated_Backrest",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    },
+    {
+      "name": "TX_031_CabinV2_Leather_DeepNavy",
+      "added": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ],
+      "type": "2K constant PBR maps or neutral factor; existing detail preserved"
+    }
+  ],
+  "bevels": [
+    {
+      "object": "Carbody_INT_IP_long_screen",
+      "eligible_hard_edges": 9,
+      "bevel_present": true
+    },
+    {
+      "object": "CabinV3_button_Car_INT_9",
+      "eligible_hard_edges": 55,
+      "bevel_present": true
+    },
+    {
+      "object": "CabinV3_button_Car_INT_10",
+      "eligible_hard_edges": 46,
+      "bevel_present": true
+    },
+    {
+      "object": "CabinV3_dial_Car_INT_16",
+      "eligible_hard_edges": 48,
+      "bevel_present": true
+    },
+    {
+      "object": "CabinV3_control_Door_LF_WG_4",
+      "eligible_hard_edges": 12,
+      "bevel_present": true
+    },
+    {
+      "object": "CabinV3_control_Door_LF_WG_5",
+      "eligible_hard_edges": 13,
+      "bevel_present": true
+    },
+    {
+      "object": "CabinV3_control_Door_LF_WG_6",
+      "eligible_hard_edges": 17,
+      "bevel_present": true
+    },
+    {
+      "object": "CabinV3_control_Door_RF_WG_6",
+      "eligible_hard_edges": 12,
+      "bevel_present": true
+    },
+    {
+      "object": "CabinV3_control_Door_RF_WG_7",
+      "eligible_hard_edges": 13,
+      "bevel_present": true
+    },
+    {
+      "object": "CabinV3_control_Door_RF_WG_8",
+      "eligible_hard_edges": 17,
+      "bevel_present": true
+    },
+    {
+      "object": "Door_LB_INT_6S",
+      "eligible_hard_edges": 7,
+      "method": "material-filtered weights; 1mm; 3 segments"
+    },
+    {
+      "object": "Door_LF_WG",
+      "eligible_hard_edges": 162,
+      "method": "material-filtered weights; 1mm; 3 segments"
+    },
+    {
+      "object": "Door_RB_INT_6S",
+      "eligible_hard_edges": 7,
+      "method": "material-filtered weights; 1mm; 3 segments"
+    },
+    {
+      "object": "Door_RF_WG",
+      "eligible_hard_edges": 145,
+      "method": "material-filtered weights; 1mm; 3 segments"
+    },
+    {
+      "object": "Car_INT",
+      "eligible_hard_edges": 267,
+      "method": "material-filtered weights; 1mm; 3 segments"
+    }
+  ],
+  "quad_finish": [
+    "Seat_Layout_A",
+    "Car_INT",
+    "Car_INT_fangxiangpan_L2",
+    "Carbody_INT_IP_long_screen",
+    "Carbody_INT_frame_ROOF_TV.002",
+    "Carbody_INT_frame_sunshade",
+    "CMF_Floor_covering_study",
+    "CMF_Floor_covering_study.001",
+    "CMF_Floor_covering_study.002",
+    "CMF_Floor_covering_study.003",
+    "CabinV2_Seat_00",
+    "CabinV2_Seat_01",
+    "CabinV2_Seat_02",
+    "CabinV2_Seat_03",
+    "CabinV2_Seat_04",
+    "CabinV2_Seat_05",
+    "CabinV2_Seat_06",
+    "CabinV2_Seat_07",
+    "CabinV2_Seat_08",
+    "CabinV2_Seat_09",
+    "CabinV2_Seat_12",
+    "CabinV2_Seat_13",
+    "CabinV2_Seat_16",
+    "CabinV2_Seat_17",
+    "CabinV2_Seat_18",
+    "CabinV2_Seat_19",
+    "CabinV2_Seat_24",
+    "CabinV2_Seat_25",
+    "CabinV2_Seat_26",
+    "CabinV2_Seat_27",
+    "CabinV3_steering_Car_INT_7",
+    "CabinV3_button_Car_INT_9",
+    "CabinV3_button_Car_INT_10",
+    "CabinV3_dial_Car_INT_16",
+    "CabinV3_control_Door_LF_WG_4",
+    "CabinV3_control_Door_LF_WG_5",
+    "CabinV3_control_Door_LF_WG_6",
+    "CabinV3_armrest_Door_LF_WG_7",
+    "CabinV3_armrest_Door_RF_WG_0",
+    "CabinV3_control_Door_RF_WG_6",
+    "CabinV3_control_Door_RF_WG_7",
+    "CabinV3_control_Door_RF_WG_8",
+    "CabinV3_DialKnurl_00",
+    "CabinV3_DialKnurl_01",
+    "CabinV3_DialKnurl_02",
+    "CabinV3_DialKnurl_03",
+    "CabinV3_DialKnurl_04",
+    "CabinV3_DialKnurl_05",
+    "CabinV3_DialKnurl_06",
+    "CabinV3_DialKnurl_07",
+    "CabinV3_DialKnurl_08",
+    "CabinV3_DialKnurl_09",
+    "CabinV3_DialKnurl_10",
+    "CabinV3_DialKnurl_11",
+    "CabinV3_DialKnurl_12",
+    "CabinV3_DialKnurl_13",
+    "CabinV3_DialKnurl_14",
+    "CabinV3_DialKnurl_15",
+    "CabinV3_DialKnurl_16",
+    "CabinV3_DialKnurl_17",
+    "CabinV3_DialKnurl_18",
+    "CabinV3_DialKnurl_19",
+    "CabinV3_DialKnurl_20",
+    "CabinV3_DialKnurl_21",
+    "CabinV3_DialKnurl_22",
+    "CabinV3_DialKnurl_23",
+    "CabinV3_DialKnurl_24",
+    "CabinV3_DialKnurl_25",
+    "CabinV3_DialKnurl_26",
+    "CabinV3_DialKnurl_27",
+    "CabinV3_DialKnurl_28",
+    "CabinV3_DialKnurl_29",
+    "CabinV3_DialKnurl_30",
+    "CabinV3_DialKnurl_31",
+    "CabinV3_DialKnurl_32",
+    "CabinV3_DialKnurl_33",
+    "CabinV3_DialKnurl_34",
+    "CabinV3_DialKnurl_35",
+    "CabinV3_DialKnurl_36",
+    "CabinV3_DialKnurl_37",
+    "CabinV3_DialKnurl_38",
+    "CabinV3_DialKnurl_39",
+    "CabinV3_DialKnurl_40",
+    "CabinV3_DialKnurl_41",
+    "CabinV3_DialKnurl_42",
+    "CabinV3_DialKnurl_43",
+    "CabinV3_DialKnurl_44",
+    "CabinV3_DialKnurl_45",
+    "CabinV3_DialKnurl_46",
+    "CabinV3_DialKnurl_47",
+    "CabinV3_DialKnurl_48",
+    "CabinV3_DialKnurl_49",
+    "CabinV3_DialKnurl_50",
+    "CabinV3_DialKnurl_51",
+    "CabinV3_DialKnurl_52",
+    "CabinV3_DialKnurl_53",
+    "CabinV3_DialKnurl_54",
+    "CabinV3_DialKnurl_55",
+    "CabinV3_DialKnurl_56",
+    "CabinV3_DialKnurl_57",
+    "CabinV3_DialKnurl_58",
+    "CabinV3_DialKnurl_59",
+    "CabinV3_DialKnurl_60",
+    "CabinV3_DialKnurl_61",
+    "CabinV3_DialKnurl_62",
+    "CabinV3_DialKnurl_63",
+    "CabinV3_DialKnurl_64",
+    "CabinV3_DialKnurl_65",
+    "CabinV3_DialKnurl_66",
+    "CabinV3_DialKnurl_67",
+    "CabinV3_DialKnurl_68",
+    "CabinV3_DialKnurl_69",
+    "CabinV3_DialKnurl_70",
+    "CabinV3_DialKnurl_71",
+    "Vent_center_L_blade_1",
+    "Vent_center_L_blade_2",
+    "Vent_center_L_blade_3",
+    "Vent_center_L_adjuster",
+    "Vent_center_R_blade_1",
+    "Vent_center_R_blade_2",
+    "Vent_center_R_blade_3",
+    "Vent_center_R_adjuster"
+  ],
+  "vents": [
+    "Vent_center_L_blade_1",
+    "Vent_center_L_blade_2",
+    "Vent_center_L_blade_3",
+    "Vent_center_L_adjuster",
+    "Vent_center_R_blade_1",
+    "Vent_center_R_blade_2",
+    "Vent_center_R_blade_3",
+    "Vent_center_R_adjuster",
+    "Vent_center_cavity"
+  ],
+  "notes": [
+    "Base edit cages are retained; evaluated quad finish does not create production quad edge flow.",
+    "Door assemblies contain exterior geometry and were not globally subdivided.",
+    "UV distortion and low-resolution icon atlases remain subject to detailed audit; image upscaling is not counted as repair."
+  ],
+  "vent_original_faces_archived": 276,
+  "vent_interference_fix": {
+    "archived_inner_faces": 478,
+    "new_cavity": "Vent_center_cavity",
+    "outer_frame_bounds_preserved": true
+  }
+}

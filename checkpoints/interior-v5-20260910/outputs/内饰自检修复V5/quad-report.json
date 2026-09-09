@@ -1,0 +1,933 @@
+[
+  {
+    "object": "Seat_Layout_A",
+    "source_faces": 506,
+    "quad_faces": 1518,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "Door_LB_INT_6S",
+    "source_faces": 1017,
+    "quad_faces": 3183,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "Door_LB_INT_NO_sunshade",
+    "source_faces": 281,
+    "quad_faces": 843,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "Door_LB_WG",
+    "source_faces": 4062,
+    "quad_faces": 12186,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "Door_LF_WG",
+    "source_faces": 4839,
+    "quad_faces": 17055,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "Door_RB_INT_6S",
+    "source_faces": 1017,
+    "quad_faces": 3183,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "Door_RB_INT_NO_sunshade",
+    "source_faces": 281,
+    "quad_faces": 843,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "Door_RB_WG",
+    "source_faces": 4062,
+    "quad_faces": 12186,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "Door_RF_WG",
+    "source_faces": 4791,
+    "quad_faces": 16651,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "TrunkDoor_Lower",
+    "source_faces": 3204,
+    "quad_faces": 9612,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "Trunk_Upper_INT_NO_sunshade",
+    "source_faces": 32,
+    "quad_faces": 96,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "Carbody",
+    "source_faces": 36398,
+    "quad_faces": 109194,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "Car_INT",
+    "source_faces": 10087,
+    "quad_faces": 35546,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "Car_INT_fangxiangpan_L2",
+    "source_faces": 160,
+    "quad_faces": 7680,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "Carbody_INT_IP_long_screen",
+    "source_faces": 280,
+    "quad_faces": 1117,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "Carbody_INT_frame_ROOF_TV.002",
+    "source_faces": 1762,
+    "quad_faces": 5286,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "Carbody_INT_frame_sunshade",
+    "source_faces": 34,
+    "quad_faces": 102,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CMF_Floor_covering_study",
+    "source_faces": 6,
+    "quad_faces": 384,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CMF_Floor_covering_study.001",
+    "source_faces": 6,
+    "quad_faces": 384,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CMF_Floor_covering_study.002",
+    "source_faces": 6,
+    "quad_faces": 384,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CMF_Floor_covering_study.003",
+    "source_faces": 6,
+    "quad_faces": 384,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV2_Seat_00",
+    "source_faces": 920,
+    "quad_faces": 44160,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV2_Seat_01",
+    "source_faces": 920,
+    "quad_faces": 44160,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV2_Seat_02",
+    "source_faces": 192,
+    "quad_faces": 9216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV2_Seat_03",
+    "source_faces": 632,
+    "quad_faces": 30336,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV2_Seat_04",
+    "source_faces": 756,
+    "quad_faces": 36288,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV2_Seat_05",
+    "source_faces": 1092,
+    "quad_faces": 52416,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV2_Seat_06",
+    "source_faces": 844,
+    "quad_faces": 40512,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV2_Seat_07",
+    "source_faces": 798,
+    "quad_faces": 38304,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV2_Seat_08",
+    "source_faces": 559,
+    "quad_faces": 26832,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV2_Seat_09",
+    "source_faces": 559,
+    "quad_faces": 26832,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV2_Seat_12",
+    "source_faces": 192,
+    "quad_faces": 9216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV2_Seat_13",
+    "source_faces": 632,
+    "quad_faces": 30336,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV2_Seat_16",
+    "source_faces": 510,
+    "quad_faces": 24480,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV2_Seat_17",
+    "source_faces": 684,
+    "quad_faces": 32832,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV2_Seat_18",
+    "source_faces": 192,
+    "quad_faces": 9216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV2_Seat_19",
+    "source_faces": 1130,
+    "quad_faces": 54240,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV2_Seat_24",
+    "source_faces": 666,
+    "quad_faces": 31968,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV2_Seat_25",
+    "source_faces": 598,
+    "quad_faces": 28704,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV2_Seat_26",
+    "source_faces": 684,
+    "quad_faces": 32832,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV2_Seat_27",
+    "source_faces": 192,
+    "quad_faces": 9216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_steering_Car_INT_7",
+    "source_faces": 1718,
+    "quad_faces": 82464,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_button_Car_INT_9",
+    "source_faces": 487,
+    "quad_faces": 2454,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_button_Car_INT_10",
+    "source_faces": 511,
+    "quad_faces": 2350,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_dial_Car_INT_16",
+    "source_faces": 208,
+    "quad_faces": 1200,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_control_Door_LF_WG_4",
+    "source_faces": 103,
+    "quad_faces": 542,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_control_Door_LF_WG_5",
+    "source_faces": 68,
+    "quad_faces": 507,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_control_Door_LF_WG_6",
+    "source_faces": 124,
+    "quad_faces": 736,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_armrest_Door_LF_WG_7",
+    "source_faces": 372,
+    "quad_faces": 17856,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_armrest_Door_RF_WG_0",
+    "source_faces": 372,
+    "quad_faces": 17856,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_control_Door_RF_WG_6",
+    "source_faces": 103,
+    "quad_faces": 542,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_control_Door_RF_WG_7",
+    "source_faces": 68,
+    "quad_faces": 507,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_control_Door_RF_WG_8",
+    "source_faces": 124,
+    "quad_faces": 736,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_00",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_01",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_02",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_03",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_04",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_05",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_06",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_07",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_08",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_09",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_10",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_11",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_12",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_13",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_14",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_15",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_16",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_17",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_18",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_19",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_20",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_21",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_22",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_23",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_24",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_25",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_26",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_27",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_28",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_29",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_30",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_31",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_32",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_33",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_34",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_35",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_36",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_37",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_38",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_39",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_40",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_41",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_42",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_43",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_44",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_45",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_46",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_47",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_48",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_49",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_50",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_51",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_52",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_53",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_54",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_55",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_56",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_57",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_58",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_59",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_60",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_61",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_62",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_63",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_64",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_65",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_66",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_67",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_68",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_69",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_70",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "CabinV3_DialKnurl_71",
+    "source_faces": 6,
+    "quad_faces": 216,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "Vent_center_L_blade_1",
+    "source_faces": 34,
+    "quad_faces": 832,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "Vent_center_L_blade_2",
+    "source_faces": 34,
+    "quad_faces": 832,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "Vent_center_L_blade_3",
+    "source_faces": 34,
+    "quad_faces": 832,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "Vent_center_L_adjuster",
+    "source_faces": 6,
+    "quad_faces": 384,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "Vent_center_R_blade_1",
+    "source_faces": 34,
+    "quad_faces": 832,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "Vent_center_R_blade_2",
+    "source_faces": 34,
+    "quad_faces": 832,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "Vent_center_R_blade_3",
+    "source_faces": 34,
+    "quad_faces": 832,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  },
+  {
+    "object": "Vent_center_R_adjuster",
+    "source_faces": 6,
+    "quad_faces": 384,
+    "nonquads": 0,
+    "note": "Surface-preserving subdivision, not optimized quad retopology"
+  }
+]

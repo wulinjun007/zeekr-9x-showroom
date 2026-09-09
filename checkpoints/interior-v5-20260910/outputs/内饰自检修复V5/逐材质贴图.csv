@@ -1,0 +1,349 @@
+﻿材质,通道,图像,尺寸,已打包
+TX_000_CMF_Carpet,Base Color,color.jpg.002,2048 × 2048,True
+TX_000_CMF_Carpet,Normal,normal.jpg.002,2048 × 2048,True
+TX_000_CMF_Carpet,Roughness,roughness.jpg.002,2048 × 2048,True
+TX_001_CMF_Carpet,Base Color,color.jpg.002,2048 × 2048,True
+TX_001_CMF_Carpet,Normal,normal.jpg.002,2048 × 2048,True
+TX_001_CMF_Carpet,Roughness,roughness.jpg.002,2048 × 2048,True
+TX_002_CMF_Carpet,Base Color,color.jpg.002,2048 × 2048,True
+TX_002_CMF_Carpet,Normal,normal.jpg.002,2048 × 2048,True
+TX_002_CMF_Carpet,Roughness,roughness.jpg.002,2048 × 2048,True
+TX_003_CMF_Carpet,Base Color,color.jpg.002,2048 × 2048,True
+TX_003_CMF_Carpet,Normal,normal.jpg.002,2048 × 2048,True
+TX_003_CMF_Carpet,Roughness,roughness.jpg.002,2048 × 2048,True
+TX_006_CabinV2_Leather_Perforated_Backrest,Base Color,V5_unit_factor,2048 × 2048,True
+TX_006_CabinV2_Leather_Perforated_Backrest,Normal,V5_flat_normal,2048 × 2048,True
+TX_006_CabinV2_Leather_Perforated_Backrest,Roughness,V5_unit_factor,2048 × 2048,True
+TX_004_CabinV2_Leather_WarmIvory,Base Color,V5_Base Color_5e9e6dece00b,2048 × 2048,True
+TX_004_CabinV2_Leather_WarmIvory,Normal,V5_flat_normal,2048 × 2048,True
+TX_004_CabinV2_Leather_WarmIvory,Roughness,V5_unit_factor,2048 × 2048,True
+TX_005_CabinV2_Leather_DeepNavy,Base Color,V5_Base Color_25aa5357884d,2048 × 2048,True
+TX_005_CabinV2_Leather_DeepNavy,Normal,V5_flat_normal,2048 × 2048,True
+TX_005_CabinV2_Leather_DeepNavy,Roughness,V5_unit_factor,2048 × 2048,True
+TX_009_CabinV2_Leather_Perforated_Backrest,Base Color,V5_unit_factor,2048 × 2048,True
+TX_009_CabinV2_Leather_Perforated_Backrest,Normal,V5_flat_normal,2048 × 2048,True
+TX_009_CabinV2_Leather_Perforated_Backrest,Roughness,V5_unit_factor,2048 × 2048,True
+TX_007_CabinV2_Leather_WarmIvory,Base Color,V5_Base Color_5e9e6dece00b,2048 × 2048,True
+TX_007_CabinV2_Leather_WarmIvory,Normal,V5_flat_normal,2048 × 2048,True
+TX_007_CabinV2_Leather_WarmIvory,Roughness,V5_unit_factor,2048 × 2048,True
+TX_008_CabinV2_Leather_DeepNavy,Base Color,V5_Base Color_25aa5357884d,2048 × 2048,True
+TX_008_CabinV2_Leather_DeepNavy,Normal,V5_flat_normal,2048 × 2048,True
+TX_008_CabinV2_Leather_DeepNavy,Roughness,V5_unit_factor,2048 × 2048,True
+TX_010_CabinV2_Leather_WarmIvory,Base Color,V5_Base Color_5e9e6dece00b,2048 × 2048,True
+TX_010_CabinV2_Leather_WarmIvory,Normal,V5_flat_normal,2048 × 2048,True
+TX_010_CabinV2_Leather_WarmIvory,Roughness,V5_unit_factor,2048 × 2048,True
+TX_011_CabinV2_Leather_WarmIvory,Base Color,V5_Base Color_5e9e6dece00b,2048 × 2048,True
+TX_011_CabinV2_Leather_WarmIvory,Normal,V5_flat_normal,2048 × 2048,True
+TX_011_CabinV2_Leather_WarmIvory,Roughness,V5_unit_factor,2048 × 2048,True
+TX_012_CabinV2_Leather_DeepNavy,Base Color,V5_Base Color_25aa5357884d,2048 × 2048,True
+TX_012_CabinV2_Leather_DeepNavy,Normal,V5_flat_normal,2048 × 2048,True
+TX_012_CabinV2_Leather_DeepNavy,Roughness,V5_unit_factor,2048 × 2048,True
+TX_013_CabinV2_Leather_WarmIvory,Base Color,V5_Base Color_5e9e6dece00b,2048 × 2048,True
+TX_013_CabinV2_Leather_WarmIvory,Normal,V5_flat_normal,2048 × 2048,True
+TX_013_CabinV2_Leather_WarmIvory,Roughness,V5_unit_factor,2048 × 2048,True
+TX_014_CabinV2_Leather_DeepNavy,Base Color,V5_Base Color_25aa5357884d,2048 × 2048,True
+TX_014_CabinV2_Leather_DeepNavy,Normal,V5_flat_normal,2048 × 2048,True
+TX_014_CabinV2_Leather_DeepNavy,Roughness,V5_unit_factor,2048 × 2048,True
+TX_015_CabinV2_Leather_WarmIvory,Base Color,V5_Base Color_5e9e6dece00b,2048 × 2048,True
+TX_015_CabinV2_Leather_WarmIvory,Normal,V5_flat_normal,2048 × 2048,True
+TX_015_CabinV2_Leather_WarmIvory,Roughness,V5_unit_factor,2048 × 2048,True
+TX_016_CabinV2_Leather_DeepNavy,Base Color,V5_Base Color_25aa5357884d,2048 × 2048,True
+TX_016_CabinV2_Leather_DeepNavy,Normal,V5_flat_normal,2048 × 2048,True
+TX_016_CabinV2_Leather_DeepNavy,Roughness,V5_unit_factor,2048 × 2048,True
+TX_017_CabinV2_Leather_WarmIvory,Base Color,V5_Base Color_5e9e6dece00b,2048 × 2048,True
+TX_017_CabinV2_Leather_WarmIvory,Normal,V5_flat_normal,2048 × 2048,True
+TX_017_CabinV2_Leather_WarmIvory,Roughness,V5_unit_factor,2048 × 2048,True
+TX_018_CabinV2_Leather_DeepNavy,Base Color,V5_Base Color_25aa5357884d,2048 × 2048,True
+TX_018_CabinV2_Leather_DeepNavy,Normal,V5_flat_normal,2048 × 2048,True
+TX_018_CabinV2_Leather_DeepNavy,Roughness,V5_unit_factor,2048 × 2048,True
+TX_019_CabinV2_Leather_WarmIvory,Base Color,V5_Base Color_5e9e6dece00b,2048 × 2048,True
+TX_019_CabinV2_Leather_WarmIvory,Normal,V5_flat_normal,2048 × 2048,True
+TX_019_CabinV2_Leather_WarmIvory,Roughness,V5_unit_factor,2048 × 2048,True
+TX_020_CabinV2_Leather_DeepNavy,Base Color,V5_Base Color_25aa5357884d,2048 × 2048,True
+TX_020_CabinV2_Leather_DeepNavy,Normal,V5_flat_normal,2048 × 2048,True
+TX_020_CabinV2_Leather_DeepNavy,Roughness,V5_unit_factor,2048 × 2048,True
+TX_023_CabinV2_Leather_Perforated_Cushion,Base Color,V5_unit_factor,2048 × 2048,True
+TX_023_CabinV2_Leather_Perforated_Cushion,Normal,V5_flat_normal,2048 × 2048,True
+TX_023_CabinV2_Leather_Perforated_Cushion,Roughness,V5_unit_factor,2048 × 2048,True
+TX_021_CabinV2_Leather_WarmIvory,Base Color,V5_Base Color_5e9e6dece00b,2048 × 2048,True
+TX_021_CabinV2_Leather_WarmIvory,Normal,V5_flat_normal,2048 × 2048,True
+TX_021_CabinV2_Leather_WarmIvory,Roughness,V5_unit_factor,2048 × 2048,True
+TX_022_CabinV2_Leather_DeepNavy,Base Color,V5_Base Color_25aa5357884d,2048 × 2048,True
+TX_022_CabinV2_Leather_DeepNavy,Normal,V5_flat_normal,2048 × 2048,True
+TX_022_CabinV2_Leather_DeepNavy,Roughness,V5_unit_factor,2048 × 2048,True
+TX_026_CabinV2_Leather_Perforated_Cushion,Base Color,V5_unit_factor,2048 × 2048,True
+TX_026_CabinV2_Leather_Perforated_Cushion,Normal,V5_flat_normal,2048 × 2048,True
+TX_026_CabinV2_Leather_Perforated_Cushion,Roughness,V5_unit_factor,2048 × 2048,True
+TX_024_CabinV2_Leather_WarmIvory,Base Color,V5_Base Color_5e9e6dece00b,2048 × 2048,True
+TX_024_CabinV2_Leather_WarmIvory,Normal,V5_flat_normal,2048 × 2048,True
+TX_024_CabinV2_Leather_WarmIvory,Roughness,V5_unit_factor,2048 × 2048,True
+TX_025_CabinV2_Leather_DeepNavy,Base Color,V5_Base Color_25aa5357884d,2048 × 2048,True
+TX_025_CabinV2_Leather_DeepNavy,Normal,V5_flat_normal,2048 × 2048,True
+TX_025_CabinV2_Leather_DeepNavy,Roughness,V5_unit_factor,2048 × 2048,True
+TX_027_CabinV2_Leather_WarmIvory,Base Color,V5_Base Color_5e9e6dece00b,2048 × 2048,True
+TX_027_CabinV2_Leather_WarmIvory,Normal,V5_flat_normal,2048 × 2048,True
+TX_027_CabinV2_Leather_WarmIvory,Roughness,V5_unit_factor,2048 × 2048,True
+TX_028_CabinV2_Leather_WarmIvory,Base Color,V5_Base Color_5e9e6dece00b,2048 × 2048,True
+TX_028_CabinV2_Leather_WarmIvory,Normal,V5_flat_normal,2048 × 2048,True
+TX_028_CabinV2_Leather_WarmIvory,Roughness,V5_unit_factor,2048 × 2048,True
+TX_029_CabinV2_Leather_DeepNavy,Base Color,V5_Base Color_25aa5357884d,2048 × 2048,True
+TX_029_CabinV2_Leather_DeepNavy,Normal,V5_flat_normal,2048 × 2048,True
+TX_029_CabinV2_Leather_DeepNavy,Roughness,V5_unit_factor,2048 × 2048,True
+TX_032_CabinV2_Leather_Perforated_Cushion,Base Color,V5_unit_factor,2048 × 2048,True
+TX_032_CabinV2_Leather_Perforated_Cushion,Normal,V5_flat_normal,2048 × 2048,True
+TX_032_CabinV2_Leather_Perforated_Cushion,Roughness,V5_unit_factor,2048 × 2048,True
+TX_030_CabinV2_Leather_WarmIvory,Base Color,V5_Base Color_5e9e6dece00b,2048 × 2048,True
+TX_030_CabinV2_Leather_WarmIvory,Normal,V5_flat_normal,2048 × 2048,True
+TX_030_CabinV2_Leather_WarmIvory,Roughness,V5_unit_factor,2048 × 2048,True
+TX_031_CabinV2_Leather_DeepNavy,Base Color,V5_Base Color_25aa5357884d,2048 × 2048,True
+TX_031_CabinV2_Leather_DeepNavy,Normal,V5_flat_normal,2048 × 2048,True
+TX_031_CabinV2_Leather_DeepNavy,Roughness,V5_unit_factor,2048 × 2048,True
+TX_033_CabinV2_Leather_WarmIvory,Base Color,V5_Base Color_5e9e6dece00b,2048 × 2048,True
+TX_033_CabinV2_Leather_WarmIvory,Normal,V5_flat_normal,2048 × 2048,True
+TX_033_CabinV2_Leather_WarmIvory,Roughness,V5_unit_factor,2048 × 2048,True
+TX_034_CabinV2_Leather_DeepNavy,Base Color,V5_Base Color_25aa5357884d,2048 × 2048,True
+TX_034_CabinV2_Leather_DeepNavy,Normal,V5_flat_normal,2048 × 2048,True
+TX_034_CabinV2_Leather_DeepNavy,Roughness,V5_unit_factor,2048 × 2048,True
+TX_035_CabinV2_Leather_WarmIvory,Base Color,V5_Base Color_5e9e6dece00b,2048 × 2048,True
+TX_035_CabinV2_Leather_WarmIvory,Normal,V5_flat_normal,2048 × 2048,True
+TX_035_CabinV2_Leather_WarmIvory,Roughness,V5_unit_factor,2048 × 2048,True
+TX_038_CabinV2_Leather_Perforated_Backrest,Base Color,V5_unit_factor,2048 × 2048,True
+TX_038_CabinV2_Leather_Perforated_Backrest,Normal,V5_flat_normal,2048 × 2048,True
+TX_038_CabinV2_Leather_Perforated_Backrest,Roughness,V5_unit_factor,2048 × 2048,True
+TX_036_CabinV2_Leather_WarmIvory,Base Color,V5_Base Color_5e9e6dece00b,2048 × 2048,True
+TX_036_CabinV2_Leather_WarmIvory,Normal,V5_flat_normal,2048 × 2048,True
+TX_036_CabinV2_Leather_WarmIvory,Roughness,V5_unit_factor,2048 × 2048,True
+TX_037_CabinV2_Leather_DeepNavy,Base Color,V5_Base Color_25aa5357884d,2048 × 2048,True
+TX_037_CabinV2_Leather_DeepNavy,Normal,V5_flat_normal,2048 × 2048,True
+TX_037_CabinV2_Leather_DeepNavy,Roughness,V5_unit_factor,2048 × 2048,True
+TX_041_CabinV2_Leather_Perforated_Backrest,Base Color,V5_unit_factor,2048 × 2048,True
+TX_041_CabinV2_Leather_Perforated_Backrest,Normal,V5_flat_normal,2048 × 2048,True
+TX_041_CabinV2_Leather_Perforated_Backrest,Roughness,V5_unit_factor,2048 × 2048,True
+TX_039_CabinV2_Leather_WarmIvory,Base Color,V5_Base Color_5e9e6dece00b,2048 × 2048,True
+TX_039_CabinV2_Leather_WarmIvory,Normal,V5_flat_normal,2048 × 2048,True
+TX_039_CabinV2_Leather_WarmIvory,Roughness,V5_unit_factor,2048 × 2048,True
+TX_040_CabinV2_Leather_DeepNavy,Base Color,V5_Base Color_25aa5357884d,2048 × 2048,True
+TX_040_CabinV2_Leather_DeepNavy,Normal,V5_flat_normal,2048 × 2048,True
+TX_040_CabinV2_Leather_DeepNavy,Roughness,V5_unit_factor,2048 × 2048,True
+TX_044_CabinV2_Leather_Perforated_Cushion,Base Color,V5_unit_factor,2048 × 2048,True
+TX_044_CabinV2_Leather_Perforated_Cushion,Normal,V5_flat_normal,2048 × 2048,True
+TX_044_CabinV2_Leather_Perforated_Cushion,Roughness,V5_unit_factor,2048 × 2048,True
+TX_042_CabinV2_Leather_WarmIvory,Base Color,V5_Base Color_5e9e6dece00b,2048 × 2048,True
+TX_042_CabinV2_Leather_WarmIvory,Normal,V5_flat_normal,2048 × 2048,True
+TX_042_CabinV2_Leather_WarmIvory,Roughness,V5_unit_factor,2048 × 2048,True
+TX_043_CabinV2_Leather_DeepNavy,Base Color,V5_Base Color_25aa5357884d,2048 × 2048,True
+TX_043_CabinV2_Leather_DeepNavy,Normal,V5_flat_normal,2048 × 2048,True
+TX_043_CabinV2_Leather_DeepNavy,Roughness,V5_unit_factor,2048 × 2048,True
+TX_045_CabinV2_Leather_WarmIvory,Base Color,V5_Base Color_5e9e6dece00b,2048 × 2048,True
+TX_045_CabinV2_Leather_WarmIvory,Normal,V5_flat_normal,2048 × 2048,True
+TX_045_CabinV2_Leather_WarmIvory,Roughness,V5_unit_factor,2048 × 2048,True
+TX_046_CabinV2_Leather_DeepNavy,Base Color,V5_Base Color_25aa5357884d,2048 × 2048,True
+TX_046_CabinV2_Leather_DeepNavy,Normal,V5_flat_normal,2048 × 2048,True
+TX_046_CabinV2_Leather_DeepNavy,Roughness,V5_unit_factor,2048 × 2048,True
+TX_047_CabinV2_Leather_WarmIvory,Base Color,V5_Base Color_5e9e6dece00b,2048 × 2048,True
+TX_047_CabinV2_Leather_WarmIvory,Normal,V5_flat_normal,2048 × 2048,True
+TX_047_CabinV2_Leather_WarmIvory,Roughness,V5_unit_factor,2048 × 2048,True
+CabinV3_SatinAluminium,Base Color,V5_Base Color_bd0ca1a508c7,2048 × 2048,True
+CabinV3_SatinAluminium,Normal,V5_flat_normal,2048 × 2048,True
+CabinV3_SatinAluminium,Roughness,V5_Roughness_a5af8b7dfa04,2048 × 2048,True
+TX_048_CabinV2_Door_INT_2.001,Base Color,9X_lanbai_INT_2.jpg.001,1024 × 1024,True
+TX_048_CabinV2_Door_INT_2.001,Normal,INT_normal2.jpg.001,1024 × 1024,True
+TX_048_CabinV2_Door_INT_2.001,Roughness,V5_Roughness_453bc4e4fcc5,2048 × 2048,True
+TX_049_CabinV2_Door_INT_2.001,Base Color,9X_lanbai_INT_2.jpg.001,1024 × 1024,True
+TX_049_CabinV2_Door_INT_2.001,Normal,INT_normal2.jpg.001,1024 × 1024,True
+TX_049_CabinV2_Door_INT_2.001,Roughness,V5_Roughness_453bc4e4fcc5,2048 × 2048,True
+CabinV2_Dashboard_INT_1.001,Base Color,9X_lanbai_INT_1.jpg.001,1024 × 1024,True
+CabinV2_Dashboard_INT_1.001,Normal,INT_normal.jpg.001,1024 × 1024,True
+CabinV2_Dashboard_INT_1.001,Roughness,V5_unit_factor,2048 × 2048,True
+V4_soft_CabinV3_button_Car_INT_10,Base Color,01_soft_dashboard_BaseColor.png,2048 × 2048,True
+V4_soft_CabinV3_button_Car_INT_10,Normal,01_soft_dashboard_Normal.png,2048 × 2048,True
+V4_soft_CabinV3_button_Car_INT_10,Roughness,01_soft_dashboard_Roughness.png,2048 × 2048,True
+V4_soft_CabinV3_button_Car_INT_9,Base Color,01_soft_dashboard_BaseColor.png,2048 × 2048,True
+V4_soft_CabinV3_button_Car_INT_9,Normal,01_soft_dashboard_Normal.png,2048 × 2048,True
+V4_soft_CabinV3_button_Car_INT_9,Roughness,01_soft_dashboard_Roughness.png,2048 × 2048,True
+V4_soft_CabinV3_steering_Car_INT_7,Base Color,01_soft_dashboard_BaseColor.png,2048 × 2048,True
+V4_soft_CabinV3_steering_Car_INT_7,Normal,01_soft_dashboard_Normal.png,2048 × 2048,True
+V4_soft_CabinV3_steering_Car_INT_7,Roughness,01_soft_dashboard_Roughness.png,2048 × 2048,True
+Black_1,Base Color,V5_Base Color_df747db1231b,2048 × 2048,True
+Black_1,Normal,V5_flat_normal,2048 × 2048,True
+Black_1,Roughness,V5_Roughness_4670f42816ef,2048 × 2048,True
+INT_1,Base Color,9X_lanbai_INT_1.jpg,1024 × 1024,True
+INT_1,Normal,INT_normal.jpg,1024 × 1024,True
+INT_1,Roughness,int1.png,1024 × 1024,True
+TX_050_CabinV2_Seat_INT_1.001,Base Color,9X_lanbai_INT_1.jpg.001,1024 × 1024,True
+TX_050_CabinV2_Seat_INT_1.001,Normal,INT_normal.jpg.001,1024 × 1024,True
+TX_050_CabinV2_Seat_INT_1.001,Roughness,roughness.jpg,2048 × 2048,True
+TX_051_CabinV2_Seat_INT_2.001,Base Color,9X_lanbai_INT_2.jpg.001,1024 × 1024,True
+TX_051_CabinV2_Seat_INT_2.001,Normal,INT_normal2.jpg.001,1024 × 1024,True
+TX_051_CabinV2_Seat_INT_2.001,Roughness,roughness.jpg,2048 × 2048,True
+CabinV2_Dashboard_INT_2.001,Base Color,9X_lanbai_INT_2.jpg.001,1024 × 1024,True
+CabinV2_Dashboard_INT_2.001,Normal,INT_normal2.jpg.001,1024 × 1024,True
+CabinV2_Dashboard_INT_2.001,Roughness,V5_unit_factor,2048 × 2048,True
+TX_052_CabinV2_Headliner_INT_2.001,Base Color,9X_lanbai_INT_2.jpg.001,1024 × 1024,True
+TX_052_CabinV2_Headliner_INT_2.001,Normal,INT_normal2.jpg.001,1024 × 1024,True
+TX_052_CabinV2_Headliner_INT_2.001,Roughness,V5_unit_factor,2048 × 2048,True
+V4_soft_Car_INT,Base Color,01_soft_dashboard_BaseColor.png,2048 × 2048,True
+V4_soft_Car_INT,Normal,01_soft_dashboard_Normal.png,2048 × 2048,True
+V4_soft_Car_INT,Roughness,01_soft_dashboard_Roughness.png,2048 × 2048,True
+V4_leather_Car_INT,Base Color,02_nappa_seat_BaseColor.png,2048 × 2048,True
+V4_leather_Car_INT,Normal,02_nappa_seat_Normal.png,2048 × 2048,True
+V4_leather_Car_INT,Roughness,02_nappa_seat_Roughness.png,2048 × 2048,True
+V4_screen_instrument,Base Color,instrument_2K.png,2048 × 768,True
+V4_screen_instrument,Normal,V5_flat_normal,2048 × 2048,True
+V4_screen_instrument,Roughness,V5_Roughness_520813b88d05,2048 × 2048,True
+V4_screen_rear,Base Color,instrument_2K.png,2048 × 768,True
+V4_screen_rear,Normal,V5_flat_normal,2048 × 2048,True
+V4_screen_rear,Roughness,V5_Roughness_520813b88d05,2048 × 2048,True
+TX_053_CabinV2_Seat_INT_1.001,Base Color,9X_lanbai_INT_1.jpg.001,1024 × 1024,True
+TX_053_CabinV2_Seat_INT_1.001,Normal,INT_normal.jpg.001,1024 × 1024,True
+TX_053_CabinV2_Seat_INT_1.001,Roughness,roughness.jpg,2048 × 2048,True
+V4_leather_Car_INT_fangxiangpan_L2,Base Color,02_nappa_seat_BaseColor.png,2048 × 2048,True
+V4_leather_Car_INT_fangxiangpan_L2,Normal,02_nappa_seat_Normal.png,2048 × 2048,True
+V4_leather_Car_INT_fangxiangpan_L2,Roughness,02_nappa_seat_Roughness.png,2048 × 2048,True
+car_paint_hei,Base Color,V5_Base Color_b125525d0f37,2048 × 2048,True
+car_paint_hei,Normal,V5_flat_normal,2048 × 2048,True
+car_paint_hei,Roughness,V5_Roughness_46ef56caf897,2048 × 2048,True
+Plastic,Base Color,V5_Base Color_df747db1231b,2048 × 2048,True
+Plastic,Normal,Ext_AO_normal.png.001,512 × 512,True
+Plastic,Roughness,V5_Roughness_4670f42816ef,2048 × 2048,True
+Piano_Black,Base Color,V5_Base Color_df747db1231b,2048 × 2048,True
+Piano_Black,Normal,V5_flat_normal,2048 × 2048,True
+Piano_Black,Roughness,V5_Roughness_00713061787d,2048 × 2048,True
+Rubber,Base Color,V5_Base Color_df747db1231b,2048 × 2048,True
+Rubber,Normal,V5_flat_normal,2048 × 2048,True
+Rubber,Roughness,V5_Roughness_4670f42816ef,2048 × 2048,True
+Glass_ROOF,Base Color,V5_Base Color_be69870c52c0,2048 × 2048,True
+Glass_ROOF,Normal,V5_flat_normal,2048 × 2048,True
+Glass_ROOF,Roughness,V5_Roughness_00713061787d,2048 × 2048,True
+Glass_ROOF_B,Base Color,V5_Base Color_be69870c52c0,2048 × 2048,True
+Glass_ROOF_B,Normal,V5_flat_normal,2048 × 2048,True
+Glass_ROOF_B,Roughness,V5_Roughness_00713061787d,2048 × 2048,True
+Red,Base Color,V5_Base Color_9a7a687458cc,2048 × 2048,True
+Red,Normal,V5_flat_normal,2048 × 2048,True
+Red,Roughness,V5_Roughness_8c680d483ad1,2048 × 2048,True
+Grille_Matrix_yage,Base Color,V5_Base Color_8b17d11a3e13,2048 × 2048,True
+Grille_Matrix_yage,Normal,V5_flat_normal,2048 × 2048,True
+Grille_Matrix_yage,Roughness,V5_Roughness_eb70a904942b,2048 × 2048,True
+Glass_Light,Base Color,V5_Base Color_be69870c52c0,2048 × 2048,True
+Glass_Light,Normal,V5_flat_normal,2048 × 2048,True
+Glass_Light,Roughness,V5_Roughness_00713061787d,2048 × 2048,True
+Chrome_black,Base Color,V5_Base Color_f0512d331990,2048 × 2048,True
+Chrome_black,Normal,V5_flat_normal,2048 × 2048,True
+Chrome_black,Roughness,V5_Roughness_64bb8b69ae28,2048 × 2048,True
+Glass_triangle,Base Color,V5_Base Color_be69870c52c0,2048 × 2048,True
+Glass_triangle,Normal,V5_flat_normal,2048 × 2048,True
+Glass_triangle,Roughness,V5_Roughness_00713061787d,2048 × 2048,True
+Glass_triangle_B,Base Color,V5_Base Color_be69870c52c0,2048 × 2048,True
+Glass_triangle_B,Normal,V5_flat_normal,2048 × 2048,True
+Glass_triangle_B,Roughness,V5_Roughness_00713061787d,2048 × 2048,True
+Glass_Clear,Base Color,V5_Base Color_be69870c52c0,2048 × 2048,True
+Glass_Clear,Normal,V5_flat_normal,2048 × 2048,True
+Glass_Clear,Roughness,V5_Roughness_00713061787d,2048 × 2048,True
+Glass_Clear_B,Base Color,V5_Base Color_be69870c52c0,2048 × 2048,True
+Glass_Clear_B,Normal,V5_flat_normal,2048 × 2048,True
+Glass_Clear_B,Roughness,V5_Roughness_00713061787d,2048 × 2048,True
+Chrome Matte,Base Color,V5_Base Color_2e476161d339,2048 × 2048,True
+Chrome Matte,Normal,V5_flat_normal,2048 × 2048,True
+Chrome Matte,Roughness,V5_Roughness_3ffd5ab29131,2048 × 2048,True
+Chrome Glossy,Base Color,V5_Base Color_2e476161d339,2048 × 2048,True
+Chrome Glossy,Normal,V5_flat_normal,2048 × 2048,True
+Chrome Glossy,Roughness,V5_Roughness_64bb8b69ae28,2048 × 2048,True
+chepai,Base Color,chepai.jpg,512 × 512,True
+chepai,Normal,V5_flat_normal,2048 × 2048,True
+chepai,Roughness,V5_Roughness_4670f42816ef,2048 × 2048,True
+V4_fabric_Carbody,Base Color,03_alcantara_headliner_BaseColor.png,2048 × 2048,True
+V4_fabric_Carbody,Normal,03_alcantara_headliner_Normal.png,2048 × 2048,True
+V4_fabric_Carbody,Roughness,03_alcantara_headliner_Roughness.png,2048 × 2048,True
+V4_soft_Carbody_INT_IP_long_screen,Base Color,01_soft_dashboard_BaseColor.png,2048 × 2048,True
+V4_soft_Carbody_INT_IP_long_screen,Normal,01_soft_dashboard_Normal.png,2048 × 2048,True
+V4_soft_Carbody_INT_IP_long_screen,Roughness,01_soft_dashboard_Roughness.png,2048 × 2048,True
+V4_screen_center,Base Color,center_display_3K.png,3072 × 972,True
+V4_screen_center,Normal,V5_flat_normal,2048 × 2048,True
+V4_screen_center,Roughness,V5_Roughness_520813b88d05,2048 × 2048,True
+TX_055_CabinV2_Headliner_INT_2.001,Base Color,9X_lanbai_INT_2.jpg.001,1024 × 1024,True
+TX_055_CabinV2_Headliner_INT_2.001,Normal,INT_normal2.jpg.001,1024 × 1024,True
+TX_055_CabinV2_Headliner_INT_2.001,Roughness,V5_unit_factor,2048 × 2048,True
+V4_fabric_Carbody_INT_frame_ROOF_TV.002,Base Color,03_alcantara_headliner_BaseColor.png,2048 × 2048,True
+V4_fabric_Carbody_INT_frame_ROOF_TV.002,Normal,03_alcantara_headliner_Normal.png,2048 × 2048,True
+V4_fabric_Carbody_INT_frame_ROOF_TV.002,Roughness,03_alcantara_headliner_Roughness.png,2048 × 2048,True
+V4_fabric_Carbody_INT_frame_sunshade,Base Color,03_alcantara_headliner_BaseColor.png,2048 × 2048,True
+V4_fabric_Carbody_INT_frame_sunshade,Normal,03_alcantara_headliner_Normal.png,2048 × 2048,True
+V4_fabric_Carbody_INT_frame_sunshade,Roughness,03_alcantara_headliner_Roughness.png,2048 × 2048,True
+V4_leather_Door_LB_INT_6S,Base Color,02_nappa_seat_BaseColor.png,2048 × 2048,True
+V4_leather_Door_LB_INT_6S,Normal,02_nappa_seat_Normal.png,2048 × 2048,True
+V4_leather_Door_LB_INT_6S,Roughness,02_nappa_seat_Roughness.png,2048 × 2048,True
+V4_fabric_Door_LB_INT_6S,Base Color,03_alcantara_headliner_BaseColor.png,2048 × 2048,True
+V4_fabric_Door_LB_INT_6S,Normal,03_alcantara_headliner_Normal.png,2048 × 2048,True
+V4_fabric_Door_LB_INT_6S,Roughness,03_alcantara_headliner_Roughness.png,2048 × 2048,True
+CabinV2_Trim_INT_2.001,Base Color,9X_lanbai_INT_2.jpg.001,1024 × 1024,True
+CabinV2_Trim_INT_2.001,Normal,INT_normal2.jpg.001,1024 × 1024,True
+CabinV2_Trim_INT_2.001,Roughness,V5_Roughness_453bc4e4fcc5,2048 × 2048,True
+TX_057_CabinV2_Door_INT_2.001,Base Color,9X_lanbai_INT_2.jpg.001,1024 × 1024,True
+TX_057_CabinV2_Door_INT_2.001,Normal,INT_normal2.jpg.001,1024 × 1024,True
+TX_057_CabinV2_Door_INT_2.001,Roughness,roughness.jpg,2048 × 2048,True
+TX_058_CabinV2_Door_INT_2.001,Base Color,9X_lanbai_INT_2.jpg.001,1024 × 1024,True
+TX_058_CabinV2_Door_INT_2.001,Normal,INT_normal2.jpg.001,1024 × 1024,True
+TX_058_CabinV2_Door_INT_2.001,Roughness,roughness.jpg,2048 × 2048,True
+V4_fabric_Door_LB_INT_NO_sunshade,Base Color,03_alcantara_headliner_BaseColor.png,2048 × 2048,True
+V4_fabric_Door_LB_INT_NO_sunshade,Normal,03_alcantara_headliner_Normal.png,2048 × 2048,True
+V4_fabric_Door_LB_INT_NO_sunshade,Roughness,03_alcantara_headliner_Roughness.png,2048 × 2048,True
+Glass_Black,Base Color,V5_Base Color_be69870c52c0,2048 × 2048,True
+Glass_Black,Normal,V5_flat_normal,2048 × 2048,True
+Glass_Black,Roughness,V5_Roughness_00713061787d,2048 × 2048,True
+Glass_Black_B,Base Color,V5_Base Color_be69870c52c0,2048 × 2048,True
+Glass_Black_B,Normal,V5_flat_normal,2048 × 2048,True
+Glass_Black_B,Roughness,V5_Roughness_00713061787d,2048 × 2048,True
+TX_059_CabinV2_Door_INT_2.001,Base Color,9X_lanbai_INT_2.jpg.001,1024 × 1024,True
+TX_059_CabinV2_Door_INT_2.001,Normal,INT_normal2.jpg.001,1024 × 1024,True
+TX_059_CabinV2_Door_INT_2.001,Roughness,roughness.jpg,2048 × 2048,True
+TX_060_CabinV2_Door_INT_2.001,Base Color,9X_lanbai_INT_2.jpg.001,1024 × 1024,True
+TX_060_CabinV2_Door_INT_2.001,Normal,INT_normal2.jpg.001,1024 × 1024,True
+TX_060_CabinV2_Door_INT_2.001,Roughness,roughness.jpg,2048 × 2048,True
+V4_leather_Door_LF_WG,Base Color,02_nappa_seat_BaseColor.png,2048 × 2048,True
+V4_leather_Door_LF_WG,Normal,02_nappa_seat_Normal.png,2048 × 2048,True
+V4_leather_Door_LF_WG,Roughness,02_nappa_seat_Roughness.png,2048 × 2048,True
+V4_fabric_Door_LF_WG,Base Color,03_alcantara_headliner_BaseColor.png,2048 × 2048,True
+V4_fabric_Door_LF_WG,Normal,03_alcantara_headliner_Normal.png,2048 × 2048,True
+V4_fabric_Door_LF_WG,Roughness,03_alcantara_headliner_Roughness.png,2048 × 2048,True
+V4_leather_Door_RB_INT_6S,Base Color,02_nappa_seat_BaseColor.png,2048 × 2048,True
+V4_leather_Door_RB_INT_6S,Normal,02_nappa_seat_Normal.png,2048 × 2048,True
+V4_leather_Door_RB_INT_6S,Roughness,02_nappa_seat_Roughness.png,2048 × 2048,True
+V4_fabric_Door_RB_INT_6S,Base Color,03_alcantara_headliner_BaseColor.png,2048 × 2048,True
+V4_fabric_Door_RB_INT_6S,Normal,03_alcantara_headliner_Normal.png,2048 × 2048,True
+V4_fabric_Door_RB_INT_6S,Roughness,03_alcantara_headliner_Roughness.png,2048 × 2048,True
+TX_061_CabinV2_Door_INT_2.001,Base Color,9X_lanbai_INT_2.jpg.001,1024 × 1024,True
+TX_061_CabinV2_Door_INT_2.001,Normal,INT_normal2.jpg.001,1024 × 1024,True
+TX_061_CabinV2_Door_INT_2.001,Roughness,roughness.jpg,2048 × 2048,True
+TX_062_CabinV2_Door_INT_2.001,Base Color,9X_lanbai_INT_2.jpg.001,1024 × 1024,True
+TX_062_CabinV2_Door_INT_2.001,Normal,INT_normal2.jpg.001,1024 × 1024,True
+TX_062_CabinV2_Door_INT_2.001,Roughness,roughness.jpg,2048 × 2048,True
+V4_fabric_Door_RB_INT_NO_sunshade,Base Color,03_alcantara_headliner_BaseColor.png,2048 × 2048,True
+V4_fabric_Door_RB_INT_NO_sunshade,Normal,03_alcantara_headliner_Normal.png,2048 × 2048,True
+V4_fabric_Door_RB_INT_NO_sunshade,Roughness,03_alcantara_headliner_Roughness.png,2048 × 2048,True
+TX_063_CabinV2_Door_INT_2.001,Base Color,9X_lanbai_INT_2.jpg.001,1024 × 1024,True
+TX_063_CabinV2_Door_INT_2.001,Normal,INT_normal2.jpg.001,1024 × 1024,True
+TX_063_CabinV2_Door_INT_2.001,Roughness,roughness.jpg,2048 × 2048,True
+TX_064_CabinV2_Door_INT_2.001,Base Color,9X_lanbai_INT_2.jpg.001,1024 × 1024,True
+TX_064_CabinV2_Door_INT_2.001,Normal,INT_normal2.jpg.001,1024 × 1024,True
+TX_064_CabinV2_Door_INT_2.001,Roughness,roughness.jpg,2048 × 2048,True
+V4_leather_Door_RF_WG,Base Color,02_nappa_seat_BaseColor.png,2048 × 2048,True
+V4_leather_Door_RF_WG,Normal,02_nappa_seat_Normal.png,2048 × 2048,True
+V4_leather_Door_RF_WG,Roughness,02_nappa_seat_Roughness.png,2048 × 2048,True
+V4_fabric_Door_RF_WG,Base Color,03_alcantara_headliner_BaseColor.png,2048 × 2048,True
+V4_fabric_Door_RF_WG,Normal,03_alcantara_headliner_Normal.png,2048 × 2048,True
+V4_fabric_Door_RF_WG,Roughness,03_alcantara_headliner_Roughness.png,2048 × 2048,True
+V4_leather_PassengerBackrestShell,Base Color,02_nappa_seat_BaseColor.png,2048 × 2048,True
+V4_leather_PassengerBackrestShell,Normal,02_nappa_seat_Normal.png,2048 × 2048,True
+V4_leather_PassengerBackrestShell,Roughness,02_nappa_seat_Roughness.png,2048 × 2048,True
+TX_065_CabinV2_Door_INT_2.001,Base Color,9X_lanbai_INT_2.jpg.001,1024 × 1024,True
+TX_065_CabinV2_Door_INT_2.001,Normal,INT_normal2.jpg.001,1024 × 1024,True
+TX_065_CabinV2_Door_INT_2.001,Roughness,roughness.jpg,2048 × 2048,True
+TX_066_CabinV2_Headliner_INT_2.001,Base Color,9X_lanbai_INT_2.jpg.001,1024 × 1024,True
+TX_066_CabinV2_Headliner_INT_2.001,Normal,INT_normal2.jpg.001,1024 × 1024,True
+TX_066_CabinV2_Headliner_INT_2.001,Roughness,V5_unit_factor,2048 × 2048,True
+V5_Vent_SoftBlack,Base Color,V5_Base Color_e9cbccc594a4,2048 × 2048,True
+V5_Vent_SoftBlack,Normal,V5_flat_normal,2048 × 2048,True
+V5_Vent_SoftBlack,Roughness,V5_Roughness_04de408d8827,2048 × 2048,True
+CabinV2_WarmGrey_Thread.001,Base Color,V5_Base Color_68f994877572,2048 × 2048,True
+CabinV2_WarmGrey_Thread.001,Normal,V5_flat_normal,2048 × 2048,True
+CabinV2_WarmGrey_Thread.001,Roughness,V5_Roughness_0d5802c9e5a9,2048 × 2048,True

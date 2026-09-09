@@ -1,0 +1,8 @@
+00:00.322  blend            | Read blend: "/Users/mac/Documents/Codex/2026-09-08/referenced-chatgpt-conversation-this-is-an/outputs/内饰自检修复V5/ZEEKR_9X_内饰自检修复V5.blend"
+<maps>:9: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+信息: 没有新的文件被打包
+信息: 已另存为 "ZEEKR_9X_内饰自检修复V5.blend"
+FINISHES_RESTORED ['car_paint_hei', 'Plastic', 'Piano_Black', 'Rubber', 'Black_1', 'Glass_Clear', 'Glass_Clear_B', 'Glass_ROOF', 'Glass_ROOF_B', 'Glass_triangle', 'Glass_triangle_B', 'Glass_Light', 'Chrome_black', 'Chrome Matte', 'Chrome Glossy']
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

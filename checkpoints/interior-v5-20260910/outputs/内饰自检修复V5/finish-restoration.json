@@ -1,0 +1,23 @@
+{
+  "restored": [
+    "car_paint_hei",
+    "Plastic",
+    "Piano_Black",
+    "Rubber",
+    "Black_1",
+    "Glass_Clear",
+    "Glass_Clear_B",
+    "Glass_ROOF",
+    "Glass_ROOF_B",
+    "Glass_triangle",
+    "Glass_triangle_B",
+    "Glass_Light",
+    "Chrome_black",
+    "Chrome Matte",
+    "Chrome Glossy"
+  ],
+  "piano_roughness": 0.08,
+  "piano_coat": 1,
+  "piano_coat_roughness": 0.03,
+  "note": "Undo unintended shared-slot calibration of non-upholstery materials; preserve intended upholstery edits."
+}
