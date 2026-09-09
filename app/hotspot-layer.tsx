@@ -1,5 +1,12 @@
 'use client';
-import { memo, useImperativeHandle, useState, type Ref } from 'react';
+import {
+  memo,
+  useEffect,
+  useImperativeHandle,
+  useRef,
+  useState,
+  type Ref,
+} from 'react';
 import { Armchair, Lightbulb, Plus } from 'lucide-react';
 import { text, type Locale } from './experience';
 import { labText } from './lab-state';
@@ -23,6 +30,17 @@ export const HotspotLayer = memo(function HotspotLayer({
     return v === id ? labText(locale, id) : v;
   };
   const [points, setPoints] = useState<Hotspot[]>([]);
+  const layer = useRef<HTMLDivElement>(null);
+  const [size, setSize] = useState({ width: 0, height: 0 });
+  useEffect(() => {
+    if (!layer.current) return;
+    const observer = new ResizeObserver(([entry]) => {
+      const { width, height } = entry.contentRect;
+      setSize({ width, height });
+    });
+    observer.observe(layer.current);
+    return () => observer.disconnect();
+  }, []);
   useImperativeHandle(
     ref,
     () => ({
@@ -46,12 +64,30 @@ export const HotspotLayer = memo(function HotspotLayer({
     [],
   );
   return (
-    <div className="hotspot-layer">
+    <div ref={layer} className="hotspot-layer">
       {loaded &&
         points.map((h) => (
           <button
             key={h.id}
             className="hotspot"
+            data-label-side={
+              h.x < 100
+                ? 'start'
+                : size.width && h.x > size.width - 100
+                  ? 'end'
+                  : 'center'
+            }
+            data-label-above={
+              (size.height > 0 && h.y > size.height - 85) ||
+              (h.y > 80 &&
+                points.some(
+                  (p) =>
+                    p.id !== h.id &&
+                    Math.abs(p.x - h.x) < 70 &&
+                    p.y > h.y &&
+                    p.y - h.y < 70,
+                ))
+            }
             style={{
               left: 0,
               top: 0,

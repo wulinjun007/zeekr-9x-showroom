@@ -256,12 +256,13 @@ button {
   position: absolute;
   transform: translate(-50%, -50%);
   pointer-events: auto;
-  display: flex;
-  gap: 8px;
-  align-items: center;
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  padding: 0;
   border: 0;
   background: transparent;
-  white-space: nowrap;
 }
 .hotspot > span {
   width: 30px;
@@ -276,20 +277,49 @@ button {
     0 2px 15px #0003;
 }
 .hotspot b {
-  background: #30393ce6;
+  position: absolute;
+  top: calc(100% + 7px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: max-content;
+  max-width: min(160px, 45vw);
+  white-space: normal;
+  overflow-wrap: anywhere;
+  text-align: center;
+  background: #182329ed;
+  border: 1px solid #ffffff30;
   color: #fff;
-  padding: 6px 10px;
-  font-size: 10px;
-  font-weight: 400;
-  border-radius: 3px;
-  opacity: 0;
-  transform: translateX(-5px);
-  transition: 0.2s;
+  padding: 6px 9px;
+  font-size: 11px;
+  line-height: 1.4;
+  font-weight: 500;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px #0003;
+}
+.hotspot[data-label-side='start'] b {
+  left: calc(100% + 8px);
+  top: 50%;
+  transform: translateY(-50%);
+}
+.hotspot[data-label-side='end'] b {
+  left: auto;
+  right: calc(100% + 8px);
+  top: 50%;
+  transform: translateY(-50%);
+}
+.hotspot[data-label-above='true'] b {
+  top: auto;
+  bottom: calc(100% + 7px);
 }
 .hotspot:hover b,
 .hotspot:focus-visible b {
-  opacity: 1;
-  transform: translateX(0);
+  background: #34474f;
+  border-color: #ffffff80;
+}
+.hotspot:focus-visible {
+  outline: 2px solid #e2c994;
+  outline-offset: 5px;
+  border-radius: 50%;
 }
 .stage-bottom {
   position: absolute;
@@ -1065,7 +1095,10 @@ button {
     display: none;
   }
   .hotspot b {
-    display: none;
+    display: block;
+    max-width: min(132px, 42vw);
+    font-size: 10px;
+    padding: 5px 7px;
   }
   .hotspot > span {
     width: 26px;
