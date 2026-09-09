@@ -1,13 +1,8 @@
+import { wheelStyles } from './wheel-styles';
+import { WheelGlyph } from './wheel-controls';
 import { paintSelection } from './paint-library';
 ('use client');
-import {
-  Check,
-  ChevronRight,
-  CircleDot,
-  Lightbulb,
-  DoorOpen,
-  Play,
-} from 'lucide-react';
+import { Check, ChevronRight, Lightbulb, DoorOpen, Play } from 'lucide-react';
 import { paints, text, type Locale, type Settings } from './experience';
 import { cmfLabel } from './cmf-controls';
 import { labText } from './lab-state';
@@ -132,9 +127,13 @@ export function ShowroomDock({
             </div>
             <span className="dock-caption">{tr(s.paint)}</span>
           </div>
-          <div className="dock-group" role="group" aria-label={ui('wheel')}>
+          <div
+            className="dock-group dock-wheels"
+            role="group"
+            aria-label={ui('wheel')}
+          >
             <div className="dock-options">
-              {(['mirror', 'turbine', 'sport'] as const).map((v, i) => (
+              {wheelStyles.map((v) => (
                 <button
                   key={v}
                   className={
@@ -150,7 +149,7 @@ export function ShowroomDock({
                     })
                   }
                 >
-                  <CircleDot size={23} strokeWidth={i === 1 ? 2 : 1} />
+                  <WheelGlyph style={v} />
                   <span>{tr(v)}</span>
                 </button>
               ))}

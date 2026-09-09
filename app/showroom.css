@@ -860,3 +860,51 @@
   background: #73838a;
   border-radius: 4px;
 }
+
+.wheel-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin: 14px 0;
+}
+.wheel-cards button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px;
+  text-align: start;
+  border: 1px solid #8c969444;
+  border-radius: 8px;
+  font-size: 11px;
+}
+.wheel-cards button[aria-pressed='true'] {
+  border-color: #5b827a;
+  background: #72948b18;
+}
+.wheel-cards svg {
+  flex-shrink: 0;
+}
+.wheel-workshop h4 {
+  font-size: 12px;
+  margin: 14px 0 8px;
+}
+.wheel-workshop button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.showroom .dock-wheels .dock-options {
+  max-width: 260px;
+  overflow-x: auto;
+  padding: 6px;
+  color-scheme: dark;
+  scrollbar-width: thin;
+  scrollbar-color: #73838a #10151a;
+}
+.showroom .dock-wheels .dock-wheel {
+  flex-shrink: 0;
+}
+@media (max-width: 760px) {
+  .showroom .dock-wheels .dock-options {
+    max-width: 190px;
+  }
+}

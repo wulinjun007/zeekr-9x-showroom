@@ -117,3 +117,13 @@ npm run preview:vercel
 ```
 
 GitHub 主分支 `main` 关联生产环境；其他分支用于预览。不要将 Blender 源工程压缩包放进网站的 `public/`，源工程继续保存在私有 GitHub Release 附件中。
+
+### Wheel design workshop
+
+Exterior → More options now offers the original wheel plus six procedural concepts: swept turbine, ten-spoke, split Y, cross mesh, aero disc and concave six-spoke. Concepts support diamond silver, graphite and satin bronze surfaces. Selection opens the wheel close-up; `wheelStyle` and `wheelFinish` survive saved configurations and shared URLs. Existing tire patterns remain independent.
+
+These are original visual concepts using the retained tire envelope, not official fitment or aerodynamic claims. Three merged material buckets per wheel share cached geometry across all four wheels (3,336–5,160 triangles per wheel); no external model downloads are added. Geometry and sharing validation:
+
+```sh
+node --import ./checks/ts-resolver.mjs checks/wheel-designs.mjs
+```

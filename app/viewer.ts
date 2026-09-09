@@ -1,3 +1,5 @@
+import { buildWheelGeometry, type WheelGeometrySet } from './wheel-geometry';
+import type { WheelStyle } from './wheel-styles';
 import { paintProfile } from './paint-library';
 import { glassZone, glassTints, glassCabinLight } from './glass';
 import { createStaticBatches } from './static-batches';
@@ -552,40 +554,49 @@ export async function createViewer(
   }
   scene.remove(car);
   scene.remove(variant.scene);
-  const rimMaterials: T.MeshStandardMaterial[] = [];
-  wheelCenters.forEach((center) => {
-    const g = new T.Group();
-    const sign = Math.sign(center.x);
-    g.position.copy(center);
-    g.position.x += sign * 0.129;
-    const mat = new T.MeshStandardMaterial({
-      color: 0x9da8af,
-      metalness: 0.95,
-      roughness: 0.23,
-    });
+  const wheelGeometryCache = new Map<string, WheelGeometrySet>();
+  function wheelGeometry(style: WheelStyle) {
+    const key = style === 'mirror' ? 'turbine' : style;
+    if (!wheelGeometryCache.has(key))
+      wheelGeometryCache.set(key, buildWheelGeometry(key));
+    return wheelGeometryCache.get(key)!;
+  }
+  const rimFace = new T.MeshStandardMaterial({
+    color: 0xaab4bd,
+    metalness: 0.92,
+    roughness: 0.24,
+  });
+  const rimDark = new T.MeshStandardMaterial({
+    color: 0x222830,
+    metalness: 0.7,
+    roughness: 0.36,
+  });
+  const rimTrim = new T.MeshStandardMaterial({
+    color: 0xbec7ce,
+    metalness: 0.95,
+    roughness: 0.18,
+  });
+  for (const mat of [rimFace, rimDark, rimTrim])
     mat.userData = { baseOpacity: 1, baseTransparent: false };
-    rimMaterials.push(mat);
-    const lip = new T.Mesh(new T.TorusGeometry(0.279, 0.019, 10, 56), mat);
-    lip.rotation.y = Math.PI / 2;
-    g.add(lip);
-    const hub = new T.Mesh(new T.CylinderGeometry(0.065, 0.065, 0.06, 32), mat);
-    hub.rotation.z = Math.PI / 2;
-    g.add(hub);
-    for (let i = 0; i < 10; i++) {
-      const spoke = new T.Mesh(new T.BoxGeometry(0.025, 0.22, 0.035), mat);
-      const a = (i * Math.PI) / 5;
-      spoke.position.set(0, Math.cos(a) * 0.16, Math.sin(a) * 0.16);
-      spoke.rotation.x = a;
-      spoke.userData.spoke = i;
-      g.add(spoke);
-    }
-    scene.add(g);
-    g.updateMatrixWorld(true);
-    const originalChildren = [...g.children] as T.Mesh[];
-    for (const mesh of originalChildren) {
-      scene.attach(mesh);
+  const initialWheels = wheelGeometry(initial.wheelStyle);
+  wheelCenters.forEach((center) => {
+    const sign = Math.sign(center.x);
+    for (const [slot, mat] of [
+      ['face', rimFace],
+      ['dark', rimDark],
+      ['trim', rimTrim],
+    ] as const) {
+      const mesh = new T.Mesh(initialWheels[slot], mat);
+      mesh.name = 'Concept_wheel_' + slot;
+      mesh.userData.wheelSlot = slot;
+      mesh.position.copy(center);
+      mesh.position.x += sign * 0.129;
+      mesh.rotation.y = (sign * Math.PI) / 2;
+      mesh.updateMatrix();
       mesh.matrixAutoUpdate = false;
       mesh.castShadow = true;
+      mesh.receiveShadow = true;
+      scene.add(mesh);
       pieces.push({
         mesh,
         base: mesh.matrix.clone(),
@@ -597,7 +608,6 @@ export async function createViewer(
         variant: 'customRim',
       });
     }
-    scene.remove(g);
   });
   const tireCanvas = document.createElement('canvas');
   tireCanvas.width = 256;
@@ -1036,6 +1046,7 @@ export async function createViewer(
         'selected',
         'section',
         'wheelStyle',
+        'wheelFinish',
         'tireStyle',
         'seatStyle',
         'backrest',
@@ -1226,18 +1237,17 @@ export async function createViewer(
             m.roughness = s.tireStyle === 'touring' ? 0.92 : 0.82;
           }
           if (p.variant === 'customRim') {
-            m.color.set(s.wheelStyle === 'turbine' ? 0x73868e : 0xb5b7b9);
-            const index = p.mesh.userData.spoke;
-            if (index !== undefined) {
-              const scale = s.wheelStyle === 'turbine' ? 1.9 : 1;
-              p.base.decompose(
-                p.mesh.position,
-                p.mesh.quaternion,
-                p.mesh.scale,
-              );
-              p.mesh.scale.z = scale;
-              p.base.compose(p.mesh.position, p.mesh.quaternion, p.mesh.scale);
-            }
+            p.mesh.geometry = wheelGeometry(s.wheelStyle)[
+              p.mesh.userData.wheelSlot as keyof WheelGeometrySet
+            ];
+            rimFace.color.set(
+              s.wheelFinish === 'bronze'
+                ? 0x96704b
+                : s.wheelFinish === 'graphite'
+                  ? 0x444d58
+                  : 0xaab4bd,
+            );
+            rimFace.roughness = s.wheelFinish === 'diamond' ? 0.24 : 0.36;
           }
           if (m.name.startsWith('car_paint')) {
             const pm = m as T.MeshPhysicalMaterial;
@@ -1991,6 +2001,9 @@ export async function createViewer(
       cockpit?.dispose();
       grain.dispose();
       paintGrain.dispose();
+      for (const group of wheelGeometryCache.values())
+        for (const geometry of Object.values(group)) geometry.dispose();
+      wheelGeometryCache.clear();
       tread.dispose();
       hudTexture.dispose();
       renderer.dispose();

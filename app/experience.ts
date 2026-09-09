@@ -1,3 +1,10 @@
+import {
+  wheelStyles,
+  wheelFinishes,
+  wheelText,
+  type WheelStyle,
+  type WheelFinish,
+} from './wheel-styles';
 import { signaturePaints, paintName } from './paint-library';
 import { glassDefaults, readGlass, type GlassSettings } from './glass';
 import { getScenario } from './scenarios';
@@ -58,7 +65,8 @@ export type Settings = LabSettings &
     scenario: 'parking' | 'blindspot' | 'door' | 'sensor';
     playing: boolean;
     progress: number;
-    wheelStyle: 'mirror' | 'turbine' | 'sport';
+    wheelStyle: WheelStyle;
+    wheelFinish: WheelFinish;
     tireStyle: 'road' | 'touring';
     seatStyle: 'blue' | 'ivory' | 'cognac';
     backrest: 'A' | 'B';
@@ -88,6 +96,7 @@ export const defaults: Settings = {
   playing: false,
   progress: 0,
   wheelStyle: 'mirror',
+  wheelFinish: 'diamond',
   tireStyle: 'road',
   seatStyle: 'blue',
   backrest: 'B',
@@ -180,11 +189,11 @@ const rows: Record<string, string[]> = {
     'نمط تجوال',
   ],
   variantNote: [
-    '涡轮与十辐为原创展示造型；胎面为视觉纹理，不代表官方适配、性能或在售规格。',
-    'Turbine and ten-spoke wheels are original concept designs. Tire textures do not imply official fitment, performance or sale specifications.',
-    'Turbinen- und Zehnspeichenfelgen sind eigene Konzepte. Reifentexturen sind keine Zusage zu Freigabe, Leistung oder Verkaufsdaten.',
-    'タービンと10スポークは独自コンセプト。タイヤ模様は公式適合や性能を示しません。',
-    'العجلات التوربينية وذات الأذرع العشرة تصاميم تصورية أصلية. نقوش الإطار لا تعني توافقاً أو أداءً أو مواصفات رسمية.',
+    '概念轮毂为原创展示造型；胎面为视觉纹理，不代表官方适配、性能或在售规格。',
+    'The alternative wheels are original concept designs. Tire textures do not imply official fitment, performance or sale specifications.',
+    'Die alternativen Felgen sind eigene Konzepte. Reifentexturen sind keine Zusage zu Freigabe, Leistung oder Verkaufsdaten.',
+    '追加ホイールは独自コンセプト。タイヤ模様は公式適合や性能を示しません。',
+    'العجلات البديلة تصاميم تصورية أصلية. نقوش الإطار لا تعني توافقاً أو أداءً أو مواصفات رسمية.',
   ],
   seatStyle: [
     '内饰与座椅材质',
@@ -807,6 +816,8 @@ const rows: Record<string, string[]> = {
   high: ['精细', 'High', 'Hoch', '高精細', 'عالية'],
 };
 export function text(locale: Locale, key: string) {
+  if ((wheelStyles as readonly string[]).includes(key))
+    return wheelText(locale, key);
   return (
     rows[key]?.[['zh', 'en', 'de', 'ja', 'ar'].indexOf(locale)] ??
     paintName(locale, key) ??
@@ -863,13 +874,14 @@ export function readSettings(search = window.location.search): Settings {
   if (sc && ['parking', 'blindspot', 'door', 'sensor'].includes(sc))
     s.scenario = sc as Settings['scenario'];
   for (const [k, allowed] of Object.entries({
-    wheelStyle: ['mirror', 'turbine', 'sport'],
+    wheelStyle: wheelStyles,
+    wheelFinish: wheelFinishes,
     tireStyle: ['road', 'touring'],
     seatStyle: ['blue', 'ivory', 'cognac'],
     backrest: ['A', 'B'],
   })) {
     const val = p.get(k);
-    if (val && allowed.includes(val))
+    if (val && (allowed as readonly string[]).includes(val))
       (s as unknown as Record<string, unknown>)[k] = val;
   }
   const selected = p.get('selected');
@@ -906,7 +918,13 @@ export function shareUrl(s: Settings) {
   u.searchParams.set('radar', s.radar ? '1' : '0');
   u.searchParams.set('hotspots', s.hotspots ? '1' : '0');
   u.searchParams.set('scenario', s.scenario);
-  for (const k of ['wheelStyle', 'tireStyle', 'seatStyle', 'backrest'] as const)
+  for (const k of [
+    'wheelStyle',
+    'wheelFinish',
+    'tireStyle',
+    'seatStyle',
+    'backrest',
+  ] as const)
     u.searchParams.set(k, s[k]);
   for (const k of [
     'glassTint',
