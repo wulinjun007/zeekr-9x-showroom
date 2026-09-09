@@ -16,6 +16,7 @@ import {
   sessionText,
 } from './scene-session';
 import { entranceCopy, showcaseCopy } from './entrance';
+import { shouldAutoplayEntrance, rememberEntrance } from './entrance-session';
 import { ShowroomDock, QuickAccess, showroomText } from './showroom-dock';
 import { GlassControls } from './glass-controls';
 import { PartsControls, ChassisControls } from './study-controls';
@@ -187,6 +188,20 @@ function ZeekrHome() {
     stateRef = useRef(s),
     root = useRef<HTMLElement>(null),
     reduced = useRef(false);
+  const replayOrigin = useRef<HTMLButtonElement | null>(null);
+  const skipButton = useRef<HTMLButtonElement>(null);
+  const replayTour = (event: React.MouseEvent<HTMLButtonElement>) => {
+    replayOrigin.current = event.currentTarget;
+    viewer.current?.replayEntrance();
+  };
+  useEffect(() => {
+    if (loaded && entering && replayOrigin.current)
+      skipButton.current?.focus({ preventScroll: true });
+    if (!entering && replayOrigin.current) {
+      replayOrigin.current.focus({ preventScroll: true });
+      replayOrigin.current = null;
+    }
+  }, [loaded, entering]);
   useEffect(() => {
     stateRef.current = s;
   }, [s]);
@@ -272,11 +287,13 @@ function ZeekrHome() {
             setS((v) => ({ ...v, progress: p, playing: p < 1 && v.playing })),
           {
             reducedMotion: reduced.current,
+            autoplay: shouldAutoplayEntrance(),
             onQuality: (value) => {
               if (!cancelled) setQuality(value);
             },
             onChange: (active) => {
               if (!cancelled) {
+                if (active) rememberEntrance();
                 setEntering(active);
                 if (!active) setTourChapter(-1);
               }
@@ -565,6 +582,13 @@ function ZeekrHome() {
               </button>
             ))}
           </fieldset>
+          <button
+            className="tour-replay"
+            disabled={!loaded || reduced.current || entering}
+            onClick={replayTour}
+          >
+            <Play size={14} /> {sessionText(s.locale, 'replay')}
+          </button>
           <div className="tools">
             <button
               aria-label={tr('zoomIn')}
@@ -988,7 +1012,7 @@ function ZeekrHome() {
                 <Button
                   className="wide-button"
                   disabled={!loaded || reduced.current}
-                  onClick={() => viewer.current?.replayEntrance()}
+                  onClick={replayTour}
                 >
                   <Play size={16} />
                   {sessionText(s.locale, 'replay')}
@@ -1038,10 +1062,7 @@ function ZeekrHome() {
             >
               {sessionText(s.locale, 'restore')}
             </button>
-            <button
-              disabled={!loaded || reduced.current}
-              onClick={() => viewer.current?.replayEntrance()}
-            >
+            <button disabled={!loaded || reduced.current} onClick={replayTour}>
               {sessionText(s.locale, 'replay')}
             </button>
           </div>
@@ -1181,6 +1202,7 @@ function ZeekrHome() {
           aria-label={entranceCopy[s.locale].note}
         >
           <button
+            ref={skipButton}
             className="entrance-skip"
             onClick={() => viewer.current?.skipEntrance()}
           >

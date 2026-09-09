@@ -123,6 +123,7 @@ export async function createViewer(
   onTimeline: (p: number) => void,
   opening?: {
     reducedMotion: boolean;
+    autoplay?: boolean;
     onChange: (active: boolean) => void;
     onChapter?: (chapter: number) => void;
     onExplore?: (settings: Settings) => void;
@@ -324,6 +325,7 @@ export async function createViewer(
     frameCount = 0;
   let entering =
     !!opening &&
+    opening.autoplay !== false &&
     !opening.reducedMotion &&
     !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   let entranceTime = 0,
@@ -1927,7 +1929,11 @@ export async function createViewer(
     camera.position.copy(entranceCamera);
     controls.target.copy(toTarget);
     camera.lookAt(controls.target);
-  } else if (opening?.reducedMotion || motionPreference.matches) {
+  } else if (
+    opening?.autoplay === false ||
+    opening?.reducedMotion ||
+    motionPreference.matches
+  ) {
     tween = 1;
     camera.position.copy(toPos);
     controls.target.copy(toTarget);

@@ -66,11 +66,11 @@ export function restoreScene(): Settings | null {
 }
 const copy: Record<string, string[]> = {
   replay: [
-    '回放入场',
-    'Replay arrival',
-    'Ankunft wiederholen',
-    '入場を再生',
-    'إعادة الدخول',
+    '重播导览',
+    'Replay tour',
+    'Rundgang wiederholen',
+    'ツアーを再生',
+    'إعادة الجولة',
   ],
   resetScene: [
     '重置场景 · 保留配置',
