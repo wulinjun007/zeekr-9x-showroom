@@ -16,13 +16,8 @@ export default defineConfig({
       transformIndexHtml() {
         return [
           {
-            tag: 'link',
-            attrs: {
-              rel: 'preload',
-              as: 'fetch',
-              crossorigin: 'anonymous',
-              href: assetManifest['/models/zeekr-9x.glb'].url,
-            },
+            tag: 'script',
+            children: `(() => { const models = ${JSON.stringify({ zeekr: assetManifest['/models/zeekr-9x.glb'].url, n90: assetManifest['/models/n90-max-study.glb'].url })}; const key = new URLSearchParams(location.search).get('vehicle') === 'n90' ? 'n90' : 'zeekr'; const link = document.createElement('link'); link.rel = 'preload'; link.as = 'fetch'; link.crossOrigin = 'anonymous'; link.href = models[key]; document.head.appendChild(link); })();`,
             injectTo: 'head' as const,
           },
         ];

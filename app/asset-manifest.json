@@ -1,4 +1,9 @@
 {
+  "/models/n90-max-study.glb": {
+    "url": "/cdn/e781b000e1e5f0a3/models/n90-max-study.glb",
+    "bytes": 5129496,
+    "sha256": "e781b000e1e5f0a3d8d90cec77e818c616d831e881f365c660100100fef2600f"
+  },
   "/models/seat-layout-a.glb": {
     "url": "/cdn/453962574fb8aaec/models/seat-layout-a.glb",
     "bytes": 773464,

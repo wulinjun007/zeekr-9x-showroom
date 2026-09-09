@@ -20,7 +20,18 @@ import { ShowroomDock, QuickAccess, showroomText } from './showroom-dock';
 import { GlassControls } from './glass-controls';
 import { PartsControls, ChassisControls } from './study-controls';
 import type { PartType } from './study-state';
-import { useEffect, useRef, useState, useCallback } from 'react';
+import {
+  useEffect,
+  useRef,
+  useState,
+  useCallback,
+  lazy,
+  Suspense,
+  useSyncExternalStore,
+} from 'react';
+import { VehicleSwitcher } from './vehicle-switcher';
+import './n90.css';
+const N90Showroom = lazy(() => import('./n90-showroom'));
 import {
   ArrowUpRight,
   Check,
@@ -117,6 +128,38 @@ const Toggle = ({
 );
 
 export default function Home() {
+  const vehicle = useSyncExternalStore(
+    () => () => {},
+    () =>
+      new URLSearchParams(location.search).get('vehicle') === 'n90'
+        ? 'n90'
+        : 'zeekr',
+    () => null,
+  );
+  if (vehicle === null)
+    return (
+      <div
+        className="vehicle-boot"
+        style={{
+          minHeight: '100svh',
+          display: 'grid',
+          placeItems: 'center',
+          background: '#080a0e',
+          color: '#b6c3ce',
+        }}
+      >
+        正在载入展厅
+      </div>
+    );
+  return vehicle === 'n90' ? (
+    <Suspense fallback={<div className="vehicle-boot">正在载入 N90 Max</div>}>
+      <N90Showroom />
+    </Suspense>
+  ) : (
+    <ZeekrHome />
+  );
+}
+function ZeekrHome() {
   const [s, setS] = useState<Settings>(defaults),
     [ready, setReady] = useState(false),
     [loaded, setLoaded] = useState(false),
@@ -437,11 +480,7 @@ export default function Home() {
       }
     >
       <header className="site-header" inert={entering && tourChapter < 0}>
-        {/* A full-page reset intentionally discards the transient 3D session. */}
-        {/* eslint-disable-next-line next/no-html-link-for-pages */}
-        <a className="wordmark" href="/" aria-label="ZEEKR 9X experience">
-          ZEEKR<span>9X</span>
-        </a>
+        <VehicleSwitcher current="zeekr" />
         <nav
           className="section-nav showroom-nav"
           aria-label="Experience sections"
