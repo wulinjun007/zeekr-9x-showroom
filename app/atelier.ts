@@ -342,6 +342,7 @@ export function createAtelier(scene: T.Scene) {
   );
   const chargeDot = new T.Mesh(new T.SphereGeometry(0.055, 12, 8), glow);
   charger.add(chargeDot);
+  const daylightHaze = new T.Fog(0x747c83, 28, 90);
   const fog = new T.FogExp2(0xbac7c7, 0.065),
     rainFog = new T.FogExp2(0x84959e, 0.015);
   let screenAngle = -Math.PI / 2,
@@ -399,8 +400,10 @@ export function createAtelier(scene: T.Scene) {
     screenPivot.position.z = 0.65 + (screenOn ? 0.16 : 0);
     screenPivot.visible = screenAngle > -1.56;
     const cabinVisible = inside || s.doors.length > 0 || s.transparent;
-    for (const light of reading) light.visible = !!cabinVisible && s.readingLights && !cinema;
-    for (const light of footlights) light.visible = !!cabinVisible && s.ambientPower > 0;
+    for (const light of reading)
+      light.visible = !!cabinVisible && s.readingLights && !cinema;
+    for (const light of footlights)
+      light.visible = !!cabinVisible && s.ambientPower > 0;
     reading.forEach(
       (l) =>
         (l.intensity =
@@ -513,7 +516,17 @@ export function createAtelier(scene: T.Scene) {
     fog.density =
       (s.weather === 'fog' ? 0.09 : strong ? 0.065 : 0.02) * strength;
     fog.color.set(dusty ? 0x9f8865 : s.mode === 'night' ? 0x15202b : 0xbac7c7);
-    scene.fog = s.weather === 'fog' || strong ? fog : rainy ? rainFog : null;
+    scene.fog =
+      s.weather === 'fog' || strong
+        ? fog
+        : rainy
+          ? rainFog
+          : s.mode === 'day' &&
+              !s.roadEnabled &&
+              s.section !== 'structure' &&
+              s.section !== 'safety'
+            ? daylightHaze
+            : null;
     wind.visible = ['wind', 'storm', 'blizzard', 'sand', 'heat'].includes(
       s.weather,
     );

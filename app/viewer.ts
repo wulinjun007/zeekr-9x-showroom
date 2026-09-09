@@ -280,6 +280,7 @@ export async function createViewer(
   key.shadow.camera.bottom = -7;
   key.shadow.normalBias = 0.035;
   key.shadow.bias = -0.0003;
+  key.shadow.radius = 3;
   scene.add(key);
   const rim = new T.DirectionalLight(0xc8defc, 2.7);
   rim.position.set(5, 4, 4);
@@ -1096,32 +1097,27 @@ export async function createViewer(
     floor.visible = !s.roadEnabled && s.view !== 'underbody';
     undersideLight.visible = s.view === 'underbody';
     controls.autoRotate = s.orbit && !interior && s.section !== 'safety';
-    const night = s.mode === 'night',
-      day = s.mode === 'day';
-    scene.background = new T.Color(
-      night ? 0x080a0e : day ? 0xd5dfdf : 0xd8d4cc,
-    );
-    floorMat.color.set(night ? 0x14171d : day ? 0xbdc9c4 : 0xc8c3bb);
-    hemi.intensity = night ? 0.55 : day ? 3.2 : 1.7;
-    key.intensity = night ? 0.9 : day ? 4.5 : 3.3;
-    rim.intensity = night ? 2.7 : 2.3;
-    renderer.toneMappingExposure = night ? 1.05 : 1.25;
+    const night = s.mode === 'night';
+    // Neutral overcast light: keep the background below body highlights.
+    // Reduce illumination and diffuse ground reflection together, not just exposure.
+    scene.background = new T.Color(night ? 0x080a0e : 0x747c83);
+    floorMat.color.set(night ? 0x14171d : 0x535b62);
+    hemi.intensity = night ? 0.55 : 1.15;
+    key.intensity = night ? 0.9 : 2.0;
+    rim.intensity = night ? 2.7 : 1.7;
+    renderer.toneMappingExposure = night ? 1.05 : 0.95;
     scene.environment = s.lightRig === 'strip' ? stripEnv.texture : env.texture;
-    scene.environmentIntensity = night ? 0.4 : 0.85;
-    floorMat.envMapIntensity = night ? 0.12 : 0.55;
-    floorMat.roughness = ['rain', 'storm'].includes(s.weather)
-      ? 0.16
-      : night
-        ? 0.92
-        : 0.7;
-    floorMat.metalness = ['rain', 'storm'].includes(s.weather) ? 0.35 : 0;
+    scene.environmentIntensity = night ? 0.4 : 0.48;
+    floorMat.envMapIntensity = night ? 0.12 : 0.08;
+    floorMat.roughness = ['rain', 'storm'].includes(s.weather) ? 0.24 : 0.94;
+    floorMat.metalness = ['rain', 'storm'].includes(s.weather) ? 0.18 : 0;
     if (['snow', 'blizzard'].includes(s.weather)) floorMat.color.set(0xd9e0e0);
     if (['overcast', 'storm', 'blizzard', 'sand'].includes(s.weather)) {
       key.intensity *= 0.8 - (0.5 * s.weatherIntensity) / 100;
       hemi.intensity *= 0.9 - (0.25 * s.weatherIntensity) / 100;
     }
     if (s.weather === 'heat') key.color.set(0xffd09b);
-    else key.color.set(0xffe7d1);
+    else key.color.set(night ? 0xffe7d1 : 0xf4f5f6);
     ambientMat.color.set(s.ambient);
     cabinLight.color.set(s.ambient);
     cabinLight.visible =
@@ -1140,12 +1136,7 @@ export async function createViewer(
     ambient.visible = interior;
     road.visible = s.section === 'safety';
     actors.visible = s.section === 'safety';
-    ring.visible =
-      !night &&
-      s.section !== 'safety' &&
-      !interior &&
-      s.view !== 'underbody' &&
-      !s.roadEnabled;
+    ring.visible = false;
     beam.children.forEach((o) => {
       if ((o as T.SpotLight).isSpotLight) {
         o.visible = s.lights && night;

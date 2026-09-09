@@ -437,7 +437,7 @@
   visibility: visible;
 }
 .showroom:not(.is-dark) .model-title {
-  color: #1e2832;
+  color: #f0f2f4;
 }
 .showroom.rtl .site-header,
 .showroom.rtl .showroom-dock {

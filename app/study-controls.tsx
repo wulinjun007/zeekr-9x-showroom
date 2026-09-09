@@ -364,11 +364,11 @@ export function EnvironmentControls({ s, update }: Props) {
               roadEnabled: false,
               roadPlaying: false,
               roadSeverity: 60,
-              mode: 'studio',
+              mode: 'day',
             })
           }
         >
-          {zh ? '恢复展厅' : 'Restore studio'}
+          {zh ? '恢复展厅' : 'Restore showroom'}
         </Button>
       </div>
       <p className="fineprint">

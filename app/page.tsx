@@ -352,7 +352,7 @@ export default function Home() {
       download(viewer.current.capture(), 'ZEEKR-9X-experience.png');
   };
   const card = () => {
-    const data = `ZEEKR 9X / INTERACTIVE DESIGN STUDY\n\n${tr('paint')}: ${tr(s.paint)}\n${tr('studio')}: ${tr(s.mode)}\n${tr('hero')}: ${tr(s.view)}\n\n${shareUrl(s)}\n\n${tr('study')}\n${tr('sourceText')}`;
+    const data = `ZEEKR 9X / INTERACTIVE DESIGN STUDY\n\n${tr('paint')}: ${tr(s.paint)}\n${tr('day')} / ${tr('night')}: ${tr(s.mode)}\n${tr('hero')}: ${tr(s.view)}\n\n${shareUrl(s)}\n\n${tr('study')}\n${tr('sourceText')}`;
     const u = URL.createObjectURL(
       new Blob([data], { type: 'text/plain;charset=utf-8' }),
     );
@@ -500,8 +500,11 @@ export default function Home() {
             </div>
           )}
           {s.section === 'exterior' && <QuickAccess s={s} update={update} />}
-          <fieldset className="scene-tabs" aria-label={tr('studio')}>
-            {(['studio', 'day', 'night'] as const).map((m) => (
+          <fieldset
+            className="scene-tabs"
+            aria-label={`${tr('day')} / ${tr('night')}`}
+          >
+            {(['day', 'night'] as const).map((m) => (
               <button
                 key={m}
                 onClick={() => update({ mode: m })}

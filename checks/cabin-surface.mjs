@@ -58,7 +58,7 @@ for (const zone of [
 }
 assert.ok(upholstery.fabric.floor > upholstery.leather.floor);
 assert.ok(upholstery.fabric.specular < upholstery.leather.specular);
-for (const mode of ['studio', 'day', 'night']) {
+for (const mode of ['day', 'night']) {
   const l = cabinLighting(mode);
   assert.ok(
     l.key <= 1.5 && l.rim <= 0.6 && l.exposure <= 1 && l.practical <= 0.12,
@@ -140,5 +140,5 @@ for (const entry of JSON.parse(
     );
 }
 console.log(
-  `PASS: 7 native surface zones, 4 material switches/restores, 3 lighting presets, ${refined} normals-only mesh refinements, 12 verified 2K textures. GPU/visual acceptance not performed.`,
+  `PASS: 7 native surface zones, 4 material switches/restores, 2 lighting presets, ${refined} normals-only mesh refinements, 12 verified 2K textures. GPU/visual acceptance not performed.`,
 );

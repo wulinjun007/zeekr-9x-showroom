@@ -1,7 +1,7 @@
 import { getScenario } from './scenarios';
 import { type LabSettings, labDefaults, readLab, writeLab } from './lab-state';
 export type Locale = 'zh' | 'en' | 'de' | 'ja' | 'ar';
-export type Mode = 'studio' | 'day' | 'night';
+export type Mode = 'day' | 'night';
 export type View =
   | 'hero'
   | 'front'
@@ -808,10 +808,10 @@ export function readSettings(search = window.location.search): Settings {
   const p = new URLSearchParams(search),
     s = { ...defaults };
   for (const k of ['locale', 'mode', 'view', 'section', 'paint'] as const) {
-    const v = p.get(k);
+    const v = k === 'mode' && p.get(k) === 'studio' ? 'day' : p.get(k);
     const allowed = {
       locale: Object.keys(locales),
-      mode: ['studio', 'day', 'night'],
+      mode: ['day', 'night'],
       view: [
         'hero',
         'front',

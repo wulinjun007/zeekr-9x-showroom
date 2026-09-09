@@ -93,14 +93,23 @@ export function calibrateCabinSurface(
     shader.uniforms.cabinDetailNormal = { value: detail };
     shader.uniforms.cabinFabricNormal = { value: fabricDetail };
     if (headliner) {
-      shader.vertexShader = 'attribute float headlinerMask; varying float vHeadlinerMask;\n' + shader.vertexShader;
-      shader.vertexShader = shader.vertexShader.replace('#include <begin_vertex>', '#include <begin_vertex>\nvHeadlinerMask = headlinerMask;');
-      shader.fragmentShader = 'varying float vHeadlinerMask;\n' + shader.fragmentShader;
-      shader.fragmentShader = shader.fragmentShader.replace('#include <map_fragment>', `#include <map_fragment>
+      shader.vertexShader =
+        'attribute float headlinerMask; varying float vHeadlinerMask;\n' +
+        shader.vertexShader;
+      shader.vertexShader = shader.vertexShader.replace(
+        '#include <begin_vertex>',
+        '#include <begin_vertex>\nvHeadlinerMask = headlinerMask;',
+      );
+      shader.fragmentShader =
+        'varying float vHeadlinerMask;\n' + shader.fragmentShader;
+      shader.fragmentShader = shader.fragmentShader.replace(
+        '#include <map_fragment>',
+        `#include <map_fragment>
         // Only replace pale headliner cloth; retain dark vents and switches.
         float roofLuma = dot(diffuseColor.rgb, vec3(.2126,.7152,.0722));
         float roofCloth = vHeadlinerMask * smoothstep(.22,.48,roofLuma);
-        diffuseColor.rgb = mix(diffuseColor.rgb, vec3(.46,.42,.36),roofCloth * .92);`);
+        diffuseColor.rgb = mix(diffuseColor.rgb, vec3(.46,.42,.36),roofCloth * .92);`,
+      );
     }
     shader.vertexShader =
       'attribute vec2 cmfUv; varying vec2 vCabinDetailUv;\n' +
@@ -143,21 +152,12 @@ export function cabinLighting(mode: Mode) {
         environment: 0.32,
         practical: 0.12,
       }
-    : mode === 'day'
-      ? {
-          hemi: 1.15,
-          key: 1.5,
-          rim: 0.55,
-          exposure: 1,
-          environment: 0.55,
-          practical: 0.035,
-        }
-      : {
-          hemi: 0.95,
-          key: 1.25,
-          rim: 0.6,
-          exposure: 1,
-          environment: 0.5,
-          practical: 0.06,
-        };
+    : {
+        hemi: 0.9,
+        key: 1.0,
+        rim: 0.45,
+        exposure: 0.95,
+        environment: 0.42,
+        practical: 0.035,
+      };
 }
