@@ -31,6 +31,12 @@ export function resetScene(s: Settings): Settings {
     hud: false,
     climate: 'off',
     occupant: false,
+    passengers: [],
+    windowLF: 0,
+    windowRF: 0,
+    windowLB: 0,
+    windowRB: 0,
+    panView: false,
     hotspots: true,
   };
 }

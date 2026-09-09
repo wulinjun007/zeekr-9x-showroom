@@ -1105,3 +1105,160 @@
   outline: 2px solid #bce5db;
   outline-offset: 3px;
 }
+
+/* Compact exterior controls stay out of the paint/wheel dock and use one shared scene. */
+.exterior-access {
+  position: absolute;
+  z-index: 9;
+  inset-inline-start: 30px;
+  top: 205px;
+  max-width: calc(100% - 100px);
+}
+.exterior-access .quick-access {
+  position: static;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 410px;
+  gap: 2px;
+  padding: 5px;
+  background: #101922df;
+  backdrop-filter: blur(14px);
+  border-radius: 10px;
+}
+.exterior-access .quick-access button {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 36px;
+  padding: 8px 10px;
+  border: 0;
+  font-size: 11px;
+  border-radius: 5px;
+  color: #e4e9eb;
+}
+.exterior-access .quick-access button[aria-expanded='true'],
+.exterior-access .quick-access button:hover {
+  background: #ffffff20;
+}
+.access-panel {
+  margin-top: 8px;
+  width: min(340px, calc(100vw - 60px));
+  max-height: min(490px, calc(100dvh - 390px));
+  overflow: auto;
+  padding: 15px;
+  background: #12202aee;
+  color: #e8ecee;
+  border: 1px solid #ffffff20;
+  border-radius: 12px;
+  box-shadow: 0 14px 40px #0005;
+  backdrop-filter: blur(18px);
+}
+.access-panel header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  font-size: 13px;
+}
+.access-panel button,
+.passenger-controls button {
+  border: 1px solid #ffffff26;
+  border-radius: 5px;
+  padding: 7px 8px;
+  font-size: 11px;
+}
+.access-panel header button {
+  border: 0;
+  padding: 4px;
+}
+.access-panel label,
+.passenger-controls label {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 12px;
+  margin: 10px 0;
+}
+.access-panel output,
+.passenger-controls output {
+  margin-inline-start: auto;
+  font-variant-numeric: tabular-nums;
+}
+.access-panel input[type='range'],
+.passenger-controls input[type='range'] {
+  width: 100%;
+  accent-color: #c1aa83;
+  height: 20px;
+}
+.passenger-controls input:not([type='range']):not([type='checkbox']),
+.passenger-controls select {
+  max-width: 160px;
+  margin-inline-start: auto;
+  border: 1px solid #8b959c66;
+  background: #e3e7e9;
+  color: #16212a;
+  border-radius: 4px;
+  padding: 5px 8px;
+}
+.passenger-seat-map,
+.access-view-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+}
+.passenger-seat-map button {
+  display: flex;
+  justify-content: space-between;
+  gap: 6px;
+  text-align: start;
+  min-height: 39px;
+}
+.passenger-seat-map small {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 90px;
+}
+.passenger-seat-map button[aria-pressed='true'],
+.access-panel button[aria-pressed='true'] {
+  background: #bda58338;
+  border-color: #bda583;
+}
+.access-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: 10px 0;
+}
+.passenger-controls p {
+  font-size: 10px;
+  line-height: 1.7;
+  opacity: 0.65;
+  margin-top: 10px;
+}
+.showroom.is-entering .exterior-access {
+  display: none;
+}
+@media (max-width: 700px) {
+  .exterior-access {
+    top: 193px;
+    inset-inline-start: 18px;
+    max-width: calc(100% - 36px);
+  }
+  .exterior-access .quick-access {
+    max-width: 100%;
+    gap: 0;
+    padding: 3px;
+  }
+  .exterior-access .quick-access button {
+    padding: 7px;
+    min-height: 34px;
+  }
+  .exterior-access .quick-access button span {
+    display: none;
+  }
+  .access-panel {
+    max-height: calc(100dvh - 365px);
+  }
+}

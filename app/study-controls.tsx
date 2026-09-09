@@ -1,4 +1,5 @@
 'use client';
+import { PassengerControls } from './passenger-controls';
 import { Button } from '@/components/ui/button';
 import { Slider } from '@/components/ui/slider';
 import { Switch } from '@/components/ui/switch';
@@ -11,12 +12,7 @@ import {
 } from '@/components/ui/select';
 import type { Settings } from './experience';
 import { weatherTypes } from './lab-state';
-import {
-  seatPositions,
-  roadTypes,
-  partTypes,
-  type PartType,
-} from './study-state';
+import { roadTypes, partTypes, type PartType } from './study-state';
 type Props = { s: Settings; update: (p: Partial<Settings>) => void };
 const names: Record<string, [string, string]> = {
   'front-left': ['第一排左侧 · 驾驶位', 'Front left · driver'],
@@ -74,7 +70,7 @@ function Pick({
 }: {
   s: Settings;
   update: Props['update'];
-  k: keyof Settings;
+  k: 'weather' | 'roadType';
   label: string;
   values: readonly string[];
 }) {
@@ -130,124 +126,9 @@ function Range({
   );
 }
 export function SeatingControls({ s, update }: Props) {
-  const zh = s.locale === 'zh';
-  return (
-    <div className="study-panel">
-      <h3>{zh ? '六座乘坐与安全带' : 'Seating & seatbelts'}</h3>
-      <div className="seat-map" aria-label={zh ? '座位选择' : 'Choose seat'}>
-        {seatPositions.map((id, i) => (
-          <button
-            key={id}
-            aria-pressed={s.seatPosition === id}
-            className={s.seatPosition === id ? 'active' : ''}
-            onClick={() =>
-              update({
-                seatPosition: id,
-                occupantRow: i < 2 ? 'driver' : i < 4 ? 'second' : 'third',
-                occupant: true,
-                transparent: true,
-                view: 'seat-study',
-                orbit: false,
-              })
-            }
-          >
-            <small>{i < 2 ? '01' : i < 4 ? '02' : '03'}</small>
-            {studyName(id, s.locale)}
-          </button>
-        ))}
-      </div>
-      <Range
-        label={zh ? '身高 · cm' : 'Height · cm'}
-        value={s.height}
-        min={150}
-        max={195}
-        onChange={(height) => update({ height })}
-      />
-      <div className="variant-buttons">
-        {[150, 165, 180, 195].map((height) => (
-          <button
-            key={height}
-            aria-pressed={height === s.height}
-            onClick={() => update({ height })}
-          >
-            {height} cm
-          </button>
-        ))}
-      </div>
-      <label className="lab-toggle">
-        <span>{zh ? '显示乘坐人偶' : 'Show seated avatar'}</span>
-        <Switch
-          aria-label={zh ? '显示乘坐人偶' : 'Show seated avatar'}
-          checked={s.occupant}
-          onCheckedChange={(occupant) =>
-            update({ occupant, view: 'seat-study', transparent: true })
-          }
-        />
-      </label>
-      <label className="lab-toggle">
-        <span>{zh ? '系好三点式安全带' : 'Fasten three-point belt'}</span>
-        <Switch
-          aria-label={zh ? '系好三点式安全带' : 'Fasten three-point belt'}
-          checked={s.seatbelt}
-          onCheckedChange={(seatbelt) =>
-            update({
-              seatbelt,
-              occupant: true,
-              view: 'seat-study',
-              transparent: true,
-            })
-          }
-        />
-      </label>
-      <div className="study-status" data-warning={!s.seatbelt}>
-        {s.seatbelt
-          ? zh
-            ? '安全带已系 · 走向示意'
-            : 'Belt fastened · routing study'
-          : zh
-            ? '安全带未系 · 提醒演示'
-            : 'Seatbelt unfastened · reminder demo'}
-      </div>
-      <div className="button-pair">
-        <Button
-          variant="outline"
-          onClick={() =>
-            update({
-              view: 'seat-study',
-              occupant: true,
-              transparent: true,
-              orbit: false,
-            })
-          }
-        >
-          {zh ? '乘坐剖视' : 'Seating cutaway'}
-        </Button>
-        <Button
-          variant="outline"
-          onClick={() =>
-            update({
-              view:
-                s.seatPosition === 'front-left'
-                  ? 'driver'
-                  : s.seatPosition === 'front-right'
-                    ? 'passenger'
-                    : s.seatPosition,
-              transparent: false,
-              orbit: false,
-            })
-          }
-        >
-          {zh ? '此座位视角' : 'View from seat'}
-        </Button>
-      </div>
-      <p className="fineprint">
-        {zh
-          ? '按身高调整姿态，脚部保持在示意地板高度。安全带锚点与人体为演示模型，不用于约束系统设计、儿童适配或碰撞结论。'
-          : 'Proportional posture and belt routing study; not a restraint design, child-fit assessment or crash result.'}
-      </p>
-    </div>
-  );
+  return <PassengerControls s={s} update={update} />;
 }
+
 export function EnvironmentControls({ s, update }: Props) {
   const zh = s.locale === 'zh';
   return (

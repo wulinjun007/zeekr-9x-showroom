@@ -1,8 +1,8 @@
+'use client';
 import { wheelStyles } from './wheel-styles';
 import { WheelGlyph } from './wheel-controls';
 import { paintSelection } from './paint-library';
-('use client');
-import { Check, ChevronRight, Lightbulb, DoorOpen, Play } from 'lucide-react';
+import { Check, ChevronRight, Play } from 'lucide-react';
 import { paints, text, type Locale, type Settings } from './experience';
 import { cmfLabel } from './cmf-controls';
 import { labText } from './lab-state';
@@ -287,35 +287,4 @@ export function ShowroomDock({
   );
 }
 
-export function QuickAccess({
-  s,
-  update,
-}: {
-  s: Settings;
-  update: (patch: Partial<Settings>) => void;
-}) {
-  return (
-    <div className="quick-access">
-      <button
-        aria-label={text(s.locale, 'lights')}
-        aria-pressed={s.lights}
-        onClick={() => update({ lights: !s.lights })}
-      >
-        <Lightbulb size={19} />
-      </button>
-      <button
-        aria-label={text(s.locale, s.doors.length ? 'closeAll' : 'openAll')}
-        aria-pressed={s.doors.length > 0}
-        onClick={() =>
-          update({
-            doors: s.doors.length
-              ? []
-              : ['Door_LF', 'Door_RF', 'Door_LB', 'Door_RB'],
-          })
-        }
-      >
-        <DoorOpen size={19} />
-      </button>
-    </div>
-  );
-}
+export { QuickAccess } from './quick-access';

@@ -1,3 +1,9 @@
+import {
+  cabinAccessDefaults,
+  readCabinAccess,
+  writeCabinAccess,
+  type CabinAccessSettings,
+} from './cabin-access';
 import { paintFinishes, type PaintFinish } from './paint-library';
 import {
   seatPositions,
@@ -22,7 +28,7 @@ export const weatherTypes = [
   'hail',
 ] as const;
 export type Weather = (typeof weatherTypes)[number];
-export type LabSettings = {
+export type LabSettings = CabinAccessSettings & {
   seatPosition: SeatPosition;
   seatbelt: boolean;
   weatherIntensity: number;
@@ -62,6 +68,7 @@ export type LabSettings = {
   hmi: string;
 };
 export const labDefaults: LabSettings = {
+  ...cabinAccessDefaults,
   seatPosition: 'second-left',
   seatbelt: true,
   weatherIntensity: 60,
@@ -114,7 +121,7 @@ export const labEnums = {
   occupantRow: ['driver', 'second', 'third'],
 } as const;
 export function readLab(p: URLSearchParams): LabSettings {
-  const s = { ...labDefaults };
+  const s = { ...labDefaults, ...readCabinAccess(p) };
   for (const [key, values] of Object.entries(labEnums)) {
     const v = p.get(key);
     if (v && (values as readonly string[]).includes(v))
@@ -158,6 +165,7 @@ export function readLab(p: URLSearchParams): LabSettings {
   return s;
 }
 export function writeLab(p: URLSearchParams, s: LabSettings) {
+  writeCabinAccess(p, s);
   for (const k of Object.keys(labEnums) as (keyof typeof labEnums)[])
     p.set(k, s[k]);
   for (const k of [

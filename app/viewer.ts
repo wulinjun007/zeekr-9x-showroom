@@ -1,3 +1,11 @@
+import { robotHip } from './robot-passengers';
+import { seatViews, passengerList } from './cabin-access';
+import type { SeatPosition } from './study-state';
+import {
+  installWindowOpening,
+  openingKey,
+  type WindowKey,
+} from './window-opening';
 import { createShowroomStage } from './showroom-stage';
 import { assetUrl } from './asset-url';
 import { createBodyWrap, attachWrapCoordinates } from './body-wrap';
@@ -78,6 +86,8 @@ type Piece = {
   door: string | null;
   materials: T.MeshStandardMaterial[];
   variant?: string;
+  windowKey?: WindowKey;
+  windowOpening?: ReturnType<typeof installWindowOpening>;
 };
 const cameras: Record<View, { position: number[]; target: number[] }> = {
   'wheel-detail': {
@@ -412,6 +422,7 @@ export async function createViewer(
   paintGrain.anisotropy = Math.min(8, renderer.capabilities.getMaxAnisotropy());
   for (const mesh of meshes.flatMap(splitCabinMesh)) {
     const path = ancestry(mesh);
+    const windowKey = openingKey(path);
     if (['roof', 'door'].includes(mesh.userData.cmfZone)) {
       const positions = mesh.geometry.getAttribute('position');
       const mask = new Float32Array(positions.count);
@@ -551,6 +562,10 @@ export async function createViewer(
       group,
       door,
       materials: mats,
+      windowKey: windowKey ?? undefined,
+      windowOpening: windowKey
+        ? installWindowOpening(mesh, mesh.matrix, mats)
+        : undefined,
       variant: path.includes('Seat_Layout_A')
         ? 'seatA'
         : path.includes('Carbody_INT_seat_B')
@@ -920,6 +935,7 @@ export async function createViewer(
     { id: 'Door_RF', p: new T.Vector3(1.05, 1.05, -0.55), inside: false },
     { id: 'Door_LB', p: new T.Vector3(-1.05, 1.05, 0.85), inside: false },
     { id: 'Door_RB', p: new T.Vector3(1.05, 1.05, 0.85), inside: false },
+    { id: 'Hood', p: new T.Vector3(0, 1.3, -1.65), inside: false },
     { id: 'Trunk_up', p: new T.Vector3(0, 1.12, 2.48), inside: false },
     { id: 'lights', p: new T.Vector3(-0.72, 0.9, -2.3), inside: false },
     { id: 'driver', p: new T.Vector3(-0.4, 1.65, -0.1), inside: false },
@@ -1090,6 +1106,7 @@ export async function createViewer(
     settings = s;
     const cv =
       s.section +
+      s.panView +
       s.view +
       s.seatPosition +
       ([
@@ -1102,7 +1119,7 @@ export async function createViewer(
         'third-left',
         'third-right',
       ].includes(s.view)
-        ? s.height
+        ? `${s.height}:${s.passengers.map((p) => `${p.seat}:${p.height}:${p.offset}`).join('|')}`
         : '') +
       (s.section === 'structure' ? `${s.explode}:${s.explodeMode}` : '');
     if (lastView !== cv) {
@@ -1142,6 +1159,17 @@ export async function createViewer(
       toPos.fromArray(c.position);
       if (interior) toPos.y += (s.height - 170) * 0.004;
       toTarget.fromArray(c.target);
+      const occupiedView = Object.entries(seatViews).find(
+        ([, view]) => view === s.view,
+      )?.[0] as SeatPosition | undefined;
+      if (interior && occupiedView) {
+        const person = passengerList(s).find((p) => p.seat === occupiedView);
+        const k = (person?.height ?? s.height) / 170;
+        toPos
+          .copy(robotHip(occupiedView, person?.offset ?? 0))
+          .add(new T.Vector3(0, 0.53 * k, -0.07 * k));
+        toTarget.copy(toPos).add(new T.Vector3(-toPos.x * 0.3, -0.12, -2.4));
+      }
       if (s.section === 'structure' && s.explode > 0) {
         const bounds = new T.Box3();
         for (const p of pieces)
@@ -1174,6 +1202,9 @@ export async function createViewer(
     controls.maxDistance = s.section === 'structure' ? 350 : 21;
     camera.far = s.section === 'structure' ? 1000 : 160;
     camera.updateProjectionMatrix();
+    controls.enablePan = s.panView && !interior;
+    controls.mouseButtons.LEFT = s.panView ? T.MOUSE.PAN : T.MOUSE.ROTATE;
+    controls.touches.ONE = s.panView ? T.TOUCH.PAN : T.TOUCH.ROTATE;
     controls.minDistance = s.view.endsWith('-detail')
       ? 0.7
       : s.view === 'underbody'
@@ -1349,6 +1380,7 @@ export async function createViewer(
     back = new T.Matrix4(),
     delta = new T.Matrix4();
   const doorAmounts: Record<string, number> = {};
+  const windowAmounts = { windowLF: 0, windowRF: 0, windowLB: 0, windowRB: 0 };
   let explosion = 0;
   let staticBatches: ReturnType<typeof createStaticBatches> | undefined;
   const perfSamples: { interval: number; work: number }[] = [];
@@ -1371,7 +1403,11 @@ export async function createViewer(
         Math.abs((doorAmounts[d] ?? 0) - (settings.doors.includes(d) ? 1 : 0)) >
         0.0001,
     );
+    const windowsMoving = Object.entries(windowAmounts).some(
+      ([k, v]) => Math.abs(v - settings[k as WindowKey] / 100) > 0.0001,
+    );
     const continuous =
+      windowsMoving ||
       doorsMoving ||
       continuousScene(settings, entering, tween < 1, controls.autoRotate);
     if (!continuous && now > renderUntil) {
@@ -1488,9 +1524,21 @@ export async function createViewer(
           new T.Matrix4().makeTranslation(-pivot.x, -pivot.y, -pivot.z),
         );
     }
+    for (const k of Object.keys(windowAmounts) as WindowKey[])
+      windowAmounts[k] = T.MathUtils.damp(
+        windowAmounts[k],
+        settings[k] / 100,
+        9,
+        dt,
+      );
     const blink = Math.floor(now / 450) % 2 === 0;
     for (const p of pieces) {
       p.mesh.matrix.copy(p.base);
+      if (p.windowKey && p.windowOpening) {
+        const down = p.windowOpening.travel * windowAmounts[p.windowKey];
+        p.mesh.matrix.elements[13] -= down;
+        p.windowOpening.threshold.value = p.windowOpening.sill + down - 0.002;
+      }
       if (
         (entering || demo || activeRoad) &&
         hf.speed >= 0 &&
@@ -1826,7 +1874,8 @@ export async function createViewer(
             (a.id.startsWith('Door_L') && camera.position.x > 0) ||
             (a.id.startsWith('Door_R') && camera.position.x < 0) ||
             (a.id === 'lights' && camera.position.z > 0) ||
-            (a.id === 'Trunk_up' && camera.position.z < 0)
+            (a.id === 'Trunk_up' && camera.position.z < 0) ||
+            (a.id === 'Hood' && camera.position.z > 0)
           );
         const visible =
           nearSide &&
