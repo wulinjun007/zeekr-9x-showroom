@@ -39,3 +39,5 @@ next-env.d.ts
 
 *.tsbuildinfo
 check-model.mjs
+
+/dist-vercel/

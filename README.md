@@ -99,3 +99,15 @@ Seat surfaces remain connected when grouped by seat position; the original 16110
 ## 版本备份
 
 当前保存版本：`v0.2.0-20260909`。恢复方法、Blender 附件与同步边界见 [版本说明](docs/VERSION-2026-09-09.md)。最新功能覆盖见 [需求对照](docs/2026-09-09-需求对照与交付.md)。
+
+## Vercel 发布
+
+Vercel 使用 `vercel.json` 中的 `npm run build:vercel`，输出 `dist-vercel`。同一套 React/Three.js 源码通过 `web/main.tsx` 挂载；当前展厅不依赖服务端接口，模型和贴图从 Vercel CDN 读取。原 `npm run dev` 本地预览流程保留。
+
+```sh
+npm ci
+npm run build:vercel
+npm run preview:vercel
+```
+
+GitHub 主分支 `main` 关联生产环境；其他分支用于预览。不要将 Blender 源工程压缩包放进网站的 `public/`，源工程继续保存在私有 GitHub Release 附件中。
