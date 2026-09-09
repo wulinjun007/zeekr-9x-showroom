@@ -49,6 +49,6 @@ Scope: apply the observed Xiaomi N90 Max showroom presentation to the existing Z
 
 - The retained model has coarser interior geometry than the Xiaomi reference. A separate model refinement pass is needed to match that asset quality.
 - Real low-end devices and touch hardware have not been benchmarked; responsive viewport and rendering-budget checks are limited evidence.
-- Vercel publication is still waiting for the user's account login from the earlier publishing task.
+- Vercel production publication completed on 2026-09-10 after this local design QA. See docs/DEPLOYMENT-2026-09-10.md for the live URL and asset checks.
 
 final result: passed

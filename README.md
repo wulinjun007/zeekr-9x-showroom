@@ -102,6 +102,12 @@ Seat surfaces remain connected when grouped by seat position; the original 16110
 
 ## Vercel 发布
 
+正式网站：https://zeekr-9x-showroom.vercel.app
+
+控制台：https://vercel.com/007-0728/zeekr-9x-showroom
+
+已于 2026-09-10 关联 `wulinjun007/zeekr-9x-showroom`，生产分支为 `main`。发布与资源校验见 [上线记录](docs/DEPLOYMENT-2026-09-10.md)。
+
 Vercel 使用 `vercel.json` 中的 `npm run build:vercel`，输出 `dist-vercel`。同一套 React/Three.js 源码通过 `web/main.tsx` 挂载；当前展厅不依赖服务端接口，模型和贴图从 Vercel CDN 读取。原 `npm run dev` 本地预览流程保留。
 
 ```sh

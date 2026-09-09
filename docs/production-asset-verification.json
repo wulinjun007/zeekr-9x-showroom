@@ -1,0 +1,118 @@
+{
+  "url": "https://zeekr-9x-showroom.vercel.app",
+  "anonymous_page": {
+    "status": 200,
+    "url": "https://zeekr-9x-showroom.vercel.app",
+    "html": true
+  },
+  "checked": 15,
+  "total_bytes": 39511483,
+  "all_match": true,
+  "assets": [
+    {
+      "path": "models/zeekr-9x.glb",
+      "status": 200,
+      "bytes": 7884724,
+      "sha256_match": true,
+      "content_type": "model/gltf-binary"
+    },
+    {
+      "path": "models/seat-layout-a.glb",
+      "status": 200,
+      "bytes": 773464,
+      "sha256_match": true,
+      "content_type": "model/gltf-binary"
+    },
+    {
+      "path": "materials/manifest.json",
+      "status": 200,
+      "bytes": 3920,
+      "sha256_match": true,
+      "content_type": "application/json; charset=utf-8"
+    },
+    {
+      "path": "materials/fabric_pattern_07/color.jpg",
+      "status": 200,
+      "bytes": 2650991,
+      "sha256_match": true,
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "materials/fabric_pattern_07/normal.jpg",
+      "status": 200,
+      "bytes": 2572375,
+      "sha256_match": true,
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "materials/fabric_pattern_07/roughness.jpg",
+      "status": 200,
+      "bytes": 1657764,
+      "sha256_match": true,
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "materials/scuba_suede/color.jpg",
+      "status": 200,
+      "bytes": 3694081,
+      "sha256_match": true,
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "materials/scuba_suede/normal.jpg",
+      "status": 200,
+      "bytes": 4167286,
+      "sha256_match": true,
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "materials/scuba_suede/roughness.jpg",
+      "status": 200,
+      "bytes": 4053671,
+      "sha256_match": true,
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "materials/wood_table_001/color.jpg",
+      "status": 200,
+      "bytes": 924532,
+      "sha256_match": true,
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "materials/wood_table_001/normal.jpg",
+      "status": 200,
+      "bytes": 385020,
+      "sha256_match": true,
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "materials/wood_table_001/roughness.jpg",
+      "status": 200,
+      "bytes": 963377,
+      "sha256_match": true,
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "materials/leather_white/color.jpg",
+      "status": 200,
+      "bytes": 3460639,
+      "sha256_match": true,
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "materials/leather_white/normal.jpg",
+      "status": 200,
+      "bytes": 3176928,
+      "sha256_match": true,
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "materials/leather_white/roughness.jpg",
+      "status": 200,
+      "bytes": 3142711,
+      "sha256_match": true,
+      "content_type": "image/jpeg"
+    }
+  ]
+}
