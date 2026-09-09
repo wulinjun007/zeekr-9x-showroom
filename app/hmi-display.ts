@@ -22,6 +22,14 @@ export function hmiDisplay(s: Settings) {
   };
 }
 const copy: Record<string, string[]> = {
+  close: [
+    '关闭 HMI 浮窗',
+    'Close HMI panel',
+    'HMI-Fenster schließen',
+    'HMIパネルを閉じる',
+    'إغلاق لوحة HMI',
+  ],
+  show: ['显示 HMI', 'Show HMI', 'HMI anzeigen', 'HMIを表示', 'عرض HMI'],
   concept: [
     'HMI 交互演示',
     'HMI concept',

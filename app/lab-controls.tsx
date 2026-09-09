@@ -2,7 +2,8 @@ import { paintFinishes } from './paint-library';
 ('use client');
 import { SeatingControls, EnvironmentControls } from './study-controls';
 import { hmiDisplay, hmiText } from './hmi-display';
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
+import { X, PanelTop } from 'lucide-react';
 import { CmfControls } from './cmf-controls';
 import { Button } from '@/components/ui/button';
 import { Slider } from '@/components/ui/slider';
@@ -502,8 +503,32 @@ export function HmiControls({ s, update }: Props) {
   );
 }
 export function HmiOverlay({ s }: Pick<Props, 's'>) {
+  const [expanded, setExpanded] = useState(true);
+  const toggleButton = useRef<HTMLButtonElement>(null);
+  const interacted = useRef(false);
+  useEffect(() => {
+    if (interacted.current) toggleButton.current?.focus();
+  }, [expanded]);
+  const toggle = () => {
+    interacted.current = true;
+    setExpanded((v) => !v);
+  };
   const f = hmiDisplay(s),
     t = (key: string) => hmiText(s.locale, key);
+  if (!expanded)
+    return (
+      <button
+        ref={toggleButton}
+        type="button"
+        className="hmi-instrument cluster hmi-collapsed"
+        onClick={toggle}
+        aria-label={t('show')}
+        aria-expanded={false}
+      >
+        <PanelTop size={16} aria-hidden="true" />
+        {t('show')}
+      </button>
+    );
   return (
     <div
       className={'hmi-instrument cluster ' + f.tone}
@@ -514,7 +539,20 @@ export function HmiOverlay({ s }: Pick<Props, 's'>) {
           <i />
           {t(f.signal)}
         </span>
-        <small>{t('concept')}</small>
+        <div className="cluster-window-actions">
+          <small>{t('concept')}</small>
+          <button
+            ref={toggleButton}
+            type="button"
+            className="cluster-close"
+            onClick={toggle}
+            aria-label={t('close')}
+            title={t('close')}
+            aria-expanded={true}
+          >
+            <X size={17} aria-hidden="true" />
+          </button>
+        </div>
       </div>
       <div className="cluster-main">
         <div className="cluster-speed">
