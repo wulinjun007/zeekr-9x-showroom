@@ -1,51 +1,10 @@
+import { assetUrl } from './asset-url';
 import { upholstery } from './cabin-surface';
 import * as T from 'three';
 import type { LabSettings } from './lab-state';
-export const cmfOptions = {
-  seatMaterial: ['original', 'leather', 'fabric', 'suede', 'pu'],
-  doorMaterial: ['original', 'leather', 'suede', 'pu'],
-  dashMaterial: ['original', 'soft', 'abs'],
-  roofMaterial: ['original', 'fabric', 'suede'],
-  carpetMaterial: ['original', 'fabric', 'rubber'],
-  trimMaterial: ['original', 'wood', 'aluminium', 'carbon'],
-} as const;
-export type CmfKey = keyof typeof cmfOptions;
-export type Zone = 'seat' | 'door' | 'dash' | 'roof' | 'carpet' | 'trim';
-export const cmfReset = Object.fromEntries(
-  Object.keys(cmfOptions).map((k) => [k, 'original']),
-) as Pick<LabSettings, CmfKey>;
-export const cmfRecipes: Record<string, Partial<LabSettings>> = {
-  warm: {
-    seatMaterial: 'leather',
-    doorMaterial: 'leather',
-    dashMaterial: 'soft',
-    roofMaterial: 'suede',
-    carpetMaterial: 'fabric',
-    trimMaterial: 'wood',
-  },
-  nordic: {
-    seatMaterial: 'fabric',
-    doorMaterial: 'pu',
-    dashMaterial: 'soft',
-    roofMaterial: 'fabric',
-    carpetMaterial: 'fabric',
-    trimMaterial: 'wood',
-  },
-  sport: {
-    seatMaterial: 'suede',
-    doorMaterial: 'suede',
-    dashMaterial: 'abs',
-    roofMaterial: 'suede',
-    carpetMaterial: 'rubber',
-    trimMaterial: 'carbon',
-  },
-};
-export const cmfAssets: Record<string, string> = {
-  leather: 'leather_white',
-  fabric: 'fabric_pattern_07',
-  suede: 'scuba_suede',
-  wood: 'wood_table_001',
-};
+export { cmfOptions, cmfRecipes, cmfReset, cmfAssets } from './cmf-options';
+export type { CmfKey, Zone } from './cmf-options';
+import { cmfOptions, cmfAssets, type CmfKey, type Zone } from './cmf-options';
 // Semantic names take priority. Remaining INT polygons are a visual region study,
 // not a reconstructed OEM bill of materials. World units are calibrated metres.
 export function classifyCmf(path: string, p: T.Vector3): Zone | null {
@@ -224,7 +183,7 @@ export function createCmfManager(
       const pending = Promise.allSettled(
         ['color', 'normal', 'roughness'].map(async (key) => {
           const t = await loader.loadAsync(
-            `/materials/${asset}/${key}.jpg?v=cmf2k-matte1`,
+            assetUrl(`/materials/${asset}/${key}.jpg`),
           );
           t.colorSpace = key === 'color' ? T.SRGBColorSpace : T.NoColorSpace;
           t.wrapS = t.wrapT = T.RepeatWrapping;

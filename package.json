@@ -12,7 +12,11 @@
     "lint": "oxlint",
     "format": "oxfmt",
     "build:vercel": "vite build --config vite.vercel.config.ts",
-    "preview:vercel": "vite preview --config vite.vercel.config.ts"
+    "preview:vercel": "vite preview --config vite.vercel.config.ts",
+    "assets:prepare": "node scripts/prepare-cdn.mjs",
+    "predev": "npm run assets:prepare",
+    "prebuild:vercel": "npm run assets:prepare",
+    "prebuild": "npm run assets:prepare"
   },
   "dependencies": {
     "@base-ui/react": "1.7.0",

@@ -6,7 +6,7 @@ import {
   cmfRecipes,
   cmfReset,
   type CmfKey,
-} from './cmf';
+} from './cmf-options';
 import type { Settings } from './experience';
 import {
   Select,

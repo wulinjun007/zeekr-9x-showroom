@@ -41,3 +41,5 @@ next-env.d.ts
 check-model.mjs
 
 /dist-vercel/
+
+/public/cdn/

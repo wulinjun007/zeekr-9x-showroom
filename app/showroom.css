@@ -908,3 +908,111 @@
     max-width: 190px;
   }
 }
+/* Wrap configuration stays independent of base paint. */
+.wrap-studio h4 {
+  margin: 18px 0 10px;
+  font-size: 12px;
+}
+.wrap-upload {
+  display: block;
+  padding: 12px;
+  border: 1px dashed #92988f;
+  border-radius: 8px;
+  margin: 15px 0 8px;
+  font-size: 12px;
+  cursor: pointer;
+  background: #eaece5;
+}
+.wrap-upload input {
+  display: block;
+  margin-top: 8px;
+  width: 100%;
+  font-size: 11px;
+}
+.wrap-slider {
+  display: block;
+  margin: 14px 0;
+  font-size: 12px;
+}
+.wrap-slider > span {
+  display: flex;
+  justify-content: space-between;
+}
+.wrap-slider input {
+  width: 100%;
+  accent-color: #687a6e;
+  margin-top: 9px;
+}
+.wrap-studio details {
+  margin-top: 24px;
+}
+.wrap-studio summary {
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 12px 0;
+}
+.wrap-ip-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+.wrap-ip-grid article {
+  min-width: 0;
+}
+.wrap-ip-grid button {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: start;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d6d8d0;
+  border-radius: 8px;
+}
+.wrap-ip-grid button[aria-pressed='true'] {
+  border-color: #66796b;
+  background: #e4e9e1;
+}
+.wrap-ip-grid i {
+  height: 32px;
+  width: 100%;
+  border-radius: 4px;
+}
+.wrap-ip-grid strong {
+  font-size: 12px;
+}
+.wrap-ip-grid small,
+.wrap-ip-grid span,
+.wrap-ip-grid a {
+  font-size: 10px;
+}
+.wrap-ip-grid a {
+  display: block;
+  margin-top: 5px;
+  text-decoration: underline;
+  color: #536256;
+}
+.wrap-upload-preview {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 12px;
+}
+.wrap-upload-preview img {
+  max-width: 100px;
+  max-height: 80px;
+  object-fit: contain;
+  background: repeating-conic-gradient(#ddd 0 25%, #eee 0 50%) 0/12px 12px;
+}
+.wrap-reset {
+  font-size: 12px;
+  text-decoration: underline;
+}
+.wrap-studio .variant-buttons button:disabled {
+  opacity: 0.4;
+}
+.wrap-studio .variant-buttons button[aria-pressed='true'] {
+  background: #dce4d9;
+  border-color: #687a6e;
+}

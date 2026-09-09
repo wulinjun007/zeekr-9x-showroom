@@ -1,3 +1,4 @@
+import { assetUrl } from './asset-url';
 import * as T from 'three';
 import type { Mode } from './experience';
 
@@ -32,37 +33,58 @@ export const upholstery = {
   },
 } as const;
 
-export async function loadCabinDetail(anisotropy: number) {
-  const fallback = new T.DataTexture(
-    new Uint8Array([128, 128, 255, 255]),
-    1,
-    1,
-  );
-  fallback.needsUpdate = true;
-  const textures: T.Texture[] = [fallback];
-  const load = async (asset: string) => {
-    try {
-      const t = await new T.TextureLoader().loadAsync(
-        `/materials/${asset}/normal.jpg?v=cmf2k-matte1`,
-      );
-      t.colorSpace = T.NoColorSpace;
-      t.wrapS = t.wrapT = T.RepeatWrapping;
-      t.anisotropy = anisotropy;
-      textures.push(t);
-      return t;
-    } catch {
-      return fallback;
+export function loadCabinDetail(anisotropy: number) {
+  const neutral = document.createElement('canvas');
+  neutral.width = neutral.height = 1;
+  const ctx = neutral.getContext('2d')!;
+  ctx.fillStyle = '#8080ff';
+  ctx.fillRect(0, 0, 1, 1);
+  const leather = new T.Texture(neutral),
+    fabric = new T.Texture(neutral);
+  for (const t of [leather, fabric]) {
+    t.colorSpace = T.NoColorSpace;
+    t.wrapS = t.wrapT = T.RepeatWrapping;
+    t.anisotropy = anisotropy;
+    t.needsUpdate = true;
+  }
+  let ready = false,
+    disposed = false,
+    pending: Promise<void> | null = null,
+    retryAt = 0;
+  async function load(asset: string, target: T.Texture) {
+    const t = await new T.TextureLoader().loadAsync(
+      assetUrl(`/materials/${asset}/normal.jpg`),
+    );
+    if (!disposed) {
+      target.image = t.image;
+      target.needsUpdate = true;
     }
-  };
-  const [leather, fabric] = await Promise.all([
-    load('leather_white'),
-    load('scuba_suede'),
-  ]);
+    t.dispose();
+  }
   return {
     leather,
     fabric,
-    ready: leather !== fallback && fabric !== fallback,
-    dispose: () => textures.forEach((t) => t.dispose()),
+    get ready() {
+      return ready;
+    },
+    ensure() {
+      if (disposed || ready || Date.now() < retryAt) return Promise.resolve();
+      if (!pending)
+        pending = Promise.allSettled([
+          load('leather_white', leather),
+          load('scuba_suede', fabric),
+        ]).then((results) => {
+          ready = !disposed && results.every((r) => r.status === 'fulfilled');
+          if (!ready) retryAt = Date.now() + 5000;
+          pending = null;
+        });
+      return pending;
+    },
+    dispose() {
+      disposed = true;
+      leather.dispose();
+      fabric.dispose();
+    },
   };
 }
 

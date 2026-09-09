@@ -7,7 +7,7 @@ import {
   type RoadType,
   type PartType,
 } from './study-state';
-import { cmfOptions } from './cmf';
+import { cmfOptions } from './cmf-options';
 export const weatherTypes = [
   'clear',
   'overcast',

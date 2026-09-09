@@ -1,3 +1,4 @@
+import { WrapControls } from './wrap-controls';
 import { WheelControls } from './wheel-controls';
 import { PaintControls } from './paint-controls';
 import { paintSelection } from './paint-library';
@@ -653,7 +654,10 @@ export default function Home() {
           </div>
           <div className="panel-content">
             {s.section === 'exterior' && (
-              <WheelControls s={s} update={update} />
+              <>
+                <WrapControls s={s} update={update} />
+                <WheelControls s={s} update={update} />
+              </>
             )}
             {s.section === 'exterior' && (
               <PaintControls s={s} update={update} />

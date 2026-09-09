@@ -1,3 +1,5 @@
+import { assetUrl } from './asset-url';
+import { createBodyWrap, attachWrapCoordinates } from './body-wrap';
 import { buildWheelGeometry, type WheelGeometrySet } from './wheel-geometry';
 import type { WheelStyle } from './wheel-styles';
 import { paintProfile } from './paint-library';
@@ -336,16 +338,37 @@ export async function createViewer(
     fromTarget = new T.Vector3(),
     toPos = new T.Vector3(),
     toTarget = new T.Vector3();
-  const gltf = await new GLTFLoader().loadAsync('/models/zeekr-9x.glb', (e) =>
-    onProgress(e.total ? Math.round((100 * e.loaded) / e.total) : 0),
-  );
-  const cabinDetail = await loadCabinDetail(
+  const [gltf, variant] = await Promise.all([
+    new GLTFLoader().loadAsync(assetUrl('/models/zeekr-9x.glb'), (e) =>
+      onProgress(e.total ? Math.round((100 * e.loaded) / e.total) : 0),
+    ),
+    new GLTFLoader().loadAsync(assetUrl('/models/seat-layout-a.glb')),
+  ]);
+  const cabinDetail = loadCabinDetail(
     Math.min(16, renderer.capabilities.getMaxAnisotropy()),
   );
+  if (
+    initial.section === 'interior' ||
+    [
+      'driver',
+      'passenger',
+      'second',
+      'third',
+      'second-left',
+      'second-right',
+      'third-left',
+      'third-right',
+    ].includes(initial.view)
+  )
+    await cabinDetail.ensure();
   host.dataset.cabinDetail = cabinDetail.ready ? 'ready' : 'fallback';
   const car = gltf.scene;
   scene.add(car);
   car.updateMatrixWorld(true);
+  const bodyWrap = createBodyWrap(
+    invalidate,
+    renderer.capabilities.getMaxAnisotropy(),
+  );
   const wheelCenters: T.Vector3[] = [];
   car.traverse((o) => {
     if (o.name.startsWith('Tire_dabing'))
@@ -357,7 +380,6 @@ export async function createViewer(
     const o = car.getObjectByName(name);
     if (o) doorPivots[name] = o.getWorldPosition(new T.Vector3());
   });
-  const variant = await new GLTFLoader().loadAsync('/models/seat-layout-a.glb');
   scene.add(variant.scene);
   variant.scene.updateMatrixWorld(true);
   const meshes: T.Mesh[] = [];
@@ -429,6 +451,8 @@ export async function createViewer(
       return physical;
     });
     mesh.material = mats.length === 1 ? mats[0] : mats;
+    if (mats.some((m) => m.name.startsWith('car_paint')))
+      attachWrapCoordinates(mesh);
     const materialNames = mats.map((m) => m.name).join(' ');
     const door = doors.find((d) => path.split('/').includes(d)) ?? null;
     const group: PartGroup = door
@@ -451,6 +475,7 @@ export async function createViewer(
         baseColor: mat.color.clone(),
       };
       if (mat.name.startsWith('car_paint')) {
+        bodyWrap.install(mat);
         mat.roughness = 0.23;
         mat.metalness = 0.72;
         mat.envMapIntensity = 1.15;
@@ -1026,6 +1051,7 @@ export async function createViewer(
     }),
   );
   function applyScene(s: Settings) {
+    bodyWrap.apply(s);
     renderer.shadowMap.needsUpdate = true;
     shadowMotionUntil = performance.now() + 2000;
     renderUntil = shadowMotionUntil;
@@ -1200,6 +1226,12 @@ export async function createViewer(
       scene.environmentIntensity = lighting.environment * glassCabinLight(s);
       cabinLight.intensity = (lighting.practical * s.ambientPower) / 60;
     }
+    if (interior)
+      void cabinDetail.ensure().then(() => {
+        if (disposed) return;
+        host.dataset.cabinDetail = cabinDetail.ready ? 'ready' : 'fallback';
+        invalidate();
+      });
     hud.visible = s.hud && interior;
     ambient.visible = interior;
     road.visible = s.section === 'safety';
@@ -2001,6 +2033,7 @@ export async function createViewer(
       cockpit?.dispose();
       grain.dispose();
       paintGrain.dispose();
+      bodyWrap.dispose();
       for (const group of wheelGeometryCache.values())
         for (const geometry of Object.values(group)) geometry.dispose();
       wheelGeometryCache.clear();

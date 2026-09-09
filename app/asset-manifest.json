@@ -1,0 +1,72 @@
+{
+  "/models/seat-layout-a.glb": {
+    "url": "/cdn/453962574fb8aaec/models/seat-layout-a.glb",
+    "bytes": 773464,
+    "sha256": "453962574fb8aaec14d4a736c227c56673b7608dd7b6b193d8f3734b4ef88dc4"
+  },
+  "/models/zeekr-9x.glb": {
+    "url": "/cdn/10b8d90e95c319fb/models/zeekr-9x.glb",
+    "bytes": 7884724,
+    "sha256": "10b8d90e95c319fbd78a9e0f865d002994e9e5e9f90e339f283008219dea3616"
+  },
+  "/materials/fabric_pattern_07/color.jpg": {
+    "url": "/cdn/1f4941638b890d45/materials/fabric_pattern_07/color.jpg",
+    "bytes": 2650991,
+    "sha256": "1f4941638b890d4535b1078067be8a831ca302d1e696ed959b4e4512de893cba"
+  },
+  "/materials/fabric_pattern_07/normal.jpg": {
+    "url": "/cdn/84f15ee5f6b63e7e/materials/fabric_pattern_07/normal.jpg",
+    "bytes": 2572375,
+    "sha256": "84f15ee5f6b63e7e224051a22426c751cc1fe15a794efd001ebfdb5f84828602"
+  },
+  "/materials/fabric_pattern_07/roughness.jpg": {
+    "url": "/cdn/be3e311614ee6f31/materials/fabric_pattern_07/roughness.jpg",
+    "bytes": 1657764,
+    "sha256": "be3e311614ee6f31d4cb4a774ed678b7a64189d3e1a55ad71033142185da270a"
+  },
+  "/materials/leather_white/color.jpg": {
+    "url": "/cdn/5b2d3f7c2f6f10ea/materials/leather_white/color.jpg",
+    "bytes": 3460639,
+    "sha256": "5b2d3f7c2f6f10ea65a644353a9f4e0ce87a6737e09b4cb38c1e1ad3257c86a4"
+  },
+  "/materials/leather_white/normal.jpg": {
+    "url": "/cdn/f06e81389faf7c4b/materials/leather_white/normal.jpg",
+    "bytes": 3176928,
+    "sha256": "f06e81389faf7c4bef47b8ed5a5c433b6e3b7d0ac77e4090f65ed9d964a589f6"
+  },
+  "/materials/leather_white/roughness.jpg": {
+    "url": "/cdn/ccf43d38aadaf2b1/materials/leather_white/roughness.jpg",
+    "bytes": 3142711,
+    "sha256": "ccf43d38aadaf2b16bf10b587c082a81928cf63f028bd59d061181fb7967af8c"
+  },
+  "/materials/scuba_suede/color.jpg": {
+    "url": "/cdn/9c0b3ed2ffc4862c/materials/scuba_suede/color.jpg",
+    "bytes": 3694081,
+    "sha256": "9c0b3ed2ffc4862c571940b139680ac6f612041b9454bbddff21f90dc027033c"
+  },
+  "/materials/scuba_suede/normal.jpg": {
+    "url": "/cdn/3bce1a0272cacffc/materials/scuba_suede/normal.jpg",
+    "bytes": 4167286,
+    "sha256": "3bce1a0272cacffcd8f7414fb679a0ea27944b9b82dab5165a6dd079d6eda871"
+  },
+  "/materials/scuba_suede/roughness.jpg": {
+    "url": "/cdn/fc43e105b4cffb52/materials/scuba_suede/roughness.jpg",
+    "bytes": 4053671,
+    "sha256": "fc43e105b4cffb5246753d7cbf43bb2cda79c084bd159daf28ce8cfa82573a30"
+  },
+  "/materials/wood_table_001/color.jpg": {
+    "url": "/cdn/63ae5cd186197b40/materials/wood_table_001/color.jpg",
+    "bytes": 924532,
+    "sha256": "63ae5cd186197b40f18bc020fe2b652bb08df4d9fc6240c6cbf8a7e3bc32c096"
+  },
+  "/materials/wood_table_001/normal.jpg": {
+    "url": "/cdn/d56f02c911391267/materials/wood_table_001/normal.jpg",
+    "bytes": 385020,
+    "sha256": "d56f02c911391267ddc6adc92e8a5bc29b9803196e8d57ad5b9702e6c842dc28"
+  },
+  "/materials/wood_table_001/roughness.jpg": {
+    "url": "/cdn/c788876d80e4d965/materials/wood_table_001/roughness.jpg",
+    "bytes": 963377,
+    "sha256": "c788876d80e4d96598590631f8de92447fb1b0ba1265a812514ee717d270ac3e"
+  }
+}

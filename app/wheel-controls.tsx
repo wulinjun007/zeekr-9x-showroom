@@ -30,7 +30,10 @@ export function WheelGlyph({ style }: { style: WheelStyle }) {
           <polygon
             key={i}
             points={p
-              .map(([x, y]) => `${32 + x * 98},${32 + y * 98}`)
+              .map(
+                ([x, y]) =>
+                  `${(32 + x * 98).toFixed(3)},${(32 + y * 98).toFixed(3)}`,
+              )
               .join(' ')}
             fill="#b8c2c9"
           />

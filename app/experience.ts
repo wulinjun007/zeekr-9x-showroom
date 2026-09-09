@@ -1,4 +1,10 @@
 import {
+  wrapDefaults,
+  readWrap,
+  writeWrap,
+  type WrapSettings,
+} from './wrap-library';
+import {
   wheelStyles,
   wheelFinishes,
   wheelText,
@@ -42,7 +48,8 @@ export type PartGroup =
   | 'cabin'
   | 'wheels'
   | 'lights';
-export type Settings = LabSettings &
+export type Settings = WrapSettings &
+  LabSettings &
   GlassSettings & {
     locale: Locale;
     mode: Mode;
@@ -73,6 +80,7 @@ export type Settings = LabSettings &
   };
 export const defaults: Settings = {
   ...labDefaults,
+  ...wrapDefaults,
   ...glassDefaults,
   locale: 'zh',
   mode: 'night',
@@ -895,7 +903,7 @@ export function readSettings(search = window.location.search): Settings {
   s.hotspots = p.get('hotspots') !== '0';
   const lab = readLab(p);
   lab.hmi = getScenario(lab.hmi).id;
-  return { ...s, ...lab, ...readGlass(p) };
+  return { ...s, ...lab, ...readGlass(p), ...readWrap(p) };
 }
 export function shareUrl(s: Settings) {
   const u = new URL(window.location.href);
@@ -934,5 +942,6 @@ export function shareUrl(s: Settings) {
   ] as const)
     u.searchParams.set(k, String(s[k]));
   writeLab(u.searchParams, s);
+  writeWrap(u.searchParams, s);
   return u.toString();
 }

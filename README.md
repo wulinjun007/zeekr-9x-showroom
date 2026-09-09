@@ -127,3 +127,27 @@ These are original visual concepts using the retained tire envelope, not officia
 ```sh
 node --import ./checks/ts-resolver.mjs checks/wheel-designs.mjs
 ```
+
+### Loading and CDN policy
+
+`npm run assets:prepare` computes SHA-256 fingerprints for the two GLBs and twelve original-quality material maps. Dev/build hooks regenerate the manifest and byte-identical copies under `/cdn/<content-hash>/…`. Those immutable URLs receive one-year browser caching through Vercel; HTML and legacy unversioned paths revalidate. Updated files obtain new addresses automatically. No external CDN account or lossy recompression is required.
+
+The production HTML preloads the main GLB while React starts. The two required GLBs load concurrently. Interior micro-normal textures are deferred until a cabin view is requested; an initial cabin view waits for them before display. Failed detail requests retain a neutral normal fallback and may retry after five seconds. Material-option metadata is separated from Three.js so the UI entry bundle no longer includes the renderer (gzip approximately 332 KB → 181 KB at this revision; this is bundle size, not a claimed load-time percentage).
+
+### Body wraps and IP references
+
+Exterior → More options → Body wrap studio adds four original abstract graphic layouts, placement on both sides / hood, size, position and opacity. Local PNG/JPG/WebP artwork up to 8 MB is resampled to at most 2048 pixels, projected in the model's rest coordinates, and follows doors and exploded parts. It stays in memory only and is intentionally omitted from saved setups and shared links. The artwork texture is allocated at full size only when used; wrap shading adds no separate draw meshes.
+
+The 20 reference cards are **palettes, not character illustrations or a global popularity ranking**. Official character links are recorded in `app/wrap-library.ts`. A character image-generation attempt was rejected by the image service; no generated character files were produced or published. Commercial IP licences have not been verified. The working alternative is the local artwork upload; use assets for which you hold the necessary rights.
+
+Research scope: [License Global's licensor lists](https://www.licenseglobal.com/rankings-and-lists/top-150-leading-licensors) describe brand licensing, [Sanrio's 2026 results](https://corporate.sanrio.co.jp/en/news/20260628_03.html) cover its own character poll, and [POP MART's 2025 interim report](https://www.hkexnews.hk/listedco/listconews/sehk/2025/0819/2025081900626.pdf) describes THE MONSTERS/LABUBU. These are distinct measures and do not establish a cross-brand top-20 ranking.
+
+Validation:
+
+```sh
+node --import ./checks/ts-resolver.mjs checks/wrap-and-cdn.mjs
+# Requires Playwright, or PLAYWRIGHT_MODULE pointing to an installed module:
+node checks/loading-browser.mjs
+```
+
+The browser check uses reduced motion to separate the initial exterior request set from the automatic cabin tour. It verifies two model requests, no exterior micro-normal downloads, detail loading on cabin entry, local image upload without POST requests, and absence of browser errors. Normal-motion tours naturally request cabin details when they reach the cabin chapter.
