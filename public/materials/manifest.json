@@ -1,0 +1,98 @@
+[
+  {
+    "id": "leather_white",
+    "source": "https://polyhaven.com/a/leather_white",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://polyhaven.com/license",
+    "resolution": "2k",
+    "maps": {
+      "color": {
+        "url": "/materials/leather_white/color.jpg",
+        "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/leather_white/leather_white_diff_2k.jpg",
+        "md5": "1292cc2c6b26508dc242a4a12220d4a9"
+      },
+      "normal": {
+        "url": "/materials/leather_white/normal.jpg",
+        "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/leather_white/leather_white_nor_gl_2k.jpg",
+        "md5": "c45c0fac221ee5ffc2aa7eabde7bb79b"
+      },
+      "roughness": {
+        "url": "/materials/leather_white/roughness.jpg",
+        "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/leather_white/leather_white_rough_2k.jpg",
+        "md5": "a7d8b078f1511523d56f88ee6682cc0e"
+      }
+    }
+  },
+  {
+    "id": "fabric_pattern_07",
+    "source": "https://polyhaven.com/a/fabric_pattern_07",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://polyhaven.com/license",
+    "resolution": "2k",
+    "maps": {
+      "color": {
+        "url": "/materials/fabric_pattern_07/color.jpg",
+        "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/fabric_pattern_07/fabric_pattern_07_col_1_2k.jpg",
+        "md5": "ad5b3f69e889a6890d6413ea1568ff25"
+      },
+      "normal": {
+        "url": "/materials/fabric_pattern_07/normal.jpg",
+        "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/fabric_pattern_07/fabric_pattern_07_nor_gl_2k.jpg",
+        "md5": "bf1eb2488da43265bd49e42778b6ae51"
+      },
+      "roughness": {
+        "url": "/materials/fabric_pattern_07/roughness.jpg",
+        "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/fabric_pattern_07/fabric_pattern_07_rough_2k.jpg",
+        "md5": "96906a97616405b0e664b9d18638d4f9"
+      }
+    }
+  },
+  {
+    "id": "scuba_suede",
+    "source": "https://polyhaven.com/a/scuba_suede",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://polyhaven.com/license",
+    "resolution": "2k",
+    "maps": {
+      "color": {
+        "url": "/materials/scuba_suede/color.jpg",
+        "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/scuba_suede/scuba_suede_diff_2k.jpg",
+        "md5": "1cfa0ca16f7b3339bbe16aeef10835e7"
+      },
+      "normal": {
+        "url": "/materials/scuba_suede/normal.jpg",
+        "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/scuba_suede/scuba_suede_nor_gl_2k.jpg",
+        "md5": "d2ba39357e70c8b6a92e2cfc99458a07"
+      },
+      "roughness": {
+        "url": "/materials/scuba_suede/roughness.jpg",
+        "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/scuba_suede/scuba_suede_rough_2k.jpg",
+        "md5": "3ff7266b6bfd587ad918f59103a6a85f"
+      }
+    }
+  },
+  {
+    "id": "wood_table_001",
+    "source": "https://polyhaven.com/a/wood_table_001",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://polyhaven.com/license",
+    "resolution": "2k",
+    "maps": {
+      "color": {
+        "url": "/materials/wood_table_001/color.jpg",
+        "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_table_001/wood_table_001_diff_2k.jpg",
+        "md5": "a36483628b915dabf82961ab2a62a85c"
+      },
+      "normal": {
+        "url": "/materials/wood_table_001/normal.jpg",
+        "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_table_001/wood_table_001_nor_gl_2k.jpg",
+        "md5": "50dbc9fe086df00f6bce819eae6091d1"
+      },
+      "roughness": {
+        "url": "/materials/wood_table_001/roughness.jpg",
+        "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_table_001/wood_table_001_rough_2k.jpg",
+        "md5": "a291ec6bc35b9827175cdd1592c62e03"
+      }
+    }
+  }
+]

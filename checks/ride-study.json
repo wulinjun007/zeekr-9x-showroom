@@ -1,0 +1,25 @@
+{
+  "seatingPoses": 48,
+  "roadSamples": 165,
+  "weatherRoadCombinations": 121,
+  "parts": {
+    "body": 21,
+    "cockpit": 5,
+    "seats": 11,
+    "roof": 4,
+    "brakes": 8,
+    "rims": 20,
+    "tires": 4,
+    "glass": 30,
+    "trim": 9,
+    "lights": 210,
+    "closures": 30,
+    "door-trim": 12,
+    "door-shell": 38,
+    "mirrors": 8
+  },
+  "feetRemainAtStudyFloor": true,
+  "shareRoundTrip": true,
+  "browserRenderVerified": false,
+  "engineeringValidation": false
+}

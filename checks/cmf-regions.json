@@ -1,0 +1,17 @@
+{
+  "triangles": 161105,
+  "originalMeshes": 394,
+  "regionalMeshes": 410,
+  "zones": {
+    "dash": 7932,
+    "original": 1698,
+    "seat": 17290,
+    "roof": 2446,
+    "trim": 168,
+    "door": 6628
+  },
+  "geometryConserved": true,
+  "atlasUvPreserved": true,
+  "configurationRoundTrip": true,
+  "visualAcceptance": false
+}

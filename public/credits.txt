@@ -24,3 +24,28 @@ Blind-spot and door-cyclist examples are concept extensions, not direct producti
 Third-party runtime libraries retain their licenses: Three.js (MIT), React (MIT), lucide (ISC), Base UI (MIT), shadcn components (MIT). See package source licenses.
 
 This site is not affiliated with or endorsed by ZEEKR. No purchase, pricing, fitment, safety, engineering assembly or production validation claims. Visual calibration remains in progress.
+
+2026-09-09 material / HMI refinement
+Visual references:
+Xiaomi SU7 by Mona x Supercars (visual reference only, no model copied):
+https://sketchfab.com/models/ca2cda599f5341068c992c9f44551bf9/embed
+Huawei / Weshape M7 showroom (interaction and material reference, no model copied):
+https://cdn.weshape3d.com/publish/vmallhall/index.html?SN=5008010023501
+ZEEKR official source page:
+https://www.zeekrlife.com/zeekr9x?modelInfoId=10&modelYearCode=GMY_9X_01
+Official launch and test context:
+https://www.zeekrgroup.com/news/202509291
+Official public video URLs are recorded in app/official-videos.json and served by the source host on request. No video republication rights are assumed.
+Added cabin geometry, material masks and 25 HMI scripts are independent design-study additions. They are not OEM configuration options or verified vehicle controls. Avatar proportions, weather, radar sectors, HUD speed, braking curve and takeover timer are illustrative. The side-impact protection frame contains no stress, deformation or injury calculation. No independent 9X collision rating is claimed.
+The original seat mesh remains partly merged; full seat rotation/recline is not implemented. Expanded scenario narrative translations: Chinese and English; other locales fall back to English.
+
+Interior CMF studies (2026-09-09)
+Scanned textures: Poly Haven, CC0-1.0; https://polyhaven.com/license
+Leather: https://polyhaven.com/a/leather_white
+Woven fabric: https://polyhaven.com/a/fabric_pattern_07
+Suede textile: https://polyhaven.com/a/scuba_suede
+Wood: https://polyhaven.com/a/wood_table_001
+Base color, OpenGL normal and roughness maps. Web 1K; Blender 2K. Exact download URLs and source hashes: /materials/manifest.json.
+Color grading is performed in material shaders; source texture files are unmodified.
+Soft skin, polymer, leatherette, brushed metal, carbon and rubber are procedural visual studies.
+These materials are not ZEEKR production options or Nappa / Alcantara certification. Region assignments and supplemental rugs are visual designs, not an OEM bill of materials.
