@@ -1,3 +1,4 @@
+import { ScenarioAudioControls } from './scenario-audio-controls';
 import { paintFinishes } from './paint-library';
 ('use client');
 import { SeatingControls, EnvironmentControls } from './study-controls';
@@ -293,39 +294,6 @@ export function HmiControls({ s, update }: Props) {
           : 'Web vibration unavailable; visual and audio feedback remain.',
     );
   }
-  async function tone() {
-    try {
-      const a = new AudioContext();
-      await a.resume();
-      const o = a.createOscillator(),
-        g = a.createGain();
-      o.type = 'sine';
-      o.frequency.setValueAtTime(620, a.currentTime);
-      o.frequency.linearRampToValueAtTime(820, a.currentTime + 0.15);
-      g.gain.setValueAtTime(0, a.currentTime);
-      g.gain.linearRampToValueAtTime(
-        f.alert ? 0.045 : 0.025,
-        a.currentTime + 0.02,
-      );
-      g.gain.exponentialRampToValueAtTime(0.001, a.currentTime + 0.35);
-      o.connect(g);
-      g.connect(a.destination);
-      o.start();
-      o.stop(a.currentTime + 0.4);
-      o.onended = () => a.close();
-      setAudioNote(
-        s.locale === 'zh'
-          ? '提示音已试听；实车方向盘／座椅反馈未连接。'
-          : 'Tone preview played; no vehicle steering or seat actuator is connected.',
-      );
-    } catch {
-      setAudioNote(
-        s.locale === 'zh'
-          ? '当前设备未能播放提示音。'
-          : 'Audio preview unavailable on this device.',
-      );
-    }
-  }
   return (
     <>
       <div className="panel-heading">
@@ -448,6 +416,7 @@ export function HmiControls({ s, update }: Props) {
         <span>00</span>
         <span>16 s / DEMO</span>
       </div>
+      <ScenarioAudioControls s={s} />
       <WeatherControls s={s} update={update} />
       <Toggle
         label={text(s.locale, 'transparent')}
@@ -459,9 +428,6 @@ export function HmiControls({ s, update }: Props) {
         value={s.radar}
         onChange={(v) => update({ radar: v })}
       />
-      <Button variant="outline" onClick={tone}>
-        {t('sound')}
-      </Button>
       <div className="button-pair">
         <Button variant="ghost" onClick={narrate}>
           {s.locale === 'zh' ? '朗读当前提示' : 'Read current prompt'}
