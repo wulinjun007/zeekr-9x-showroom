@@ -688,14 +688,42 @@ export async function createViewer(
   const cabinLight = new T.PointLight(initial.ambient, 0.6, 3, 2);
   cabinLight.position.set(0, 1.5, 0.1);
   scene.add(cabinLight);
-  const beam = new T.Group();
-  for (const x of [-0.7, 0.7]) {
-    const light = new T.SpotLight(0xe4f0ff, 0, 13, 0.43, 0.65, 1.1);
-    light.position.set(x, 0.65, -2.35);
-    light.target.position.set(x, 0.02, -10);
-    beam.add(light, light.target);
-  }
-  scene.add(beam);
+  // Two small additive halos, not a full-screen bloom pass. Follow the actual
+  // lamp meshes so arrival, road motion and parking cannot leave lights behind.
+  const glowCanvas = document.createElement('canvas');
+  glowCanvas.width = glowCanvas.height = 64;
+  const glowContext = glowCanvas.getContext('2d')!;
+  const glowGradient = glowContext.createRadialGradient(32, 32, 0, 32, 32, 32);
+  glowGradient.addColorStop(0, 'rgba(220,240,255,0.8)');
+  glowGradient.addColorStop(0.18, 'rgba(180,216,255,0.32)');
+  glowGradient.addColorStop(0.5, 'rgba(140,192,255,0.08)');
+  glowGradient.addColorStop(1, 'rgba(140,192,255,0)');
+  glowContext.fillStyle = glowGradient;
+  glowContext.fillRect(0, 0, 64, 64);
+  const glowTexture = new T.CanvasTexture(glowCanvas);
+  glowTexture.colorSpace = T.SRGBColorSpace;
+  const headlamps = pieces
+    .filter((p) => /^DLP_Down_[LR]1$/.test(p.mesh.name))
+    .map((p) => {
+      p.mesh.geometry.computeBoundingBox();
+      const localCenter = p.mesh.geometry.boundingBox!.getCenter(
+        new T.Vector3(),
+      );
+      const light = new T.SpotLight(0xe4f0ff, 0, 17, 0.48, 0.8, 1.1);
+      const glow = new T.Sprite(
+        new T.SpriteMaterial({
+          map: glowTexture,
+          transparent: true,
+          blending: T.AdditiveBlending,
+          depthWrite: false,
+          depthTest: true,
+          toneMapped: false,
+        }),
+      );
+      glow.scale.set(0.5, 0.5, 1);
+      scene.add(light, light.target, glow);
+      return { piece: p, localCenter, light, glow };
+    });
   const road = new T.Group();
   for (const x of [-1.9, 1.9]) {
     for (let z = -18; z < 20; z += 3) {
@@ -1137,12 +1165,6 @@ export async function createViewer(
     road.visible = s.section === 'safety';
     actors.visible = s.section === 'safety';
     ring.visible = false;
-    beam.children.forEach((o) => {
-      if ((o as T.SpotLight).isSpotLight) {
-        o.visible = s.lights && night;
-        (o as T.SpotLight).intensity = s.lights && night ? 16 : 0;
-      }
-    });
     if (materialsChanged)
       for (const p of pieces) {
         p.mesh.visible =
@@ -1442,13 +1464,28 @@ export async function createViewer(
       p.mesh.matrixWorldNeedsUpdate = true;
       for (const m of p.materials) {
         if (/lamp_|Light_LOGO|TopLight|starlit/.test(m.name)) {
-          m.emissive.set(
-            /lamp_B|TopLight|Trunk/.test(m.name) ? 0xff1f0d : 0xd4edff,
-          );
-          m.emissiveIntensity =
-            settings.lights || (demo && effect === 'welcome' && hf.phase > 0)
-              ? 2.2
-              : 0;
+          const lit =
+            settings.lights || (demo && effect === 'welcome' && hf.phase > 0);
+          const rear = /lamp_B|TopLight|Trunk/.test(m.name);
+          const emitter = /^lamp_[FB]_/.test(m.name);
+          m.emissive.set(rear ? 0xff1608 : 0xd4edff);
+          m.emissiveIntensity = lit
+            ? emitter
+              ? rear
+                ? 3.2
+                : settings.mode === 'night'
+                  ? 6
+                  : 4.5
+              : 2.2
+            : 0;
+          if (emitter) {
+            // The unlit lens must read as smoked glass, not a white LED.
+            m.color
+              .copy(m.userData.baseColor)
+              .multiplyScalar(lit ? 0.65 : 0.12);
+            m.metalness = 0.08;
+            m.roughness = 0.28;
+          }
         }
         if (/Mirro_Turn/.test(m.name)) {
           m.emissive.set(0xff9a23);
@@ -1588,6 +1625,32 @@ export async function createViewer(
         p.mesh.matrixWorldNeedsUpdate = true;
       }
       atelier.root.position.z += arrival.z;
+    }
+    for (const { piece, localCenter, light, glow } of headlamps) {
+      const enabled =
+        (settings.lights || (demo && effect === 'welcome' && hf.phase > 0)) &&
+        piece.mesh.visible &&
+        explosion < 0.001 &&
+        settings.section !== 'structure' &&
+        !settings.transparent &&
+        !settings.isolated;
+      light.position.copy(localCenter).applyMatrix4(piece.mesh.matrix);
+      light.position.z -= 0.045;
+      light.target.position.copy(light.position);
+      light.target.position.y = 0.025;
+      light.target.position.z -= 7;
+      light.intensity = enabled ? (settings.mode === 'night' ? 65 : 20) : 0;
+      glow.position.copy(light.position);
+      glow.visible = enabled;
+      // Fade the halo when viewing from the side or behind the vehicle.
+      const facing = T.MathUtils.clamp(
+        (light.position.z - camera.position.z) /
+          Math.max(0.01, camera.position.distanceTo(light.position)),
+        0,
+        1,
+      );
+      glow.material.opacity =
+        facing * facing * (settings.mode === 'night' ? 0.85 : 0.5);
     }
     const batched =
       (!entering || showcasing) &&
