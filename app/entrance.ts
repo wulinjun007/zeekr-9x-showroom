@@ -1,5 +1,18 @@
 import type { Settings, Locale } from './experience';
 
+export const heroCameraPosition = [-5.2, 2.1, -6.3];
+/** Preserve horizontal framing on portrait phones without moving the orbit centre. */
+export function exteriorFov(aspect: number) {
+  return (
+    (2 *
+      Math.atan(
+        Math.tan((19 * Math.PI) / 180) *
+          Math.max(1, 1.25 / Math.max(0.2, aspect)),
+      ) *
+      180) /
+    Math.PI
+  );
+}
 export const entranceDuration = 4.4;
 export const entranceCameraPosition = [-12, 2.7, -4] as const;
 // Eleven full wheel revolutions let the stationary wheel pose join without a snap.
@@ -76,12 +89,13 @@ export function showcasePose(seconds: number) {
   const t = Math.max(0, Math.min(1, seconds / showcaseDuration));
   // Ease into and out of one full circuit, joining the arrival hero camera.
   const q = t * t * (3 - 2 * t);
-  const radius = Math.hypot(6.9, 8.3);
-  const angle = Math.atan2(-6.9, -8.3) - q * Math.PI * 2;
+  const radius = Math.hypot(heroCameraPosition[0], heroCameraPosition[2]);
+  const angle =
+    Math.atan2(heroCameraPosition[0], heroCameraPosition[2]) - q * Math.PI * 2;
   return {
     position: [
       Math.sin(angle) * radius,
-      3 - 0.35 * Math.sin(Math.PI * t) ** 2,
+      heroCameraPosition[1] - 0.2 * Math.sin(Math.PI * t) ** 2,
       Math.cos(angle) * radius,
     ] as [number, number, number],
     chapter: Math.min(3, Math.floor(q * 4)),

@@ -21,6 +21,8 @@ import {
 } from './explosion-layout';
 import { animationStep } from './animation-time';
 import {
+  exteriorFov,
+  heroCameraPosition,
   entrancePose,
   entranceDuration,
   showcasePose,
@@ -79,7 +81,7 @@ const cameras: Record<View, { position: number[]; target: number[] }> = {
     position: [-2.25, 1.35, -4.15],
     target: [-0.65, 1.05, -2.5],
   },
-  hero: { position: [-6.9, 3.0, -8.3], target: [0, 0.85, 0] },
+  hero: { position: heroCameraPosition, target: [0, 0.85, 0] },
   front: { position: [0, 1.65, -9], target: [0, 0.9, 0] },
   side: { position: [-9, 1.8, 0], target: [0, 0.8, 0] },
   rear: { position: [5.8, 2.6, 7.8], target: [0, 0.85, 0] },
@@ -926,6 +928,7 @@ export async function createViewer(
     renderer.setPixelRatio(qualityRatio(w, h, devicePixelRatio, quality.tier));
     renderer.setSize(w, h);
     camera.aspect = w / Math.max(1, h);
+    if (!interior) camera.fov = exteriorFov(camera.aspect);
     camera.updateProjectionMatrix();
     if (frame && settings.section === 'structure') {
       lastView = '';
@@ -1074,7 +1077,7 @@ export async function createViewer(
         fromTarget.copy(toTarget);
       }
       tween = 0;
-      camera.fov = interior ? 78 : 38;
+      camera.fov = interior ? 78 : exteriorFov(camera.aspect);
       camera.updateProjectionMatrix();
       controls.enabled = !interior;
     }
@@ -1105,8 +1108,13 @@ export async function createViewer(
     renderer.toneMappingExposure = night ? 1.05 : 1.25;
     scene.environment = s.lightRig === 'strip' ? stripEnv.texture : env.texture;
     scene.environmentIntensity = night ? 0.4 : 0.85;
-    floorMat.roughness = ['rain', 'storm'].includes(s.weather) ? 0.16 : 0.58;
-    floorMat.metalness = ['rain', 'storm'].includes(s.weather) ? 0.35 : 0.08;
+    floorMat.envMapIntensity = night ? 0.12 : 0.55;
+    floorMat.roughness = ['rain', 'storm'].includes(s.weather)
+      ? 0.16
+      : night
+        ? 0.92
+        : 0.7;
+    floorMat.metalness = ['rain', 'storm'].includes(s.weather) ? 0.35 : 0;
     if (['snow', 'blizzard'].includes(s.weather)) floorMat.color.set(0xd9e0e0);
     if (['overcast', 'storm', 'blizzard', 'sand'].includes(s.weather)) {
       key.intensity *= 0.8 - (0.5 * s.weatherIntensity) / 100;
@@ -1133,6 +1141,7 @@ export async function createViewer(
     road.visible = s.section === 'safety';
     actors.visible = s.section === 'safety';
     ring.visible =
+      !night &&
       s.section !== 'safety' &&
       !interior &&
       s.view !== 'underbody' &&

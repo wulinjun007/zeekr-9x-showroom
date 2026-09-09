@@ -162,6 +162,8 @@ const labels: Record<string, string[]> = {
     'تعذر التحميل. أعد المحاولة',
   ],
 };
+export const cmfLabel = (locale: string, key: string) =>
+  labels[key]?.[['zh', 'en', 'de', 'ja', 'ar'].indexOf(locale)] ?? key;
 export function CmfControls({
   s,
   update,

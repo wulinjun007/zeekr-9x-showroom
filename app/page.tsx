@@ -12,6 +12,7 @@ import {
   sessionText,
 } from './scene-session';
 import { entranceCopy, showcaseCopy } from './entrance';
+import { ShowroomDock, QuickAccess, showroomText } from './showroom-dock';
 import { PartsControls, ChassisControls } from './study-controls';
 import type { PartType } from './study-state';
 import { useEffect, useRef, useState, useCallback } from 'react';
@@ -130,7 +131,7 @@ export default function Home() {
       mode: 'auto',
       tier: 'balanced',
     }),
-    [drawer, setDrawer] = useState(true);
+    [drawer, setDrawer] = useState(false);
   const hotspotLayer = useRef<HotspotHandle>(null);
   const host = useRef<HTMLDivElement>(null),
     viewer = useRef<Viewer | null>(null),
@@ -275,6 +276,7 @@ export default function Home() {
         if (e.key === 'Escape') viewer.current?.skipEntrance();
         return;
       }
+      if (e.key === 'Escape') setDrawer(false);
       if (
         (e.target as HTMLElement).closest(
           'input,button,select,textarea,[role=slider],[role=dialog]',
@@ -305,10 +307,11 @@ export default function Home() {
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
   }, [entering]);
-  const section = (sec: Section) =>
+  const section = (sec: Section) => {
+    setDrawer(sec === 'structure' || sec === 'safety');
     update({
       section: sec,
-      view: sec === 'interior' ? 'driver' : 'hero',
+      view: sec === 'interior' ? 'passenger' : 'hero',
       explode: 0,
       hidden: [],
       selected: null,
@@ -319,6 +322,7 @@ export default function Home() {
       ...(sec === 'safety' ? scenarioPreset(s.hmi) : {}),
       ...(sec !== 'safety' ? { transparent: false } : {}),
     });
+  };
   const changeView = (v: View) => update({ view: v, orbit: false });
   const toggleDoor = (d: string) =>
     update({
@@ -412,7 +416,8 @@ export default function Home() {
     <main
       ref={root}
       className={
-        'experience ' +
+        'experience showroom ' +
+        (drawer ? 'has-drawer ' : '') +
         (entering ? 'is-entering ' : '') +
         (tourChapter >= 0 ? 'is-showcasing ' : '') +
         (s.mode === 'night' || interior ? 'is-dark' : '') +
@@ -424,10 +429,36 @@ export default function Home() {
         {/* A full-page reset intentionally discards the transient 3D session. */}
         {/* eslint-disable-next-line next/no-html-link-for-pages */}
         <a className="wordmark" href="/" aria-label="ZEEKR 9X experience">
-          ZEEKR<span>9X / EXPERIENCE ATELIER</span>
+          ZEEKR<span>9X</span>
         </a>
+        <nav
+          className="section-nav showroom-nav"
+          aria-label="Experience sections"
+        >
+          {(
+            [
+              'exterior',
+              'interior',
+              'structure',
+              'safety',
+              'story',
+            ] as Section[]
+          ).map((sec) => {
+            const Icon = sectionIcons[sec];
+            return (
+              <button
+                key={sec}
+                onClick={() => section(sec)}
+                className={s.section === sec ? 'active' : ''}
+                aria-current={s.section === sec ? 'page' : undefined}
+              >
+                <Icon size={18} />
+                <span>{tr(sec)}</span>
+              </button>
+            );
+          })}
+        </nav>
         <div className="header-actions">
-          <span className="study-label">{tr('study')}</span>
           <Select
             value={s.locale}
             onValueChange={(v) => v && update({ locale: v as Locale })}
@@ -444,6 +475,14 @@ export default function Home() {
               ))}
             </SelectContent>
           </Select>
+          <button
+            className="configure-top"
+            onClick={() => setDrawer(!drawer)}
+            aria-expanded={drawer}
+            aria-controls="experience-controls"
+          >
+            {showroomText(s.locale, drawer ? 'close' : 'configure')}
+          </button>
           <Button variant="ghost" className="share-top" onClick={share}>
             <Share2 size={15} />
             {tr('share')}
@@ -455,13 +494,12 @@ export default function Home() {
           <div className="viewer-host" ref={host} />
           {!interior && s.section !== 'safety' && (
             <div className="model-title">
-              <p>THE GRAND TOURER</p>
-              <h1>
-                9X<span>极氪</span>
-              </h1>
+              <p>ZEEKR 9X / EXPLORER</p>
+              <h1>ZEEKR 9X</h1>
               <h2>{tr('tagline')}</h2>
             </div>
           )}
+          {s.section === 'exterior' && <QuickAccess s={s} update={update} />}
           <fieldset className="scene-tabs" aria-label={tr('studio')}>
             {(['studio', 'day', 'night'] as const).map((m) => (
               <button
@@ -565,6 +603,7 @@ export default function Home() {
                   className={'orbit ' + (s.orbit ? 'active' : '')}
                   onClick={() => update({ orbit: !s.orbit })}
                   aria-pressed={s.orbit}
+                  aria-label={tr('orbit')}
                 >
                   {s.orbit ? <Pause size={13} /> : <Play size={13} />}
                   <span>{tr('orbit')}</span>
@@ -573,6 +612,12 @@ export default function Home() {
             </div>
             <p>{tr(interior ? 'cabinHint' : 'hint')}</p>
           </div>
+          <ShowroomDock
+            s={s}
+            update={update}
+            open={() => setDrawer(true)}
+            tour={tour}
+          />
           <button
             className="mobile-controls"
             onClick={() => setDrawer(!drawer)}
@@ -582,31 +627,23 @@ export default function Home() {
             {tr(s.section)}
           </button>
         </div>
-        <aside className={'control-panel ' + (!drawer ? 'mobile-closed' : '')}>
-          <nav className="section-nav" aria-label="Experience sections">
-            {(
-              [
-                'exterior',
-                'interior',
-                'structure',
-                'safety',
-                'story',
-              ] as Section[]
-            ).map((sec) => {
-              const Icon = sectionIcons[sec];
-              return (
-                <button
-                  key={sec}
-                  onClick={() => section(sec)}
-                  className={s.section === sec ? 'active' : ''}
-                  aria-current={s.section === sec ? 'page' : undefined}
-                >
-                  <Icon size={18} />
-                  <span>{tr(sec)}</span>
-                </button>
-              );
-            })}
-          </nav>
+        <aside
+          id="experience-controls"
+          className="control-panel"
+          style={{ display: drawer ? undefined : 'none' }}
+        >
+          <div className="drawer-heading">
+            <div>
+              <small>{showroomText(s.locale, 'controls')}</small>
+              <h2>{tr(s.section)}</h2>
+            </div>
+            <button
+              aria-label={showroomText(s.locale, 'close')}
+              onClick={() => setDrawer(false)}
+            >
+              <X size={19} />
+            </button>
+          </div>
           <div className="panel-content">
             {s.section === 'exterior' && (
               <>
@@ -998,7 +1035,9 @@ export default function Home() {
           {tr('saveCard')}
           <ArrowUpRight size={12} />
         </button>
-        <span>WEB EXPERIENCE / 2026</span>
+        <button onClick={() => setDialog('about')}>
+          {tr('study')} · {tr('source')}
+        </button>
       </footer>
       {toast && (
         <output className="toast">

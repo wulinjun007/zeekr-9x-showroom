@@ -2,6 +2,7 @@
 import { memo, useImperativeHandle, useState, type Ref } from 'react';
 import { Armchair, Lightbulb, Plus } from 'lucide-react';
 import { text, type Locale } from './experience';
+import { labText } from './lab-state';
 import type { Hotspot } from './viewer';
 export type HotspotHandle = { update: (value: Hotspot[]) => void };
 
@@ -17,6 +18,10 @@ export const HotspotLayer = memo(function HotspotLayer({
   locale: Locale;
   onPick: (id: string) => void;
 }) {
+  const label = (id: string) => {
+    const v = text(locale, id);
+    return v === id ? labText(locale, id) : v;
+  };
   const [points, setPoints] = useState<Hotspot[]>([]);
   useImperativeHandle(
     ref,
@@ -53,7 +58,7 @@ export const HotspotLayer = memo(function HotspotLayer({
               transform: `translate3d(${h.x}px, ${h.y}px, 0) translate(-50%, -50%)`,
             }}
             onClick={() => onPick(h.id)}
-            aria-label={text(locale, h.id)}
+            aria-label={label(h.id)}
           >
             <span>
               {h.id === 'driver' ? (
@@ -64,7 +69,7 @@ export const HotspotLayer = memo(function HotspotLayer({
                 <Plus size={15} />
               )}
             </span>
-            <b>{text(locale, h.id)}</b>
+            <b>{label(h.id)}</b>
           </button>
         ))}
     </div>

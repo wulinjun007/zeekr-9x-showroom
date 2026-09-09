@@ -1,0 +1,719 @@
+/* Full-viewport configuration, adapted from the observed N90 showroom.
+   Overlays don't resize the Three.js drawing surface or add animation loops. */
+.showroom.experience {
+  height: 100dvh;
+  min-height: 540px;
+  overflow: hidden;
+  background: #080b0f;
+  color: #f4f4f2;
+  position: relative;
+  --panel: #f6f5f2;
+}
+.showroom .scene-layout {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+.showroom .stage {
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+}
+.showroom .site-header {
+  position: absolute;
+  inset: 0 0 auto;
+  height: 86px;
+  padding: 0 36px;
+  border: 0;
+  background: linear-gradient(#060b12a0, transparent);
+  color: #fff;
+  pointer-events: none;
+  gap: 26px;
+}
+.showroom .site-header > * {
+  pointer-events: auto;
+}
+.showroom .wordmark {
+  font-size: 23px;
+  letter-spacing: 3px;
+  gap: 12px;
+}
+.showroom .wordmark span {
+  display: block;
+  font-size: 10px;
+  letter-spacing: 1px;
+  border: 0;
+  padding: 0;
+  width: 32px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.showroom .showroom-nav {
+  display: flex;
+  padding: 0;
+  border: 0;
+  gap: 32px;
+  margin: auto;
+  background: none;
+}
+.showroom .showroom-nav button {
+  padding: 10px 0;
+  font-size: 13px;
+  color: #d6dadd;
+  white-space: nowrap;
+}
+.showroom .showroom-nav button.active {
+  color: white;
+}
+.showroom .showroom-nav button.active:after {
+  width: 24px;
+  height: 2px;
+  background: white;
+}
+.showroom .showroom-nav svg {
+  display: none;
+}
+.showroom .header-actions {
+  gap: 12px;
+}
+.showroom .language {
+  color: #f7f7f5;
+  font-size: 11px;
+  padding-inline: 5px;
+}
+.showroom .configure-top {
+  border: 1px solid #fff4;
+  background: #f5f3ee;
+  color: #25282a;
+  padding: 10px 19px;
+  font-size: 12px;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+.showroom .share-top {
+  color: white;
+  padding: 8px;
+  font-size: 0;
+  gap: 0;
+}
+.showroom .share-top svg {
+  width: 17px;
+}
+.showroom .model-title {
+  top: 112px;
+  left: 40px;
+  color: #f1f4f6;
+}
+.showroom .model-title p {
+  color: inherit;
+  opacity: 0.58;
+  font-size: 9px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+.showroom .model-title h1 {
+  font-size: 35px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.showroom .model-title h2 {
+  color: inherit;
+  opacity: 0.7;
+  font-size: 11px;
+  margin-top: 12px;
+  font-weight: 400;
+}
+.showroom .scene-tabs {
+  top: 110px;
+  right: 32px;
+  border: 1px solid #ffffff24;
+  background: #18202ac4;
+  border-radius: 3px;
+  backdrop-filter: none;
+  padding: 3px;
+}
+.showroom .scene-tabs button {
+  border-radius: 2px;
+  color: #c7cbcd;
+  padding: 8px 13px;
+}
+.showroom .scene-tabs button.active {
+  background: #f4f3ef;
+  color: #252a30;
+}
+.showroom .tools {
+  right: 28px;
+  top: auto;
+  bottom: 132px;
+  transform: none;
+  border: 1px solid #ffffff1c;
+  border-radius: 3px;
+  background: #111820bb;
+  backdrop-filter: none;
+  color: #fff;
+}
+.showroom .tools button {
+  color: #f1f4f5;
+  height: 32px;
+}
+.showroom .tools button:hover {
+  background: #ffffff20;
+}
+.showroom .tools i {
+  background: #ffffff25;
+}
+.showroom .stage-bottom {
+  bottom: 116px;
+  inset-inline: 100px;
+  gap: 8px;
+}
+.showroom .view-presets {
+  border: 0;
+  border-radius: 3px;
+  background: #151c2599;
+  backdrop-filter: none;
+  padding: 3px;
+}
+.showroom .view-presets button {
+  padding: 9px 15px;
+  border-radius: 2px;
+  color: #bec5ca;
+  font-size: 11px;
+}
+.showroom .view-presets button.active {
+  background: #ffffff1c;
+  color: #fff;
+  box-shadow: none;
+}
+.showroom .view-presets button.orbit {
+  border-color: #ffffff24;
+  border-radius: 0 2px 2px 0;
+}
+.showroom .stage-bottom p {
+  color: #e4e7e9;
+  opacity: 0.65;
+  font-size: 9px;
+}
+.showroom-dock {
+  position: absolute;
+  inset: auto 0 0;
+  min-height: 126px;
+  padding: 22px 108px 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  z-index: 6;
+  background: linear-gradient(transparent, #080c12e6 55%, #080c12);
+  color: #fff;
+}
+.dock-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-inline: 0 32px;
+  border-inline-end: 1px solid #ffffff26;
+  min-width: 0;
+}
+.dock-group:last-child {
+  border: 0;
+  padding-inline-end: 0;
+}
+.dock-options {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.dock-swatch {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid #ffffff25;
+  position: relative;
+  box-shadow: inset 0 1px 2px #fff3;
+  flex-shrink: 0;
+}
+.dock-swatch.selected:after {
+  content: '';
+  position: absolute;
+  inset: -5px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.dock-swatch.small {
+  width: 23px;
+  height: 23px;
+  display: grid;
+  place-items: center;
+  color: #17212d;
+}
+.dock-caption {
+  color: #dedfe0;
+  font-size: 10px;
+  line-height: 1.4;
+}
+.dock-wheel {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  height: 34px;
+  padding: 3px 9px;
+  color: #929ba3;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+.dock-wheel span {
+  font-size: 11px;
+  white-space: nowrap;
+}
+.dock-wheel.selected {
+  color: #fff;
+  border-color: #fff6;
+}
+.dock-text {
+  padding: 8px 12px;
+  font-size: 11px;
+  color: #b4bdc4;
+  border: 1px solid #ffffff24;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+.dock-text.selected {
+  color: #fff;
+  border-color: #f2f2f2;
+  background: #ffffff12;
+}
+.dock-options button {
+  transition:
+    border-color 0.18s ease,
+    color 0.18s ease;
+}
+.dock-options button:hover {
+  outline: 1px solid #ffffff80;
+  outline-offset: 3px;
+}
+.quick-access {
+  position: absolute;
+  bottom: 49px;
+  left: 30px;
+  z-index: 8;
+  display: flex;
+  padding: 4px;
+  border: 1px solid #fff2;
+  background: #111820b0;
+  border-radius: 3px;
+}
+.quick-access button {
+  padding: 9px;
+  color: #bbc4cb;
+}
+.quick-access button + button {
+  border-inline-start: 1px solid #fff2;
+}
+.quick-access button[aria-pressed='true'] {
+  color: #fff;
+  background: #ffffff20;
+}
+.dock-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.dock-summary span {
+  font-size: 10px;
+  color: #b1bac2;
+}
+.dock-summary strong {
+  font-weight: 400;
+  font-size: 16px;
+}
+.dock-open {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 12px;
+  border-bottom: 1px solid #fff6;
+  padding: 10px 0;
+}
+.dock-chapters {
+  display: flex;
+  gap: 30px;
+}
+.dock-chapters button {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 10px 0;
+  font-size: 12px;
+  border-bottom: 1px solid #fff3;
+}
+.showroom .control-panel {
+  position: absolute;
+  top: 88px;
+  inset-inline-end: 25px;
+  bottom: 134px;
+  width: 354px;
+  min-height: 0;
+  border: 1px solid #d0ccc6;
+  border-radius: 5px;
+  background: #f6f5f2;
+  color: #262b2f;
+  box-shadow: 0 16px 45px #0004;
+  z-index: 25;
+}
+.drawer-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 22px 14px;
+  border-bottom: 1px solid #d8d6d0;
+  flex-shrink: 0;
+}
+.drawer-heading small {
+  font-size: 9px;
+  letter-spacing: 1px;
+  color: #7c7d7c;
+}
+.drawer-heading h2 {
+  margin: 4px 0 0;
+  font-size: 19px;
+  font-weight: 500;
+}
+.drawer-heading button {
+  padding: 8px;
+}
+.showroom .panel-content {
+  padding: 22px;
+  overscroll-behavior: contain;
+}
+.showroom .panel-heading {
+  display: none;
+}
+.showroom .panel-footer {
+  background: #efeeeb;
+}
+.showroom .session-actions {
+  background: #f6f5f2;
+}
+.showroom .site-footer {
+  position: absolute;
+  inset: auto 0 0;
+  z-index: 8;
+  height: 28px;
+  padding: 0 30px;
+  background: transparent;
+  border: 0;
+  color: #b5bdc4;
+  font-size: 8px;
+  pointer-events: none;
+}
+.showroom .site-footer > * {
+  pointer-events: auto;
+}
+.showroom .site-footer > span {
+  letter-spacing: 1px;
+}
+.showroom .mobile-controls {
+  display: none;
+}
+.showroom .entrance-caption {
+  color: #f2f4f5;
+  text-shadow: 0 2px 12px #0008;
+  bottom: 160px;
+}
+.showroom .entrance-caption p {
+  color: #d0d6dc;
+}
+.showroom .entrance-skip {
+  background: #121922de;
+  color: white;
+  border-color: #ffffff30;
+  border-radius: 3px;
+  top: 105px;
+}
+.showroom.is-showcasing .stage > .showroom-dock,
+.showroom.is-showcasing .stage > .quick-access {
+  visibility: visible;
+}
+.showroom:not(.is-dark) .model-title {
+  color: #1e2832;
+}
+.showroom.rtl .site-header,
+.showroom.rtl .showroom-dock {
+  direction: rtl;
+}
+.showroom.rtl .control-panel {
+  border-right: 1px solid #d0ccc6;
+}
+@media (max-width: 1100px) {
+  .showroom .site-header {
+    padding-inline: 22px;
+    gap: 20px;
+  }
+  .showroom .wordmark {
+    font-size: 20px;
+  }
+  .showroom .wordmark span {
+    display: none;
+  }
+  .showroom .showroom-nav {
+    gap: 20px;
+  }
+  .showroom .showroom-nav button {
+    font-size: 12px;
+  }
+  .showroom .header-actions {
+    gap: 6px;
+  }
+  .showroom .configure-top {
+    padding: 9px 12px;
+  }
+  .showroom-dock {
+    gap: 22px;
+    padding-inline: 100px 30px;
+  }
+  .dock-group {
+    padding-inline-end: 22px;
+  }
+  .dock-finish {
+    display: none;
+  }
+  .dock-wheel span {
+    display: none;
+  }
+  .dock-ambient {
+    display: none;
+  }
+}
+@media (max-width: 760px) {
+  .showroom.experience {
+    height: 100dvh;
+    min-height: 540px;
+    overflow: hidden;
+  }
+  .showroom .site-header {
+    height: 104px;
+    padding: 0 17px 42px;
+    gap: 10px;
+  }
+  .showroom .wordmark {
+    font-size: 20px;
+  }
+  .showroom .header-actions {
+    margin-inline-start: auto;
+  }
+  .showroom .language {
+    font-size: 10px;
+    min-height: 32px;
+  }
+  .showroom .language svg {
+    display: none;
+  }
+  .showroom .configure-top {
+    padding: 8px 10px;
+    font-size: 10px;
+  }
+  .showroom .showroom-nav {
+    position: absolute;
+    inset: 60px 20px auto;
+    justify-content: space-between;
+    margin: 0;
+    gap: 8px;
+  }
+  .showroom .showroom-nav button {
+    font-size: 11px;
+    padding: 10px 0;
+  }
+  .showroom .model-title {
+    top: 124px;
+    left: 21px;
+  }
+  .showroom .model-title h1 {
+    font-size: 26px;
+  }
+  .showroom .model-title h2 {
+    font-size: 10px;
+    max-width: 180px;
+    margin-top: 9px;
+  }
+  .showroom .model-title p {
+    display: none;
+  }
+  .showroom .scene-tabs {
+    right: 17px;
+    top: 123px;
+  }
+  .showroom .scene-tabs button {
+    font-size: 9px;
+    padding: 7px 8px;
+  }
+  .showroom .tools {
+    right: 14px;
+    bottom: 204px;
+  }
+  .showroom .tools button {
+    width: 27px;
+    height: 30px;
+  }
+  .showroom .stage-bottom {
+    bottom: 190px;
+    inset-inline: 10px;
+    gap: 6px;
+  }
+  .showroom .view-presets {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+  .showroom .view-presets button {
+    font-size: 10px;
+    padding: 8px 10px;
+  }
+  .showroom .stage-bottom p {
+    font-size: 8px;
+  }
+  .showroom-dock {
+    min-height: 174px;
+    padding: 16px 14px 42px;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-content: end;
+  }
+  .dock-group {
+    padding: 0 18px 0 0;
+    gap: 9px;
+  }
+  .dock-options {
+    gap: 12px;
+  }
+  .dock-swatch {
+    width: 27px;
+    height: 27px;
+  }
+  .dock-wheel {
+    height: 29px;
+    padding: 1px 3px;
+  }
+  .dock-wheel svg {
+    width: 21px;
+    height: 21px;
+  }
+  .dock-caption {
+    font-size: 9px;
+  }
+  .dock-text {
+    font-size: 10px;
+    padding: 7px 8px;
+  }
+  .showroom-dock:has(.dock-paints) {
+    flex-wrap: nowrap;
+    gap: 12px;
+  }
+  .showroom-dock:has(.dock-paints) .dock-group {
+    padding-inline-end: 13px;
+  }
+  .showroom-dock:has(.dock-paints) .dock-options {
+    gap: 11px;
+  }
+  .showroom-dock:has(.dock-paints) .dock-group:last-of-type {
+    border: 0;
+  }
+  .quick-access {
+    bottom: 122px;
+    left: 18px;
+  }
+  .quick-access button {
+    padding: 7px;
+  }
+  .quick-access svg {
+    width: 16px;
+    height: 16px;
+  }
+  .dock-chapters {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px 22px;
+  }
+  .dock-chapters button {
+    font-size: 11px;
+    padding: 8px 0;
+  }
+  .dock-summary strong {
+    font-size: 13px;
+  }
+  .dock-open {
+    font-size: 11px;
+  }
+  .showroom .control-panel {
+    top: 109px;
+    bottom: 34px;
+    inset-inline: 12px;
+    width: auto;
+    border: 1px solid #ddd8d0;
+    border-radius: 5px;
+  }
+  .showroom .site-footer {
+    height: 31px;
+    padding: 0 16px;
+    font-size: 7px;
+  }
+  .showroom .site-footer > span {
+    display: none;
+  }
+  .showroom .site-footer > button:last-child {
+    max-width: 60%;
+    text-align: end;
+  }
+  .showroom .entrance-caption {
+    bottom: 220px;
+  }
+  .showroom .entrance-skip {
+    top: 112px;
+    right: 17px;
+    font-size: 11px;
+    padding: 8px 12px;
+  }
+  .showroom.has-drawer .stage-bottom {
+    visibility: hidden;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .showroom-dock button {
+    transition: none;
+  }
+}
+
+@media (max-width: 760px) {
+  .showroom .dock-wheel {
+    flex-direction: column;
+    gap: 3px;
+    height: auto;
+    padding: 3px;
+  }
+  .showroom .dock-wheel span {
+    display: block;
+    font-size: 8px;
+    max-width: 40px;
+    white-space: normal;
+    line-height: 1.3;
+  }
+  .showroom .dock-wheel svg {
+    width: 18px;
+    height: 18px;
+  }
+  .showroom .dock-options {
+    align-items: center;
+  }
+}
+/* Keep the instrument readable above the camera selector. */
+.showroom .hmi-instrument.cluster {
+  bottom: 210px;
+}
+.showroom .control-panel .lab-choice > span {
+  color: #697077;
+}
+@media (max-width: 760px) {
+  .showroom .hmi-instrument.cluster {
+    bottom: 260px;
+  }
+}

@@ -1,6 +1,8 @@
 import assert from 'node:assert/strict';
 import * as T from 'three';
 import {
+  exteriorFov,
+  heroCameraPosition,
   showcasePose,
   showcaseDuration,
   showcaseCopy,
@@ -9,7 +11,7 @@ import {
 import { defaults } from '../app/experience.ts';
 const start = new T.Vector3(...showcasePose(0).position);
 assert.ok(
-  start.distanceTo(new T.Vector3(-6.9, 3, -8.3)) < 1e-10,
+  start.distanceTo(new T.Vector3(...heroCameraPosition)) < 1e-10,
   'no camera jump after arrival',
 );
 assert.ok(
@@ -35,8 +37,13 @@ for (let frame = 1; frame <= showcaseDuration * 60; frame++) {
   lastAngle = angle;
   previous = position;
   chapters.add(p.chapter);
-  for (const aspect of [1.2, 1.7, 2.5]) {
-    const camera = new T.PerspectiveCamera(38, aspect, 0.025, 160);
+  for (const aspect of [0.46, 0.75, 1.2, 1.7, 2.5]) {
+    const camera = new T.PerspectiveCamera(
+      exteriorFov(aspect),
+      aspect,
+      0.025,
+      160,
+    );
     camera.position.copy(position);
     camera.lookAt(0, 0.85, 0);
     camera.updateMatrixWorld();
@@ -68,5 +75,5 @@ assert.deepEqual(deep, copy);
 for (const locale of ['zh', 'en', 'de', 'ja', 'ar'])
   assert.equal(showcaseCopy[locale].chapters.length, 4);
 console.log(
-  'PASS: 1,440 orbit frames, full 360-degree sweep, arrival continuity, 4 chapters / 5 locales, 3 viewport ratios, original scene snapshot retained. No browser visual claim.',
+  'PASS: 1,440 orbit frames, full 360-degree sweep, arrival continuity, 4 chapters / 5 locales, 5 viewport ratios including portrait, original scene snapshot retained. No browser visual claim.',
 );
