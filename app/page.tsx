@@ -13,6 +13,7 @@ import {
 } from './scene-session';
 import { entranceCopy, showcaseCopy } from './entrance';
 import { ShowroomDock, QuickAccess, showroomText } from './showroom-dock';
+import { GlassControls } from './glass-controls';
 import { PartsControls, ChassisControls } from './study-controls';
 import type { PartType } from './study-state';
 import { useEffect, useRef, useState, useCallback } from 'react';
@@ -648,6 +649,9 @@ export default function Home() {
             </button>
           </div>
           <div className="panel-content">
+            {['exterior', 'interior'].includes(s.section) && (
+              <GlassControls s={s} update={update} />
+            )}
             {s.section === 'exterior' && (
               <>
                 <div className="panel-heading">

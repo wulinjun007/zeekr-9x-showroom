@@ -1,3 +1,4 @@
+import { glassZone, glassTints, glassCabinLight } from './glass';
 import { createStaticBatches } from './static-batches';
 import { continuousScene } from './render-policy';
 import {
@@ -991,6 +992,12 @@ export async function createViewer(
     );
   };
   window.addEventListener('cmf-retry', retryCmf);
+  const glazingMaterials = pieces.flatMap((p) =>
+    p.materials.flatMap((m) => {
+      const zone = glassZone(m.name);
+      return zone ? [{ m, group: p.group, zone }] : [];
+    }),
+  );
   function applyScene(s: Settings) {
     renderer.shadowMap.needsUpdate = true;
     shadowMotionUntil = performance.now() + 2000;
@@ -1019,6 +1026,11 @@ export async function createViewer(
         (k) =>
           (s as unknown as Record<string, unknown>)[k] !==
           (settings as unknown as Record<string, unknown>)[k],
+      );
+    const glazingChanged =
+      materialsChanged ||
+      (['glassTint', 'glassFront', 'glassRear', 'glassRoof'] as const).some(
+        (k) => s[k] !== settings[k],
       );
     const nextCmfKey =
       Object.keys(cmfOptions)
@@ -1153,11 +1165,11 @@ export async function createViewer(
     cabinLight.intensity = (0.12 * s.ambientPower) / 60;
     if (interior) {
       const lighting = cabinLighting(s.mode);
-      hemi.intensity = lighting.hemi;
+      hemi.intensity = lighting.hemi * glassCabinLight(s);
       key.intensity = lighting.key;
       rim.intensity = lighting.rim;
       renderer.toneMappingExposure = lighting.exposure;
-      scene.environmentIntensity = lighting.environment;
+      scene.environmentIntensity = lighting.environment * glassCabinLight(s);
       cabinLight.intensity = (lighting.practical * s.ambientPower) / 60;
     }
     hud.visible = s.hud && interior;
@@ -1245,6 +1257,18 @@ export async function createViewer(
           }
           m.needsUpdate = true;
         }
+      }
+    if (glazingChanged)
+      for (const { m, group, zone } of glazingMaterials) {
+        const tint = glassTints[s.glassTint];
+        if (tint) m.color.set(tint);
+        else m.color.copy(m.userData.baseColor);
+        const xray =
+          s.transparent && ['body', 'doors', 'glass'].includes(group);
+        m.opacity = xray ? 0.13 : 1 - s[zone] / 100;
+        m.transparent = true;
+        // Restore the source appearance exactly when restoring the original tint.
+        m.envMapIntensity = tint ? 1.15 : 1.8;
       }
     if (sceneChanged) renderer.shadowMap.needsUpdate = true;
   }

@@ -1,3 +1,4 @@
+import { glassDefaults, readGlass, type GlassSettings } from './glass';
 import { getScenario } from './scenarios';
 import { type LabSettings, labDefaults, readLab, writeLab } from './lab-state';
 export type Locale = 'zh' | 'en' | 'de' | 'ja' | 'ar';
@@ -33,35 +34,37 @@ export type PartGroup =
   | 'cabin'
   | 'wheels'
   | 'lights';
-export type Settings = LabSettings & {
-  locale: Locale;
-  mode: Mode;
-  view: View;
-  section: Section;
-  paint: string;
-  orbit: boolean;
-  lights: boolean;
-  hazards: boolean;
-  hud: boolean;
-  ambient: string;
-  explode: number;
-  doors: string[];
-  hidden: PartGroup[];
-  selected: PartGroup | null;
-  isolated: boolean;
-  hotspots: boolean;
-  transparent: boolean;
-  radar: boolean;
-  scenario: 'parking' | 'blindspot' | 'door' | 'sensor';
-  playing: boolean;
-  progress: number;
-  wheelStyle: 'mirror' | 'turbine' | 'sport';
-  tireStyle: 'road' | 'touring';
-  seatStyle: 'blue' | 'ivory' | 'cognac';
-  backrest: 'A' | 'B';
-};
+export type Settings = LabSettings &
+  GlassSettings & {
+    locale: Locale;
+    mode: Mode;
+    view: View;
+    section: Section;
+    paint: string;
+    orbit: boolean;
+    lights: boolean;
+    hazards: boolean;
+    hud: boolean;
+    ambient: string;
+    explode: number;
+    doors: string[];
+    hidden: PartGroup[];
+    selected: PartGroup | null;
+    isolated: boolean;
+    hotspots: boolean;
+    transparent: boolean;
+    radar: boolean;
+    scenario: 'parking' | 'blindspot' | 'door' | 'sensor';
+    playing: boolean;
+    progress: number;
+    wheelStyle: 'mirror' | 'turbine' | 'sport';
+    tireStyle: 'road' | 'touring';
+    seatStyle: 'blue' | 'ivory' | 'cognac';
+    backrest: 'A' | 'B';
+  };
 export const defaults: Settings = {
   ...labDefaults,
+  ...glassDefaults,
   locale: 'zh',
   mode: 'night',
   view: 'hero',
@@ -874,7 +877,7 @@ export function readSettings(search = window.location.search): Settings {
   s.hotspots = p.get('hotspots') !== '0';
   const lab = readLab(p);
   lab.hmi = getScenario(lab.hmi).id;
-  return { ...s, ...lab };
+  return { ...s, ...lab, ...readGlass(p) };
 }
 export function shareUrl(s: Settings) {
   const u = new URL(window.location.href);
@@ -899,6 +902,13 @@ export function shareUrl(s: Settings) {
   u.searchParams.set('scenario', s.scenario);
   for (const k of ['wheelStyle', 'tireStyle', 'seatStyle', 'backrest'] as const)
     u.searchParams.set(k, s[k]);
+  for (const k of [
+    'glassTint',
+    'glassFront',
+    'glassRear',
+    'glassRoof',
+  ] as const)
+    u.searchParams.set(k, String(s[k]));
   writeLab(u.searchParams, s);
   return u.toString();
 }

@@ -717,3 +717,70 @@
     bottom: 260px;
   }
 }
+
+/* Independent glazing configuration: compact, keyboard-accessible controls. */
+.glass-controls {
+  padding-bottom: 18px;
+  border-bottom: 1px solid #ffffff20;
+}
+.glass-controls .variant-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.glass-tints {
+  display: flex;
+  gap: 6px;
+  margin: 16px 0;
+  flex-wrap: wrap;
+}
+.glass-tints button {
+  display: grid;
+  justify-items: center;
+  gap: 6px;
+  padding: 7px;
+  font-size: 11px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+}
+.glass-tints button[aria-pressed='true'] {
+  border-color: #b6cbd1;
+  background: #b6cbd115;
+}
+.glass-tints i {
+  display: block;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  border: 1px solid #ffffff55;
+}
+.glass-range {
+  display: block;
+  margin: 15px 0;
+  font-size: 12px;
+}
+.glass-range span {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+.glass-range output {
+  font-variant-numeric: tabular-nums;
+  opacity: 0.8;
+}
+.glass-range input {
+  width: 100%;
+  margin-top: 10px;
+  accent-color: #aec8d1;
+  cursor: pointer;
+}
+.glass-reset {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-size: 12px;
+  opacity: 0.85;
+}
+.glass-controls button:focus-visible,
+.glass-range input:focus-visible {
+  outline: 2px solid #d1e8f0;
+  outline-offset: 3px;
+}
