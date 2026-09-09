@@ -66,7 +66,7 @@ import {
   locales,
   paints,
   groups,
-  readSettings,
+  readEntrySettings,
   shareUrl,
   type Settings,
   type Locale,
@@ -189,7 +189,12 @@ export default function Home() {
     });
   }, []);
   useEffect(() => {
-    const value = readSettings();
+    const value = readEntrySettings();
+    const entryUrl = new URL(window.location.href);
+    if (entryUrl.searchParams.get('mode') !== value.mode) {
+      entryUrl.searchParams.set('mode', value.mode);
+      window.history.replaceState(window.history.state, '', entryUrl);
+    }
     reduced.current = window.matchMedia(
       '(prefers-reduced-motion: reduce)',
     ).matches;

@@ -905,9 +905,19 @@ export function readSettings(search = window.location.search): Settings {
   lab.hmi = getScenario(lab.hmi).id;
   return { ...s, ...lab, ...readGlass(p), ...readWrap(p) };
 }
+/** Ordinary visits open at night; explicit shared configurations retain their lighting. */
+export function readEntrySettings(search = window.location.search): Settings {
+  const p = new URLSearchParams(search);
+  const settings = readSettings(search);
+  return p.get('configuration') === '1'
+    ? settings
+    : { ...settings, mode: defaults.mode };
+}
+
 export function shareUrl(s: Settings) {
   const u = new URL(window.location.href);
   u.search = '';
+  u.searchParams.set('configuration', '1');
   for (const k of ['locale', 'mode', 'view', 'section', 'paint'] as const)
     u.searchParams.set(k, s[k]);
   for (const k of ['lights', 'hazards', 'hud', 'orbit', 'transparent'] as const)
