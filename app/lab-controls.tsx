@@ -1,4 +1,5 @@
-'use client';
+import { paintFinishes } from './paint-library';
+('use client');
 import { SeatingControls, EnvironmentControls } from './study-controls';
 import { hmiDisplay, hmiText } from './hmi-display';
 import { useState } from 'react';
@@ -79,7 +80,7 @@ export function MaterialControls({ s, update }: Props) {
     <div className="lab-block">
       <h3>{t('material')}</h3>
       <div className="variant-buttons">
-        {(['gloss', 'satin'] as const).map((x) => (
+        {paintFinishes.map((x) => (
           <button
             key={x}
             aria-pressed={s.finish === x}

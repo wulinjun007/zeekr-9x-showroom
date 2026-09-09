@@ -1,3 +1,4 @@
+import { paintFinishes, type PaintFinish } from './paint-library';
 import {
   seatPositions,
   roadTypes,
@@ -49,7 +50,7 @@ export type LabSettings = {
   ambientPower: number;
 
   weather: Weather;
-  finish: 'gloss' | 'satin';
+  finish: PaintFinish;
   lightRig: 'softbox' | 'strip';
   readingLights: boolean;
   rearScreen: boolean;
@@ -107,7 +108,7 @@ export const labEnums = {
   ...cmfOptions,
   cabinApp: ['home', 'navigation', 'media', 'comfort', 'energy', 'parking'],
   weather: weatherTypes,
-  finish: ['gloss', 'satin'],
+  finish: paintFinishes,
   lightRig: ['softbox', 'strip'],
   climate: ['off', 'vent', 'heat', 'massage'],
   occupantRow: ['driver', 'second', 'third'],
@@ -194,6 +195,17 @@ export const labWords: Record<string, string[]> = {
   ],
   gloss: ['清漆高光', 'Clearcoat', 'Klarlack', 'クリアコート', 'طلاء لامع'],
   satin: ['柔缎质感', 'Satin', 'Seidenmatt', 'サテン', 'ساتان'],
+  signature: [
+    '参考漆效',
+    'Signature study',
+    'Referenzeffekt',
+    '参考の質感',
+    'تأثير مرجعي',
+  ],
+  metallic: ['细粒金属', 'Metallic', 'Metallic', 'メタリック', 'معدني'],
+  pearl: ['珠光层次', 'Pearlescent', 'Perlmutt', 'パール', 'لؤلؤي'],
+  matte: ['冰霜哑光', 'Frozen matte', 'Matt', 'マット', 'مطفي'],
+  iridescent: ['流彩变色', 'Color-shift', 'Farbwechsel', '偏光', 'متغير اللون'],
   softbox: ['大幅柔光', 'Softbox', 'Softbox', 'ソフト光', 'ضوء ناعم'],
   strip: [
     '长条轮廓光',

@@ -1,3 +1,4 @@
+import { signaturePaints, paintName } from './paint-library';
 import { glassDefaults, readGlass, type GlassSettings } from './glass';
 import { getScenario } from './scenarios';
 import { type LabSettings, labDefaults, readLab, writeLab } from './lab-state';
@@ -97,6 +98,7 @@ export const paints = [
   { id: 'silver', hex: '#747b83' },
   { id: 'forest', hex: '#283e38' },
   { id: 'wine', hex: '#482d36' },
+  ...signaturePaints.map(({ id, hex }) => ({ id, hex })),
 ];
 export const groups: PartGroup[] = [
   'body',
@@ -805,7 +807,11 @@ const rows: Record<string, string[]> = {
   high: ['精细', 'High', 'Hoch', '高精細', 'عالية'],
 };
 export function text(locale: Locale, key: string) {
-  return rows[key]?.[['zh', 'en', 'de', 'ja', 'ar'].indexOf(locale)] ?? key;
+  return (
+    rows[key]?.[['zh', 'en', 'de', 'ja', 'ar'].indexOf(locale)] ??
+    paintName(locale, key) ??
+    key
+  );
 }
 export function readSettings(search = window.location.search): Settings {
   const p = new URLSearchParams(search),

@@ -784,3 +784,79 @@
   outline: 2px solid #d1e8f0;
   outline-offset: 3px;
 }
+
+/* A scrollable paint strip keeps fifteen finishes within the existing dock. */
+.showroom .dock-paints .dock-options {
+  max-width: 280px;
+  overflow-x: auto;
+  padding: 7px;
+  scrollbar-width: thin;
+}
+.paint-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.paint-card {
+  border: 1px solid #8c969444;
+  border-radius: 9px;
+  overflow: hidden;
+}
+.paint-card.active {
+  border-color: #5b827a;
+  background: #72948b18;
+}
+.paint-card button {
+  width: 100%;
+  display: grid;
+  gap: 5px;
+  padding: 10px;
+  text-align: start;
+}
+.paint-card i {
+  height: 38px;
+  border-radius: 5px;
+  margin-bottom: 4px;
+}
+.paint-card strong {
+  font-size: 11px;
+}
+.paint-card span {
+  font-size: 12px;
+}
+.paint-card small {
+  font-size: 10px;
+  opacity: 0.7;
+}
+.paint-card a {
+  display: block;
+  padding: 0 10px 10px;
+  font-size: 10px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.paint-card button:focus-visible,
+.paint-card a:focus-visible {
+  outline: 2px solid #769f96;
+  outline-offset: -2px;
+}
+@media (max-width: 760px) {
+  .showroom .dock-paints .dock-options {
+    max-width: 200px;
+  }
+}
+
+.showroom .dock-paints .dock-options {
+  color-scheme: dark;
+  scrollbar-color: #73838a #10151a;
+}
+.showroom .dock-paints .dock-options::-webkit-scrollbar {
+  height: 4px;
+}
+.showroom .dock-paints .dock-options::-webkit-scrollbar-track {
+  background: #10151a;
+}
+.showroom .dock-paints .dock-options::-webkit-scrollbar-thumb {
+  background: #73838a;
+  border-radius: 4px;
+}

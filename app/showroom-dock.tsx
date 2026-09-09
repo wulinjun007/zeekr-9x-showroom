@@ -1,4 +1,5 @@
-'use client';
+import { paintSelection } from './paint-library';
+('use client');
 import {
   Check,
   ChevronRight,
@@ -122,9 +123,10 @@ export function ShowroomDock({
                     'dock-swatch ' + (s.paint === p.id ? 'selected' : '')
                   }
                   style={{ backgroundColor: p.hex }}
+                  title={tr(p.id)}
                   aria-label={tr(p.id)}
                   aria-pressed={s.paint === p.id}
-                  onClick={() => update({ paint: p.id })}
+                  onClick={() => update(paintSelection(p.id))}
                 />
               ))}
             </div>
@@ -163,7 +165,7 @@ export function ShowroomDock({
             aria-label={ui('finish')}
           >
             <div className="dock-options">
-              {(['gloss', 'satin'] as const).map((v) => (
+              {(['signature', 'gloss', 'satin'] as const).map((v) => (
                 <button
                   key={v}
                   className={'dock-text ' + (s.finish === v ? 'selected' : '')}

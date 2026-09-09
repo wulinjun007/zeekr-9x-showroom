@@ -1,4 +1,6 @@
-'use client';
+import { PaintControls } from './paint-controls';
+import { paintSelection } from './paint-library';
+('use client');
 import {
   qualityModes,
   qualityLabel,
@@ -649,6 +651,9 @@ export default function Home() {
             </button>
           </div>
           <div className="panel-content">
+            {s.section === 'exterior' && (
+              <PaintControls s={s} update={update} />
+            )}
             {['exterior', 'interior'].includes(s.section) && (
               <GlassControls s={s} update={update} />
             )}
@@ -659,14 +664,14 @@ export default function Home() {
                   <h2>{tr('paint')}</h2>
                 </div>
                 <div className="swatches">
-                  {paints.map((p) => (
+                  {paints.slice(0, 5).map((p) => (
                     <button
                       key={p.id}
                       className={s.paint === p.id ? 'chosen' : ''}
                       style={{ background: p.hex }}
                       aria-label={tr(p.id)}
                       aria-pressed={s.paint === p.id}
-                      onClick={() => update({ paint: p.id })}
+                      onClick={() => update(paintSelection(p.id))}
                     >
                       {s.paint === p.id && <Check size={16} />}
                     </button>
@@ -674,7 +679,7 @@ export default function Home() {
                 </div>
                 <div className="selection-caption">
                   <b>{tr(s.paint)}</b>
-                  <span>METALLIC</span>
+                  <span>{labText(s.locale, s.finish)}</span>
                 </div>
                 <p className="fineprint">{tr('conceptPaint')}</p>
                 <MaterialControls s={s} update={update} />

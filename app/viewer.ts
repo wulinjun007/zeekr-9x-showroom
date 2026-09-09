@@ -1,3 +1,4 @@
+import { paintProfile } from './paint-library';
 import { glassZone, glassTints, glassCabinLight } from './glass';
 import { createStaticBatches } from './static-batches';
 import { continuousScene } from './render-policy';
@@ -379,6 +380,22 @@ export async function createViewer(
   const grain = new T.CanvasTexture(leatherCanvas);
   grain.wrapS = grain.wrapT = T.RepeatWrapping;
   grain.repeat.set(70, 70);
+  // Shared mipmapped micro-grain: no external texture download or post-process.
+  const flakeCanvas = document.createElement('canvas');
+  flakeCanvas.width = flakeCanvas.height = 256;
+  const flakeContext = flakeCanvas.getContext('2d')!;
+  const flakePixels = flakeContext.createImageData(256, 256);
+  let flakeSeed = 907;
+  for (let i = 0; i < flakePixels.data.length; i += 4) {
+    flakeSeed = (flakeSeed * 1664525 + 1013904223) >>> 0;
+    const value = flakeSeed % 100 < 8 ? 240 : 110 + (flakeSeed % 40);
+    flakePixels.data.set([value, value, value, 255], i);
+  }
+  flakeContext.putImageData(flakePixels, 0, 0);
+  const paintGrain = new T.CanvasTexture(flakeCanvas);
+  paintGrain.wrapS = paintGrain.wrapT = T.RepeatWrapping;
+  paintGrain.repeat.set(100, 100);
+  paintGrain.anisotropy = Math.min(8, renderer.capabilities.getMaxAnisotropy());
   for (const mesh of meshes.flatMap(splitCabinMesh)) {
     const path = ancestry(mesh);
     if (['roof', 'door'].includes(mesh.userData.cmfZone)) {
@@ -1224,19 +1241,24 @@ export async function createViewer(
           }
           if (m.name.startsWith('car_paint')) {
             const pm = m as T.MeshPhysicalMaterial;
-            pm.roughness =
-              s.finish === 'satin'
-                ? 0.48
-                : ['rain', 'storm'].includes(s.weather)
-                  ? 0.14
-                  : 0.23;
-            pm.clearcoat = s.finish === 'satin' ? 0.35 : 1;
-            pm.clearcoatRoughness = s.finish === 'satin' ? 0.38 : 0.075;
-          }
-          if (m.name.startsWith('car_paint'))
-            m.color.set(
+            const profile = paintProfile(
+              s.paint,
+              s.finish,
+              ['rain', 'storm'].includes(s.weather),
+            );
+            pm.color.set(
               paints.find((p) => p.id === s.paint)?.hex ?? paints[0].hex,
             );
+            pm.roughness = profile.roughness;
+            pm.metalness = profile.metalness;
+            pm.clearcoat = profile.clearcoat;
+            pm.clearcoatRoughness = profile.coatRoughness;
+            pm.iridescence = profile.iridescence;
+            pm.iridescenceIOR = 1.35;
+            pm.iridescenceThicknessRange = [220, 470];
+            pm.bumpMap = profile.flakes ? paintGrain : null;
+            pm.bumpScale = profile.flakes;
+          }
           const xray =
             s.transparent && ['body', 'doors', 'glass'].includes(p.group);
           m.opacity = xray ? 0.13 : m.userData.baseOpacity;
@@ -1968,6 +1990,7 @@ export async function createViewer(
       atelier.dispose();
       cockpit?.dispose();
       grain.dispose();
+      paintGrain.dispose();
       tread.dispose();
       hudTexture.dispose();
       renderer.dispose();

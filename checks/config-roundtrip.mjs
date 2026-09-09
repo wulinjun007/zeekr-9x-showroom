@@ -95,3 +95,29 @@ for (const k of ['glassTint', 'glassFront', 'glassRear', 'glassRoof']) {
   assert.equal(resetScene(original)[k], original[k]);
 }
 console.log('Custom glass survives saved setups and scene-only reset: PASS');
+
+const { signaturePaints, paintSelection, paintFinishes, paintProfile } =
+  await import('../app/paint-library.ts');
+assert.equal(new Set(signaturePaints.map((p) => p.brand)).size, 10);
+for (const p of signaturePaints)
+  for (const finish of paintFinishes) {
+    const selection = { ...defaults, ...paintSelection(p.id), finish };
+    const restored = readSettings(new URL(shareUrl(selection)).search);
+    assert.equal(restored.paint, p.id);
+    assert.equal(restored.finish, finish);
+  }
+assert.equal(
+  readSettings('?paint=unknown&finish=unknown').paint,
+  defaults.paint,
+);
+assert.equal(readSettings('?finish=unknown').finish, defaults.finish);
+assert.equal(paintSelection('obsidian').finish, 'gloss');
+assert.ok(
+  paintProfile('bmw-frozen', 'signature').roughness >
+    paintProfile('aston-aluminite', 'signature').roughness,
+);
+assert.equal(paintProfile('porsche-chromaflair', 'signature').iridescence, 1);
+assert.equal(paintProfile('obsidian', 'gloss').iridescence, 0);
+console.log(
+  'Ten paint references and seven finish modes preserve URL configuration; invalid values fall back; effect switching resets iridescence: PASS',
+);
