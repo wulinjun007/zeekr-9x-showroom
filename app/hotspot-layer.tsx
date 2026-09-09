@@ -57,6 +57,10 @@ export const HotspotLayer = memo(function HotspotLayer({
               top: 0,
               transform: `translate3d(${h.x}px, ${h.y}px, 0) translate(-50%, -50%)`,
             }}
+            onPointerDown={(event) => {
+              // Keep release/click on this button while its door anchor moves.
+              event.currentTarget.setPointerCapture(event.pointerId);
+            }}
             onClick={() => onPick(h.id)}
             aria-label={label(h.id)}
           >

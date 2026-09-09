@@ -92,6 +92,7 @@ const sectionIcons = {
   story: MoveUpRight,
 };
 const fourDoors = ['Door_LF', 'Door_RF', 'Door_LB', 'Door_RB'];
+const openablePanels = [...fourDoors, 'Trunk_up', 'Hood'];
 const Toggle = ({
   id,
   locale,
@@ -158,7 +159,7 @@ export default function Home() {
         return { ...v, partFilter: id.slice(5) as PartType };
       if (v.section === 'structure' && groups.includes(id as PartGroup))
         return { ...v, selected: id as PartGroup };
-      if (fourDoors.includes(id))
+      if (openablePanels.includes(id))
         return {
           ...v,
           doors: v.doors.includes(id)
@@ -732,7 +733,7 @@ export default function Home() {
                 <div className="divider" />
                 <h3>{tr('access')}</h3>
                 <div className="door-grid">
-                  {[...fourDoors, 'Trunk_up', 'Hood'].map((d) => (
+                  {openablePanels.map((d) => (
                     <button
                       className={s.doors.includes(d) ? 'active' : ''}
                       key={d}

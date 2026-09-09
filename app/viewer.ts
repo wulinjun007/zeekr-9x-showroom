@@ -928,6 +928,9 @@ export async function createViewer(
   const anchorList = [
     { id: 'Door_LF', p: new T.Vector3(-1.05, 1.05, -0.55), inside: false },
     { id: 'Door_RF', p: new T.Vector3(1.05, 1.05, -0.55), inside: false },
+    { id: 'Door_LB', p: new T.Vector3(-1.05, 1.05, 0.85), inside: false },
+    { id: 'Door_RB', p: new T.Vector3(1.05, 1.05, 0.85), inside: false },
+    { id: 'Trunk_up', p: new T.Vector3(0, 1.12, 2.48), inside: false },
     { id: 'lights', p: new T.Vector3(-0.72, 0.9, -2.3), inside: false },
     { id: 'driver', p: new T.Vector3(-0.4, 1.65, -0.1), inside: false },
     { id: 'screen', p: new T.Vector3(0, 1.48, 0.8), inside: true },
@@ -1372,12 +1375,15 @@ export async function createViewer(
       perfLast = 0;
       return;
     }
-    const continuous = continuousScene(
-      settings,
-      entering,
-      tween < 1,
-      controls.autoRotate,
+    // Door motion must finish even when shader compilation outlasts the idle window.
+    const doorsMoving = doors.some(
+      (d) =>
+        Math.abs((doorAmounts[d] ?? 0) - (settings.doors.includes(d) ? 1 : 0)) >
+        0.0001,
     );
+    const continuous =
+      doorsMoving ||
+      continuousScene(settings, entering, tween < 1, controls.autoRotate);
     if (!continuous && now > renderUntil) {
       if (!reportedIdle && process.env.NODE_ENV !== 'production')
         console.info(
@@ -1818,14 +1824,18 @@ export async function createViewer(
     if (!entering && frameCount++ % 5 === 0) {
       const rect = host.getBoundingClientRect();
       const out = anchorList.map((a) => {
-        const p = a.p.clone().project(camera);
-        const delta = a.p.clone().sub(camera.position);
+        const anchor = a.p.clone();
+        if (doorTransforms[a.id]) anchor.applyMatrix4(doorTransforms[a.id]);
+        if (activeRoad) anchor.applyMatrix4(rideMatrix);
+        const p = anchor.clone().project(camera);
+        const delta = anchor.clone().sub(camera.position);
         const nearSide =
           interior ||
           !(
-            (a.id === 'Door_LF' && camera.position.x > 0) ||
-            (a.id === 'Door_RF' && camera.position.x < 0) ||
-            (a.id === 'lights' && camera.position.z > 0)
+            (a.id.startsWith('Door_L') && camera.position.x > 0) ||
+            (a.id.startsWith('Door_R') && camera.position.x < 0) ||
+            (a.id === 'lights' && camera.position.z > 0) ||
+            (a.id === 'Trunk_up' && camera.position.z < 0)
           );
         const visible =
           nearSide &&
