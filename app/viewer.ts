@@ -1,3 +1,4 @@
+import { createShowroomStage } from './showroom-stage';
 import { assetUrl } from './asset-url';
 import { createBodyWrap, attachWrapCoordinates } from './body-wrap';
 import { buildWheelGeometry, type WheelGeometrySet } from './wheel-geometry';
@@ -301,18 +302,7 @@ export async function createViewer(
   floor.position.y = -0.018;
   floor.receiveShadow = true;
   scene.add(floor);
-  const ring = new T.Mesh(
-    new T.RingGeometry(4.12, 4.135, 160),
-    new T.MeshBasicMaterial({
-      color: 0x8d8579,
-      transparent: true,
-      opacity: 0.35,
-      side: T.DoubleSide,
-    }),
-  );
-  ring.rotation.x = -Math.PI / 2;
-  ring.position.y = 0.002;
-  scene.add(ring);
+  const showroomStage = createShowroomStage(scene, floor);
   let settings = initial,
     disposed = false,
     lastView = '',
@@ -1239,7 +1229,7 @@ export async function createViewer(
     ambient.visible = interior;
     road.visible = s.section === 'safety';
     actors.visible = s.section === 'safety';
-    ring.visible = false;
+    showroomStage.apply(s, interior);
     if (materialsChanged)
       for (const p of pieces) {
         p.mesh.visible =
@@ -1413,6 +1403,7 @@ export async function createViewer(
       }
     }
     const arrival = entrancePose(entranceTime);
+    showroomStage.moveVehicle(entering ? arrival.z : 0);
     const activeRoad =
       settings.roadEnabled &&
       settings.view !== 'underbody' &&
